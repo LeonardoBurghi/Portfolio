@@ -1,0 +1,389 @@
+/* selector generico, modifica todo */
+
+* {
+    /* box-sizing: border-box 
+    si defino una caja de 100px y agrego 1 borde de 10px la caja sigue de 100 y el borde es interno
+    si no agrego la sieuient propiedad el borde sera ecterno = 110px*/
+    box-sizing: border-box;
+}
+
+body {
+    /* font-family: agrega tipografia*/
+    font-family: "Roboto";
+    font-size: 13px;
+}
+
+
+/* selector de tipo nombre de etiqueta */
+
+p {
+    color: black;
+}
+
+main {
+    background-color: rgb(56, 31, 165);
+    color: rgb(247, 244, 244);
+}
+
+main p {
+    font-size: 36 px;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+header {
+    /*padding: agrega margen pero interno 
+    se maneja igual que margin*/
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    /*lo coloca sobre la imagen*/
+    background-color: rgb(31, 165, 91);
+    width: 100%;
+}
+
+header .container {
+    /* selecciona la los container que pertenecen al header */
+    /* display: inline-block;
+    display permite cambiar el comportamiento de un elemento
+    */
+    display: flex;
+    /*  inline: coloca el elemento
+        inline-block: coloca el elemento respetando la altura que le demos
+        flex: aprobecha el espacio que tenga el elemento para acomodar a sus elementos hijos 
+    */
+    /* stify-content: propiedad que trabaja en base al eje, permite alinear
+    */
+    justify-content: space-between;
+    /*
+    space-between distribuye los elementos manteniend el espacio entre ellos
+    */
+    /*align-items alinea en el eje Y*/
+    align-items: center;
+}
+
+
+/* selecciona el elemento logo que pertenece a container que pertenecen al header */
+
+header .container .logo {
+    width: 100px;
+}
+
+
+/* selecciona los a que pertenece a container que pertenecen al header */
+
+header .container nav a {
+    color: red;
+    /* text-decoratio permite poner o quitar lineas de subrayado de los textos*/
+    /*text-decoration: none;*/
+    text-decoration: underline;
+    font-size: 99%;
+    margin: 0 15px;
+}
+
+header .container .hamb {
+    display: none;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding-top: 60px;
+}
+
+footer p {
+    color: white;
+    margin-bottom: 30px;
+}
+
+footer a {
+    color: white;
+}
+
+footer .barra-footer {
+    background-color: grey;
+    text-align: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer .logo-footer {
+    width: 100%;
+}
+
+footer .redes {
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .redes a {
+    margin: 0 7.5px;
+}
+
+footer ul {
+    padding-left: 0;
+    list-style: none;
+    margin: 0;
+}
+
+footer ul li {
+    margin-bottom: 15px;
+}
+
+
+/* selector de tipo clase */
+
+.container {
+    /*width: fija el ancho*/
+    width: 100%;
+    /*margin fija margen inferior e inferior y el derecho e izquierdo los deja automatico*/
+    /* con 2 elementos el primero es arriba y abajo y el segundo izquierda derecha*/
+    /* con 4 elementos el primero es arriba 2do derecha 3ro abajo y 4to izquierda*/
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    position: relative;
+    display: flex;
+}
+
+.container-fluid {
+    /*width: fija el ancho*/
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    position: relative;
+}
+
+.seccion {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    /*si no entra la columna la envia para abajo*/
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.columna {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.columna-25 {
+    width: 25%;
+}
+
+
+/* selector de tipo ID */
+
+#inicio {
+    /*position: hay 4 estatica, relativa, absoluta y fixed*/
+    position: relative;
+    display: grid;
+    /*relative: permite mover el block pero mantiene el espacio que deberia ocupar por defecto*/
+    /*absolute: permite mover el blocky no mantiene 
+                el espacio que deberia ocupar por defecto, 
+                pero solo funciona si su padre es tambien relativo o absoluto*/
+    /*fixed:    permite fijar la posicion, al moverse por la panalla parece que te sigue*/
+}
+
+#inicio h2 {
+    color: white;
+    font-size: 35px;
+    position: relative
+}
+
+#inicio .bloque-inicio p {
+    color: yellow;
+    font-size: 16px;
+}
+
+#inicio .back_img {
+    background-image: url();
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+#nosotros {
+    position: relative;
+    display: grid;
+}
+
+#nosotros h2 {
+    color: white;
+    font-size: 35px;
+    position: relative
+}
+
+#nosotros .bloque-inicio p {
+    color: yellow;
+    font-size: 16px;
+}
+
+#nosotros .back_img {
+    background-image: url();
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+#contactenos {
+    position: relative;
+    display: grid;
+}
+
+#contactenos h2 {
+    color: white;
+    font-size: 35px;
+    position: relative
+}
+
+#contactenos .bloque-inicio p {
+    color: yellow;
+    font-size: 16px;
+}
+
+#contactenos .back_img {
+    background-image: url();
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+#galeria {
+    position: relative;
+    display: grid;
+}
+
+#galeria h2 {
+    color: white;
+    font-size: 35px;
+    position: relative
+}
+
+#galeria .bloque-inicio p {
+    color: yellow;
+    font-size: 16px;
+}
+
+#galeria .back_img {
+    background-image: url();
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+
+/* La siguiente linea modifica lo de arriba al pasar a un dispositivo de otra dimension*/
+
+@media(max-width: 1000px) {
+    body {
+        font-size: 15px;
+    }
+    /* Lo siguiente oculta el menu */
+    header .container nav {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        padding-right: 15px;
+        padding-left: 15px;
+        top: 0;
+        left: 0;
+        display: flex;
+        /*flex-direction permite que los elementos esten en columan en vez de en fila*/
+        flex-direction: column;
+        /*transition permite setear las transicion de A a B*/
+        transition: all 0.4s ease;
+        /*transform permite animar las transitions*/
+        transform: translateX(100%);
+    }
+    /* ponemos el menu hamburguesa*/
+    header .container .hamb {
+        display: block;
+        font-size: 40px;
+        color: rgb(96, 22, 233);
+    }
+    .container {
+        width: 100%;
+    }
+    .columna-mobile-100 {
+        width: 100%;
+    }
+    footer {
+        text-align: center;
+    }
+    footer .logo-footer {
+        width: 50%;
+    }
+    footer .redes {
+        justify-content: center;
+    }
+}
+
+@media(max-width: 767px) {
+    body {
+        font-size: 15px;
+    }
+    /* Lo siguiente oculta el menu */
+    header .container nav {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        padding-right: 15px;
+        padding-left: 15px;
+        top: 0;
+        left: 0;
+        display: flex;
+        /*flex-direction permite que los elementos esten en columan en vez de en fila*/
+        flex-direction: column;
+        /*transition permite setear las transicion de A a B*/
+        transition: all 0.4s ease;
+        /*transform permite animar las transitions*/
+        transform: translateX(100%);
+    }
+    /*
+    header .container nav a {
+        font-size: 30px;
+        margin: 15px 0;
+    }
+*/
+    /* ponemos el menu hamburguesa*/
+    header .container .hamb {
+        display: block;
+        font-size: 40px;
+        color: red;
+    }
+    .container {
+        width: 100%;
+    }
+    .columna-mobile-100 {
+        width: 100%;
+    }
+    footer {
+        text-align: center;
+    }
+    footer .logo-footer {
+        width: 50%;
+    }
+    footer .redes {
+        justify-content: center;
+    }
+}
