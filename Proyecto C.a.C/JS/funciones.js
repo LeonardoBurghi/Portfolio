@@ -2,10 +2,9 @@
 JQuery(document).ready(listo);
 
 
-/*function listo() {
-    alert("hola")
-}*/
-
+/* //////////////////////////////////////////////////////////
+   ////////////   **FUNCION PARA HEADER**   /////////////////
+*/ //////////////////////////////////////////////////////////
 function header() {
     document.write(
         // La siguiente linea crea un contenedor, lo que permite dar un formato especifico a todo lo interior
@@ -27,7 +26,9 @@ function header() {
     )
 }
 
-
+/* //////////////////////////////////////////////////////////
+   ////////////   **FUNCION PARA FOOTER**   /////////////////
+*/ //////////////////////////////////////////////////////////
 function footer() {
     document.write(
         '<div class="container">',
@@ -85,4 +86,51 @@ function footer() {
         '</div>'
     )
 
+}
+
+
+/* //////////////////////////////////////////////////////////
+   ///////   **FUNCIONES PARA VALIDAR FORMULARIOS**   ///////
+*/ //////////////////////////////////////////////////////////
+function validarEnviar() {
+    //valido el nombre
+    if (document.fvalida.nombre.value.length <= 5) {
+        alert("Tiene que escribir su nombre")
+        document.fvalida.nombre.focus()
+        return 0;
+    }
+
+    //valido edad
+    var testear = document.fvalida.edad.checked;
+    if (!testear) {
+        alert('Debe ser mayor de 18 años para contactarse con nosotros');
+        document.fvalida.edad.focus()
+        return 0;
+    }
+
+    //valido email
+    testear = /^\w+([\.-]?\w+)*@(?:|hotmail|outlook|yahoo|live|gmail)\.(?:|com|es)+$/
+    if (!testear.test(document.fvalida.email.value)) {
+        alert("La dirección de email  no es valida");
+        document.fvalida.email.focus()
+        return 0;
+    }
+
+    //valido el interés
+    if (document.fvalida.interes.selectedIndex == 0) {
+        alert("Debe seleccionar un motivo de su contacto.")
+        document.fvalida.interes.focus()
+        return 0;
+    }
+
+    //valido el nombre
+    if (document.fvalida.mensaje.length == 0) {
+        alert("Debe dejar un mensaje")
+        document.fvalida.mensaje.focus()
+        return 0;
+    }
+
+    //Finalmente, si llegó hasta aqui, se envia el form.
+    alert("Muchas gracias por enviar el formulario");
+    document.fvalida.submit();
 }
