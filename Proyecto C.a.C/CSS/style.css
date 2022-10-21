@@ -84,6 +84,7 @@ header .container nav a {
     text-decoration: underline;
     font-size: 99%;
     margin: 0 15px;
+    font-size: 30px;
 }
 
 header .container .hamb {
