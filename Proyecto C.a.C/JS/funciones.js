@@ -134,3 +134,24 @@ function validarEnviar() {
     alert("Muchas gracias por enviar el formulario");
     document.fvalida.submit();
 }
+
+/* //////////////////////////////////////////////////////////
+   ///////   **FUNCIONES PARA VALIDAR FORMULARIOS**   ///////
+*/ //////////////////////////////////////////////////////////
+
+// Esta función lee los datos remotos, usando fetch
+function traerDatosAPI() {
+    fetch('https://randomuser.me/api') // API a leer
+        // Cuando ha finalizado la lectura
+        // guardo en datos el texto leido:
+        .then(datos => datos.json()) //res va a guardar el dato mediante el método .json()
+        .then(datos => {
+            // Y luego copio ese texto en #emplead0.
+            empleado.innerHTML +=
+                `<div class="tarjeta">
+                 <img src = "${datos.results[0].picture.large}"</img><br>
+                 ${datos.results[0].name.last}, ${datos.results[0].name.first}<br>
+                 
+                 ${datos.results[0].email}</div>`
+        })
+}

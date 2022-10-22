@@ -203,7 +203,8 @@ footer ul li {
 }
 
 .formulario p {
-    color: red;
+    color: yellow;
+    text-decoration: underline;
 }
 
 
@@ -362,6 +363,13 @@ footer ul li {
     footer .redes {
         justify-content: center;
     }
+    .container .formulario {
+        display: table-caption;
+        text-align: center;
+    }
+    iframe {
+        max-width: 400px
+    }
 }
 
 @media(max-width: 767px) {
@@ -417,5 +425,12 @@ footer ul li {
     }
     .boton {
         background-color: coral;
+    }
+    .container .formulario {
+        display: table-caption;
+        text-align: center;
+    }
+    iframe {
+        max-width: 300px
     }
 }

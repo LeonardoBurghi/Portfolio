@@ -45,6 +45,9 @@
                 </iframe>
                 <hr>
                 <form name="fvalida">
+                    <p>
+                        (*) campos obligatorios
+                    </p>
                     <table>
                         <tr>
                             <td align="center">(*)Nombre y Apellido: </td>
@@ -86,9 +89,19 @@
                     </table>
                 </form>
                 <hr>
-                <p>
-                    (*) campos obligatorios
-                </p>
+                <div id="empleado">
+                    <p>Contactarse con:</p>
+                    <!-- Aquí insertaremos contenido que recuperamos
+                    mediante la API  buscando por id-->
+                    <script>
+                        traerDatosAPI();
+                    </script>
+
+
+                </div>
+
+
+
             </div>
 
 
