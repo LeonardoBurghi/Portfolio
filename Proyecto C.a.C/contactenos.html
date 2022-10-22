@@ -8,6 +8,7 @@
 
     <!-- La siguiente linea hace el link a la hoja de estilos -->
     <link rel="stylesheet" href="CSS/style.css">
+    <!-- <link rel="stylesheet" href="CSS/estilos.css">-->
 
     <!-- La siguiente linea importa iconos desde fontawesome -->
     <script src="https://kit.fontawesome.com/37ef4fca07.js" crossorigin="anonymous"></script>
@@ -37,28 +38,73 @@
                     Contactenos
 
                 </h2>
+
             </div>
-            <div class="bloque-inicio">
-                <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora porro similique, blanditiis nostrum placeat accusamus! Cupiditate officiis odio amet repellat facere provident nisi ipsum sint facilis magni consectetur adipisci, at accusamus ipsam obcaecati
-                    mollitia numquam non nihil nemo fuga? Exercitationem autem non corporis nulla quam pariatur aliquid accusamus blanditiis amet unde sint reprehenderit corrupti delectus consequuntur magni harum placeat a, recusandae asperiores, accusantium
-                    aut. In exercitationem saepe, et culpa aut quam eius asperiores optio, atque ad itaque recusandae ipsum. Assumenda est dolorem molestias eligendi? Voluptatibus saepe sunt vero expedita impedit, necessitatibus itaque eum minima explicabo
-                    suscipit porro? Illo illum odio necessitatibus est quaerat voluptate modi quis libero alias aspernatur? Odio id magnam repellendus? Dignissimos vel consequuntur mollitia distinctio, deleniti sit minus repudiandae debitis vero cumque!
-                    Ab modi perspiciatis, voluptates hic impedit provident obcaecati quisquam doloribus ea exercitationem quaerat tenetur maxime veniam atque aliquid. Eum reiciendis dolor accusamus unde, rem expedita quo beatae eius exercitationem at
-                    deserunt, ipsam, tenetur aliquid. Praesentium quo tempora harum, ducimus minus doloremque mollitia, laborum rem, laboriosam quisquam iure at ipsum placeat molestiae similique quas numquam inventore voluptates natus iste. Dolore facilis
-                    labore ex molestias beatae enim, delectus commodi alias voluptas asperiores illo amet? Quas fugit mollitia in eveniet vero nesciunt deserunt iure quo quis, labore earum, aut laborum repellendus, velit quasi quisquam debitis quam vel?
-                    Rerum ex perspiciatis fuga nihil ipsam reprehenderit, officiis ratione earum dolore hic quae quod consectetur repellendus. Animi voluptate quo, qui corrupti non sapiente neque adipisci ipsam, quia dolore ea ab velit facilis, aliquid
-                    ut eligendi laboriosam reiciendis tenetur omnis. Debitis unde voluptatum neque esse corrupti nam. Voluptatum unde dolorum deserunt sint voluptates, reprehenderit laudantium culpa mollitia assumenda ab nostrum animi quisquam esse eligendi
-                    expedita quo exercitationem repudiandae aliquid voluptas cum nihil! Impedit illo minus itaque possimus nesciunt suscipit obcaecati sunt voluptatem, hic sed ad in est? Pariatur natus voluptatibus aspernatur corrupti harum vel aut tenetur
-                    ducimus ad libero exercitationem nulla minima dolores eligendi, deleniti, ab blanditiis sapiente iusto nihil alias debitis facere repellat similique? Fugit mollitia, ducimus laboriosam tempore accusantium, quas tempora perspiciatis
-                    hic praesentium quaerat iure sapiente unde magnam voluptatem odio odit omnis quasi nam laudantium. Inventore dolor fugiat quasi tempora pariatur sint aspernatur vitae ea labore animi quaerat recusandae possimus, sapiente aliquid et
-                    aut velit repellat illum assumenda distinctio dolores. Nihil ad distinctio nisi recusandae, incidunt ducimus ut soluta nobis atque excepturi. Laborum in dolores alias voluptatibus illum asperiores dolorum necessitatibus saepe harum,
-                    porro perferendis sit officiis possimus eligendi earum pariatur explicabo velit, unde amet, ipsum beatae! Quibusdam adipisci non ab dolores doloremque laboriosam unde ipsa facilis rerum voluptatibus, ipsum dolorum accusamus ea. Fugit,
-                    amet, perspiciatis illum quidem quasi corporis voluptatem veniam vitae architecto mollitia iure enim eligendi aliquam dicta. Culpa facilis dolore, perspiciatis facere id iste! Reprehenderit asperiores, odio sunt animi veniam aperiam
-                    adipisci mollitia distinctio velit consequatur, eius, fugit deserunt. Necessitatibus delectus architecto natus quasi repellendus. Consequatur maxime saepe ipsam explicabo quod quis doloribus necessitatibus eveniet pariatur sunt, veniam
-                    cumque, nulla culpa quaerat natus ea non aut.
-                </p>
+            <div class="formulario">
+                <iframe width="520" height="400" frameborder="0" src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=%20Ramos%20Mejia+()&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+                </iframe>
+                <hr>
+                <form name="fvalida">
+                    <p>
+                        (*) campos obligatorios
+                    </p>
+                    <table>
+                        <tr>
+                            <td align="center">(*)Nombre y Apellido: </td>
+                            <td><input type="text" name="nombre" size="30" maxlength="100"></td>
+                        </tr>
+                        <tr>
+                            <td align="center">(*)¿Es mayor de 18 Edad: </td>
+                            <td><input type="checkbox" name="edad"></td>
+                        </tr>
+                        <tr>
+                            <td align="center">(*)Email: </td>
+                            <td><input type="text" name="email" size="30" maxlength="100"></td>
+                        </tr>
+                        <tr>
+                            <td align="center">Telefono: </td>
+                            <td><input type="text" name="telefono" size="30" maxlength="10"></td>
+                        </tr>
+                        <tr>
+                            <td align="center">(*)Interés:</td>
+                            <td>
+                                <select name=interes>
+                                <option value="Elegir">Motivo de contacto
+                                <option value="Comercial">Pedido
+                                <option value="Clientes">Reseña
+                                <option value="Proveedores">Critica
+                            </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center">(*)Mensaje: </td>
+                            <td><input type="text" name="mensaje" size="30" maxlength="200"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" align="center">
+                                <!-- Al presionar el botón, se llama a la función de validacion -->
+                                <input type="button" id="b1" value="Enviar" onclick="validarEnviar()">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+                <hr>
+                <div id="empleado">
+                    <p>Contactarse con:</p>
+                    <!-- Aquí insertaremos contenido que recuperamos
+                    mediante la API  buscando por id-->
+                    <script>
+                        traerDatosAPI();
+                    </script>
+
+
+                </div>
+
+
+
             </div>
+
+
         </div>
     </main>
 

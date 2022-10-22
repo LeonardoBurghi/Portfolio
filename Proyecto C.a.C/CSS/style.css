@@ -84,6 +84,7 @@ header .container nav a {
     text-decoration: underline;
     font-size: 99%;
     margin: 0 15px;
+    font-size: 30px;
 }
 
 header .container .hamb {
@@ -182,6 +183,28 @@ footer ul li {
 
 .columna-25 {
     width: 25%;
+}
+
+.formulario {
+    /*width: fija el ancho*/
+    width: 100%;
+    /*margin fija margen inferior e inferior y el derecho e izquierdo los deja automatico*/
+    /* con 2 elementos el primero es arriba y abajo y el segundo izquierda derecha*/
+    /* con 4 elementos el primero es arriba 2do derecha 3ro abajo y 4to izquierda*/
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    position: relative;
+    display: flex;
+}
+
+.formulario hr {
+    color: red;
+}
+
+.formulario p {
+    color: yellow;
+    text-decoration: underline;
 }
 
 
@@ -285,6 +308,13 @@ footer ul li {
     text-align: center;
 }
 
+#b1 {
+    background-color: coral;
+    color: white;
+    border-radius: 3px;
+    border: 1px solid #303030;
+}
+
 
 /* La siguiente linea modifica lo de arriba al pasar a un dispositivo de otra dimension*/
 
@@ -332,6 +362,13 @@ footer ul li {
     }
     footer .redes {
         justify-content: center;
+    }
+    .container .formulario {
+        display: table-caption;
+        text-align: center;
+    }
+    iframe {
+        max-width: 400px
     }
 }
 
@@ -385,5 +422,15 @@ footer ul li {
     }
     footer .redes {
         justify-content: center;
+    }
+    .boton {
+        background-color: coral;
+    }
+    .container .formulario {
+        display: table-caption;
+        text-align: center;
+    }
+    iframe {
+        max-width: 300px
     }
 }
