@@ -185,6 +185,10 @@ footer ul li {
     width: 25%;
 }
 
+.columna-33 {
+    width: 33.33%;
+}
+
 .formulario {
     /*width: fija el ancho*/
     width: 100%;
@@ -205,6 +209,36 @@ footer ul li {
 .formulario p {
     color: yellow;
     text-decoration: underline;
+}
+
+
+/*----------------------------------------------------------------*/
+
+
+/* Definimos el contenedor grid                                   */
+
+
+/*----------------------------------------------------------------*/
+
+.grid_container {
+    display: grid;
+    /* Uso un atajo para definir tres filas / tres columnas */
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    /* separamos los items con gap */
+    gap: 10px;
+    /* Hacemos que el diseño ocupe casi el alto total del navegador */
+    /* height: 90vh; */
+    padding: 10px;
+}
+
+.grid_imagen {
+    width: 100%;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.grid_imagen_size {
+    width: 100%;
 }
 
 
@@ -351,6 +385,16 @@ footer ul li {
     .container {
         width: 100%;
     }
+    .grid_container {
+        display: grid;
+        /* Uso un atajo para definir tres filas / tres columnas */
+        grid-template-columns: 1fr 1fr 1fr;
+        /* separamos los items con gap */
+        gap: 10px;
+        /* Hacemos que el diseño ocupe casi el alto total del navegador */
+        /* height: 90vh; */
+        padding: 10px;
+    }
     .columna-mobile-100 {
         width: 100%;
     }
@@ -410,6 +454,16 @@ footer ul li {
     }
     .container {
         width: 100%;
+    }
+    .grid_container {
+        display: grid;
+        /* Uso un atajo para definir tres filas / tres columnas */
+        grid-template-columns: 1fr;
+        /* separamos los items con gap */
+        gap: 10px;
+        /* Hacemos que el diseño ocupe casi el alto total del navegador */
+        /* height: 90vh; */
+        padding: 10px;
     }
     .columna-mobile-100 {
         width: 100%;
