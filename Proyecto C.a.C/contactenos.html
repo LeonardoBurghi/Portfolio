@@ -36,75 +36,68 @@
             <div class="back_img">
                 <h2>
                     Contactenos
-
                 </h2>
-
             </div>
+
             <div class="formulario">
-                <iframe width="520" height="400" frameborder="0" src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=%20Ramos%20Mejia+()&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
-                </iframe>
-                <hr>
-                <form name="fvalida">
-                    <p>
-                        (*) campos obligatorios
-                    </p>
-                    <table>
-                        <tr>
-                            <td align="center">(*)Nombre y Apellido: </td>
-                            <td><input type="text" name="nombre" size="30" maxlength="100"></td>
-                        </tr>
-                        <tr>
-                            <td align="center">(*)¿Es mayor de 18 Edad: </td>
-                            <td><input type="checkbox" name="edad"></td>
-                        </tr>
-                        <tr>
-                            <td align="center">(*)Email: </td>
-                            <td><input type="text" name="email" size="30" maxlength="100"></td>
-                        </tr>
-                        <tr>
-                            <td align="center">Telefono: </td>
-                            <td><input type="text" name="telefono" size="30" maxlength="10"></td>
-                        </tr>
-                        <tr>
-                            <td align="center">(*)Interés:</td>
-                            <td>
-                                <select name=interes>
-                                <option value="Elegir">Motivo de contacto
-                                <option value="Comercial">Pedido
-                                <option value="Clientes">Reseña
-                                <option value="Proveedores">Critica
-                            </select>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td align="center">(*)Mensaje: </td>
-                            <td><input type="text" name="mensaje" size="30" maxlength="200"></td>
-                        </tr>
-                        <tr>
-                            <td colspan="2" align="center">
-                                <!-- Al presionar el botón, se llama a la función de validacion -->
-                                <input type="button" id="b1" value="Enviar" onclick="validarEnviar()">
-                            </td>
-                        </tr>
-                    </table>
-                </form>
-                <hr>
-                <div id="empleado">
+                <div class="grid_iframe">
+                    <iframe src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=%20Ramos%20Mejia+()&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                </div>
+                <div class="grid_form">
+                    <form name="fvalida">
+                        <p>
+                            (*) campos obligatorios
+                        </p>
+                        <table>
+                            <tr>
+                                <td align="center">(*)Nombre y Apellido: </td>
+                                <td><input type="text" name="nombre" size="30" maxlength="100"></td>
+                            </tr>
+                            <tr>
+                                <td align="center">(*)¿Es mayor de 18 Edad: </td>
+                                <td><input type="checkbox" name="edad"></td>
+                            </tr>
+                            <tr>
+                                <td align="center">(*)Email: </td>
+                                <td><input type="text" name="email" size="30" maxlength="100"></td>
+                            </tr>
+                            <tr>
+                                <td align="center">Telefono: </td>
+                                <td><input type="text" name="telefono" size="30" maxlength="10"></td>
+                            </tr>
+                            <tr>
+                                <td align="center">(*)Interés:</td>
+                                <td>
+                                    <select name=interes>
+                                    <option value="Elegir">Motivo de contacto
+                                    <option value="Comercial">Pedido
+                                    <option value="Clientes">Reseña
+                                    <option value="Proveedores">Critica
+                                </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center">(*)Mensaje: </td>
+                                <td><input type="text" name="mensaje" size="30" maxlength="200"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" align="center">
+                                    <!-- Al presionar el botón, se llama a la función de validacion -->
+                                    <input type="button" id="b1" value="Enviar" onclick="validarEnviar()">
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                </div>
+                <div class="grid_empleado" id="empleado">
                     <p>Contactarse con:</p>
                     <!-- Aquí insertaremos contenido que recuperamos
                     mediante la API  buscando por id-->
                     <script>
                         traerDatosAPI();
                     </script>
-
-
                 </div>
-
-
-
             </div>
-
-
         </div>
     </main>
 
