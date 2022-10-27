@@ -71,7 +71,6 @@ header .container {
 }
 
 
-
 /* selecciona el elemento logo que pertenece a container que pertenecen al header */
 
 header .container .logo {
@@ -119,7 +118,6 @@ footer .barra-footer {
 
 footer .logo-footer {
     width: 10rem;
-
 }
 
 footer .redes {
@@ -143,9 +141,19 @@ footer ul li {
 }
 
 
+/*
+.row {
+
+
+    align-items: center;
+
+}
+*/
+
+
 /* selector de tipo clase */
 
-#cuerpo{
+#cuerpo {
     background-color: beige;
 }
 
@@ -163,13 +171,19 @@ footer ul li {
     display: flex;
 }
 
-.container-fluid {
-    /*width: fija el ancho*/
-    width: 100%;
+
+/*
+.container-fluid {*/
+
+
+/*width: fija el ancho*/
+
+
+/*   width: 100%;
     padding-right: 15px;
     padding-left: 15px;
     position: relative;
-}
+}*/
 
 .seccion {
     padding-top: 60px;
@@ -193,7 +207,34 @@ footer ul li {
     width: 25%;
 }
 
+
+/*----------------------------------------------------------------*/
+
+
+/* Defino el nombre para cada area de seccion formulario          */
+
+
+/*----------------------------------------------------------------*/
+
+.grid_form {
+    grid-area: form_grid;
+}
+
+.grid_empleado {
+    grid-area: empleado_grid;
+}
+
+.grid_iframe {
+    padding: 10px;
+    grid-area: iframe_grid;
+}
+
 .formulario {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 30% 50% 20%;
+    /* Distribuimos el contenido en cada fila */
+    grid-template-areas: " form_grid iframe_grid empleado_grid";
     /*width: fija el ancho*/
     width: 100%;
     /*margin fija margen inferior e inferior y el derecho e izquierdo los deja automatico*/
@@ -203,16 +244,89 @@ footer ul li {
     padding-right: 15px;
     padding-left: 15px;
     position: relative;
-    display: flex;
 }
 
-.formulario hr {
-    color: red;
+.formulario>div {
+    width: 100%;
+    height: 100%;
 }
 
 .formulario p {
     color: yellow;
     text-decoration: underline;
+}
+
+
+/*----------------------------------------------------------------*/
+
+
+/* Defino el nombre para cada area de seccion formulario          */
+
+
+/*----------------------------------------------------------------*/
+
+.foot_img {
+    grid-area: img_grid;
+    width: 100%;
+}
+
+.foot_img>img {
+    width: 100%;
+}
+
+.foot_autores {
+    grid-area: autores_grid;
+}
+
+.foot_redes {
+    grid-area: redes_grid;
+}
+
+.foot_temas {
+    grid-area: temas_grid;
+}
+
+.foot {
+    grid-template-columns: 25% 25% 25% 25%;
+    /* Distribuimos el contenido en cada fila */
+    grid-template-areas: " img_grid temas_grid autores_grid redes_grid";
+    text-align: center;
+    display: grid;
+    width: 100%;
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    position: relative;
+}
+
+
+/*----------------------------------------------------------------*/
+
+
+/* Definimos el contenedor grid                                   */
+
+
+/*----------------------------------------------------------------*/
+
+.grid_container {
+    display: grid;
+    /* Uso un atajo para definir tres filas / tres columnas */
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    /* separamos los items con gap */
+    gap: 10px;
+    /* Hacemos que el diseño ocupe casi el alto total del navegador */
+    /* height: 90vh; */
+    padding: 10px;
+}
+
+.grid_imagen {
+    width: 100%;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.grid_imagen_size {
+    width: 100%;
 }
 
 
@@ -260,17 +374,16 @@ footer ul li {
     position: relative
 }
 
-.back_img{
+.back_img {
     margin-top: 4rem;
     display: flex;
     align-items: center;
-
 }
 
-.p_inicio{
+.p_inicio {
     margin-left: 2rem;
     margin-bottom: 5rem;
-    display: flex;    
+    display: flex;
     align-items: flex-end;
 }
 
@@ -280,13 +393,13 @@ footer ul li {
     display: flex;
     flex-flow: row wrap;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.p_bloque{
+.p_bloque {
     width: 100%;
     height: 10rem;
     margin-left: 3rem;
@@ -294,7 +407,7 @@ footer ul li {
     align-items: center;
 }
 
-.p_bloque p{
+.p_bloque p {
     font-family: fantasy;
     color: rgb(52, 51, 51);
     /*font-weight: bold;*/
@@ -302,14 +415,14 @@ footer ul li {
     text-shadow: 2px 2px 3px rgb(157, 111, 111);
 }
 
-.nombre_etiqueta{
+.nombre_etiqueta {
     height: 100%;
     width: 30%;
     display: flex;
     align-self: flex-end;
 }
 
-.variedades{
+.variedades {
     margin-bottom: 5rem;
     border-radius: 8px;
     max-width: 600px;
@@ -319,7 +432,8 @@ footer ul li {
     background-size: cover;
     background-position: center;
 }
-.variedades .nombre_etiqueta{
+
+.variedades .nombre_etiqueta {
     margin-top: 8rem;
     margin-left: 2rem;
     height: 100%;
@@ -328,15 +442,14 @@ footer ul li {
     align-items: center;
 }
 
-.variedades .nombre_etiqueta p{
+.variedades .nombre_etiqueta p {
     font-family: fantasy;
     color: rgb(52, 51, 51);
     font-size: 1.5rem;
     text-shadow: 2px 2px 3px rgb(157, 111, 111);
 }
 
-
-.nosotros{
+.nosotros {
     margin-bottom: 5rem;
     border-radius: 3px;
     max-width: 600px;
@@ -347,7 +460,7 @@ footer ul li {
     background-position: center;
 }
 
-.nosotros .nombre_etiqueta{
+.nosotros .nombre_etiqueta {
     margin-top: 8rem;
     margin-left: 2rem;
     height: 100%;
@@ -360,14 +473,16 @@ footer ul li {
     text-shadow: 2px 2px 3px rgb(157, 111, 111);
 }
 
-.nosotros .nombre_etiqueta a{
+.nosotros .nombre_etiqueta a {
     font-family: fantasy;
     color: rgb(52, 51, 51);
     font-size: 1.5rem;
     text-shadow: 2px 2px 3px rgb(157, 111, 111);
 }
 
-/*.contacto{
+
+/*
+.contacto {
     margin-bottom: 5rem;
     border-radius: 3px;
     max-width: 600px;
@@ -377,8 +492,11 @@ footer ul li {
     background-size: cover;
     background-position: center;
 }
+*/
 
-.contacto .nombre_etiqueta{
+
+/*
+.contacto .nombre_etiqueta {
     margin-top: 8rem;
     margin-left: 2rem;
     height: 3rem%;
@@ -389,7 +507,8 @@ footer ul li {
     color: rgb(52, 51, 51);
     font-size: 1.5rem;
     text-shadow: 2px 2px 3px rgb(157, 111, 111);
-}*/
+}
+*/
 
 #inicio .back_img {
     background-image: url();
@@ -509,27 +628,36 @@ footer ul li {
         font-size: 40px;
         color: rgb(96, 22, 233);
     }
-    .container {
-        width: 100%;
-    }
-    .columna-mobile-100 {
-        width: 100%;
+    .grid_container {
+        display: grid;
+        /* Uso un atajo para definir tres filas / tres columnas */
+        grid-template-columns: 1fr 1fr 1fr;
+        /* separamos los items con gap */
+        gap: 10px;
+        /* Hacemos que el diseño ocupe casi el alto total del navegador */
+        padding: 10px;
     }
     footer {
         text-align: center;
     }
     footer .logo-footer {
-        width: 25%;
+        width: 50%;
     }
     footer .redes {
         justify-content: center;
     }
-    .container .formulario {
-        display: table-caption;
-        text-align: center;
+    .foot {
+        grid-template-columns: 50% 50%;
+        /* Distribuimos el contenido en cada fila */
+        grid-template-areas: " img_grid autores_grid  " "redes_grid temas_grid";
     }
-    iframe {
-        max-width: 400px
+    .foot_img {
+        max-width: 300px;
+    }
+    .formulario {
+        grid-template-columns: 1fr 1fr;
+        /* Distribuimos el contenido en cada fila */
+        grid-template-areas: " form_grid empleado_grid""iframe_grid iframe_grid";
     }
 }
 
@@ -557,28 +685,26 @@ footer ul li {
         /*transform permite animar las transitions*/
         transform: translateX(100%);
     }
-    /*
-    header .container nav a {
-        font-size: 30px;
-        margin: 15px 0;
-    } */
     /* ponemos el menu hamburguesa*/
     header .container .hamb {
         display: block;
         font-size: 40px;
         color: red;
     }
-    .container {
-        width: 100%;
-    }
-    .columna-mobile-100 {
-        width: 100%;
+    .grid_container {
+        display: grid;
+        /* Uso un atajo para definir tres filas / tres columnas */
+        grid-template-columns: 1fr;
+        /* separamos los items con gap */
+        gap: 10px;
+        /* Hacemos que el diseño ocupe casi el alto total del navegador */
+        padding: 10px;
     }
     footer {
         text-align: center;
     }
     footer .logo-footer {
-        width: 30%;
+        width: 50%;
     }
     footer .redes {
         justify-content: center;
@@ -586,11 +712,14 @@ footer ul li {
     .boton {
         background-color: coral;
     }
-    .container .formulario {
-        display: table-caption;
-        text-align: center;
+    .formulario {
+        grid-template-columns: 100%;
+        /* Distribuimos el contenido en cada fila */
+        grid-template-areas: "iframe_grid" " form_grid" "empleado_grid";
     }
-    iframe {
-        max-width: 300px
+    .foot {
+        grid-template-columns: 100%;
+        /* Distribuimos el contenido en cada fila */
+        grid-template-areas: " img_grid" "autores_grid" "temas_grid" "redes_grid";
     }
 }
