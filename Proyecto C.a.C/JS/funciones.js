@@ -1,7 +1,3 @@
-//selecciono todo la web
-JQuery(document).ready(listo);
-
-
 /* //////////////////////////////////////////////////////////
    ////////////   **FUNCION PARA HEADER**   /////////////////
 */ //////////////////////////////////////////////////////////
@@ -31,58 +27,59 @@ function header() {
 */ //////////////////////////////////////////////////////////
 function footer() {
     document.write(
-        '<div class="container">',
-        '<div class="row">',
-        '<div class="columna columna-25 columna-mobile-100">',
-        '<img src="imagenes/Logo.png" class="logo-footer">',
-        '</div>',
-        '<div class="columna columna-25 columna-mobile-100">',
-        ' <h3>',
-        '    Temas relacionados',
-        ' </h3>',
-        '<ul>',
-        ' <li><a href="#">Tema 1</a></li>',
-        '<li><a href="#">Tema 2</a></li>',
-        '<li><a href="#">Tema 3</a></li>',
-        '</ul>',
-        '</div>',
-        '<div class="columna columna-25 columna-mobile-100">',
-        '<h3>',
-        ' Autores:',
-        '</h3>',
-        '<ul>',
-        '<li>Bautista Castagna</li>',
-        '<li>Germán Cardozo</li>',
-        '<li>Leonardo Burghi</li>',
-        '</ul>',
-        '</div>',
-        '<div class="columna columna-25 columna-mobile-100">',
-        '<h3>',
-        ' Redes Sociales',
-        '</h3>',
-        '<ul class="redes">',
+        '<div class="foot">',
+        '     <div class="foot_img">',
+        '        <img src="imagenes/Logo.png" class="logo-footer">',
+        '       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>',
+        '  </div>',
+        ' <div class="foot_temas">',
+        '    <h3>',
+        '       Temas relacionados',
+        '  </h3>',
+        ' <ul>',
+        '    <li>HTML </a>',
+        '   </li>',
+        '  <li>CSS</a>',
+        ' </li>',
+        '<li>JS</a>',
+        '                </li>',
+        '           </ul>',
+        '      </div>',
+        '     <div class="foot_autores">',
+        '        <h3> Autores: </h3>',
+        '     <ul>',
+        '       <li>Bautista Castagna</li>',
+        '       <li>Germán Cardozo</li>',
+        '       <li>Leonardo Burghi</li>',
+        ' </ul>',
+        '        </div>',
+        '       <div class="foot_redes">',
+        '          <h3>',
+        '             Redes Sociales',
+        '        </h3>',
+        '       <ul class="redes">',
+        '          <li>',
+        '             <a href="#">',
+        '                <i class="fa-brands fa-facebook"></i>',
+        '           </a>',
+        '      </li>',
+        '     <li>',
+        '        <a href="#">',
+        '           <i class="fa-brands fa-twitter-square"></i>',
+        '      </a>',
+        ' </li>',
         '<li>',
-        '<a href="#">',
-        '<i class="fa-brands fa-facebook"></i>',
-        '</a>',
-        '</li>',
-        '<li>',
-        '<a href="#">',
-        '<i class="fa-brands fa-twitter-square"></i>',
-        '</a>',
-        '</li>',
-        '<li>',
-        '<a href="#">',
-        '<i class="fa-brands fa-instagram"></i>',
-        '</a>',
-        '</li>',
-        '</ul>',
-        '</div>',
-        '</div>',
+        '                    <a href="#">',
+        '                       <i class="fa-brands fa-instagram"></i>',
+        '                  </a>',
+        '             </li>',
+        '        </ul>',
+        '   </div>',
         '</div>',
         '<div class="barra-footer">',
-        '&copy; Comisión 22506 - 2022',
-        '</div>'
+        '    &copy; Comisión 22506 - 2022',
+        '</div>',
+
     )
 
 }
@@ -154,3 +151,13 @@ function traerDatosAPI() {
                  ${datos.results[0].email}</div>`
         })
 }
+/*
+function menu() {
+    var x
+    if (document.querySelector(".hamb").style.backgroundColor == "lightblue") {
+        x = document.querySelector(".hamb").style.backgroundColor = "lightgray";
+        //aca tiene que volver el menu pero no lo logro hacer
+    } else
+        x = document.querySelector(".hamb").style.backgroundColor = "lightblue";
+
+}*/
