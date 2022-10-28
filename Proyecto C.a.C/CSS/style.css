@@ -317,6 +317,7 @@ footer ul li {
     /* Hacemos que el diseño ocupe casi el alto total del navegador */
     /* height: 90vh; */
     padding: 10px;
+    background-color: beige;
 }
 
 .grid_imagen {
@@ -422,7 +423,7 @@ footer ul li {
     align-self: flex-end;
 }
 
-.variedades {
+.galeria {
     margin-bottom: 5rem;
     border-radius: 8px;
     max-width: 600px;
@@ -433,7 +434,7 @@ footer ul li {
     background-position: center;
 }
 
-.variedades .nombre_etiqueta {
+.galeria .nombre_etiqueta {
     margin-top: 8rem;
     margin-left: 2rem;
     height: 100%;
@@ -441,8 +442,21 @@ footer ul li {
     display: flex;
     align-items: center;
 }
+.galeria .nombre_etiqueta a {
+    font-family: fantasy;
+    color: rgb(52, 51, 51);
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 3px rgb(157, 111, 111);
+}
 
 .variedades .nombre_etiqueta p {
+    font-family: fantasy;
+    color: rgb(52, 51, 51);
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 3px rgb(157, 111, 111);
+}
+
+.contacto .nombre_etiqueta a {
     font-family: fantasy;
     color: rgb(52, 51, 51);
     font-size: 1.5rem;
@@ -481,7 +495,7 @@ footer ul li {
 }
 
 
-/*
+
 .contacto {
     margin-bottom: 5rem;
     border-radius: 3px;
@@ -492,14 +506,11 @@ footer ul li {
     background-size: cover;
     background-position: center;
 }
-*/
 
-
-/*
 .contacto .nombre_etiqueta {
     margin-top: 8rem;
     margin-left: 2rem;
-    height: 3rem%;
+    height: 3rem;
     width: 30%;
     display: flex;
     align-items: center;
@@ -508,7 +519,13 @@ footer ul li {
     font-size: 1.5rem;
     text-shadow: 2px 2px 3px rgb(157, 111, 111);
 }
-*/
+
+.contacto .nombre_etiqueta a {
+    font-family: fantasy;
+    color: rgb(52, 51, 51);
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 3px rgb(157, 111, 111);
+}
 
 #inicio .back_img {
     background-image: url();
@@ -571,7 +588,8 @@ footer ul li {
 }
 
 #galeria h2 {
-    color: rgb(179, 12, 8);
+    font-family: fantasy;
+    color: rgb(52, 51, 51);
     font-size: 35px;
     position: relative
 }
@@ -607,7 +625,7 @@ footer ul li {
         position: fixed;
         width: 100%;
         height: 100%;
-        background-color: rgb(117, 37, 35);
+        background-color:beige;
         padding-top: 80px;
         padding-bottom: 80px;
         padding-right: 15px;
@@ -636,6 +654,7 @@ footer ul li {
         gap: 10px;
         /* Hacemos que el diseño ocupe casi el alto total del navegador */
         padding: 10px;
+        background-color: beige;
     }
     footer {
         text-align: center;
@@ -725,11 +744,11 @@ footer ul li {
 }
 
 main.nos {
-    background-color: rgb(50,29,28);
+    background-color: beige;
 }
 
 .top {
-    background-color: rgba(117,37,35);
+    background-color: beige;
 }
 
 .seccion {
@@ -746,26 +765,30 @@ main.nos {
 }
 
 h1.title {
-    color: white;
+    color: rgb(52, 51, 51);
     padding: 2%; 
     font-size: 4.5vw;
+    font-family: fantasy;
     margin: 0;
+    text-shadow: 2px 2px 3px rgb(157, 111, 111);
 }
 
 h2.sec {
     font-weight: bold;
     font-size: 3vw;
-    color: white;
+    font-family: fantasy;
+    color: rgb(52, 51, 51);
     width: 100%;
     text-align: center;
     height: 50%;
     margin: 0% 0% 0% 0%;
-    text-shadow: 0px 0px 5px rgb(255, 255, 255, 0.75);
+    text-shadow: 2px 2px 3px rgb(157, 111, 111);
 }
 
 h3.nombre {
-    color: white;
+    color: rgb(52, 51, 51);
     font-size: 1.5vw;
+    font-family: fantasy;
     margin: 0% 0% 0% 0%;
     text-align: center;
     width: 100%;
@@ -778,7 +801,7 @@ h3.nombre {
 }
 
 p.about {
-    color: white;
+    color: rgb(52, 51, 51);
     font-size: 2.5vw;
     width: 50%;
     height: 50%;
