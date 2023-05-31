@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 2900px;
+}
+body::-webkit-scrollbar{
+    width: 0;
+}
+
+.fondo{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-image:url(img/stars.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 49vw;
+    margin: auto;
+    border: solid rgba(131, 131, 131, 0.425);
+}
+.cajas{
+    position: absolute;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: solid rgba(131, 131, 131, 0.425);
+}
+
+.sol{
+    left: 15%;
+    background-image:url(img/sol.png);
+    width: 450px;
+    height: 450px;
+    z-index: 6;
+}
+.venus{
+    top: 15%;
+    right: 56%;
+    background-image:url(img/venus.png);
+    width: 250px;
+    height: 250px;
+    z-index: 3;
+}
+.marte{
+    top: 0;
+    right: 50%;
+    background-image:url(img/marte.png);
+    width: 200px;
+    height: 200px;
+    z-index: 2;
+}
+.mercurio{
+    display: flex;
+    left: 60%;
+    background-image:url(img/mercurio.png);
+    width: 250px;
+    height: 250px;
+    z-index: 5;
+}
+.tierra{
+    top: 15%;
+    left: 56%;
+    background-image:url(img/tierra.png);
+    width: 260px;
+    height: 260px;
+    z-index: 3;
+}
+.jupiter{
+    top: 0;
+    left: 50%;
+    background-image:url(img/jupiter.png);
+    width: 300px;
+    height: 300px;
+    z-index: 1;
+}

@@ -1,0 +1,2343 @@
+<!DOCTYPE html>
+<html lang="en" class="bgNoise">
+<head>
+	<script src="https://www.googleoptimize.com/optimize.js?id=OPT-5CL49PB"></script>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no"/>
+	<link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+	<link rel="manifest" href="/favicons/site.webmanifest">
+	<link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#151519">
+	<link rel="shortcut icon" href="/favicons/favicon.ico">
+	<meta name="msapplication-TileColor" content="#151519">
+	<meta name="msapplication-config" content="/favicons/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
+
+	        
+								
+		
+    	        	    	
+    	
+    	
+		<title>Gallery | Star Atlas</title>
+	
+    <meta name="description" content="Immerse yourself in the spectacular living metaverse and experience the future.">
+    <meta property="og:description" content="Immerse yourself in the spectacular living metaverse and experience the future.">
+    <meta property="og:title" content="Gallery | Star Atlas">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://staratlas.com">
+    <meta property="og:image" content="https://staratlas.com/assets/images/star_atlas_social_share.png">
+
+    <meta name="twitter:title" content="Gallery | Star Atlas">
+    <meta name="twitter:description" content="Immerse yourself in the spectacular living metaverse and experience the future.">
+    <meta name="twitter:site" content="@staratlas">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://staratlas.com/assets/images/star_atlas_social_share.png">
+
+	<meta name="google-site-verification" content="C6EWH6TZMBxKOrOZStuaoB5odmfDZ-GbvxmDBp6IufI" />
+	<meta name="google-site-verification" content="UR2MRJ6VhDl6ltDmV_Y_CEFZa6TZ50BIPJKtzxEpgPQ" />
+	<meta name="google-site-verification" content="LONtIrKqJzWyU0GNrILGnSBYbgDxJIxBubZYZGEfAJM" />
+	<meta name="google-site-verification" content="wzTgkf85QmJtCKY5BZC9V-mGJ2MPsVW5M3N1oVE0GEQ" />
+	<meta name="facebook-domain-verification" content="an6sz4ejfv0sfyik1tkf0v7dt35erj" />
+
+	<link rel="stylesheet" href="/build/css/bundle-d9ef7d64cd.css" crossorigin>
+
+	<script src="//d2wy8f7a9ursnm.cloudfront.net/v7/bugsnag.min.js"></script>
+	<script>Bugsnag.start({ apiKey: 'cc79bddd30a7b7e3b7f54a0d7a7b856a' })</script>
+
+	
+	<script>
+		const SFEventUrl = window.location.href.indexOf('website-tracking') > -1 ?
+			'https://dev.api.signalfox.com/api/v2/web_events/' : '';
+		window.SFLoad = window.location.href.indexOf('staratlas.com') > -1 || SFEventUrl !== '' ? true : false;
+
+		if (window.SFLoad) {
+			window.sfInit = function() {
+				sf.init({
+					appId : '248d43d3-d337-4751-a85e-0d2cd403f231',
+					context : '',
+					eventUrl : SFEventUrl
+				});
+
+				window.sf = sf;
+			};
+			(
+				function(w,d,o){
+					var a = d.createElement(o);
+					a.async=1;
+					a.src='https://signalfox.com/signalfoxv2.js';
+					var m = d.getElementsByTagName(o)[0];
+					m.parentNode.insertBefore(a,m)
+				}
+			)(window,document,'script');
+		}
+	</script>
+
+	<!-- -->
+	<script type="text/javascript"> adroll_adv_id = "NP6Q3SUMPVGMJHINDTBTY5"; adroll_pix_id = "7XRCJU5EPBDOXMJXJJKAPM"; adroll_version = "2.0";  (function(w, d, e, o, a) { w.__adroll_loaded = true; w.adroll = w.adroll || []; w.adroll.f = [ 'setProperties', 'identify', 'track' ]; var roundtripUrl = "https://s.adroll.com/j/" + adroll_adv_id + "/roundtrip.js"; for (a = 0; a < w.adroll.f.length; a++) { w.adroll[w.adroll.f[a]] = w.adroll[w.adroll.f[a]] || (function(n) { return function() { w.adroll.push([ n, arguments ]) } })(w.adroll.f[a]) }  e = d.createElement('script'); o = d.getElementsByTagName('script')[0]; e.async = 1; e.src = roundtripUrl; o.parentNode.insertBefore(e, o); })(window, document); adroll.track("pageView"); </script>
+</head>
+
+<body>
+
+<div id="SiteWrapper">
+	<section class="HeaderModule">
+	<div class='TopBarInner'>
+		<div class="HeaderModule-logoNav">
+			<div class="BurgerMenu-icon">
+				<div class="BurgerMenu-icon-line"></div>
+				<div class="BurgerMenu-icon-line"></div>
+				<div class="BurgerMenu-icon-line"></div>
+			</div>
+			<a href='/' class='HeaderLogo'>
+				<svg class="Logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 689.35 109.2">
+					<g fill-rule="evenodd">
+						<path
+							d="M644.06 18.24a7.93 7.93 0 00-.28 15.84h19.77a26.16 26.16 0 01.12 52.32H624a2.48 2.48 0 01-2.32-1.84l-5.76-14.08a1.59 1.59 0 011.36-2.32h46.4a7.92 7.92 0 000-15.84h-19.57a26 26 0 01-25.8-26.16A26 26 0 01644.11 0h41c1.26 0 2.28.83 1.85 1.84l-6.25 14.56a2.79 2.79 0 01-2.33 1.84h-34.32M368.2 34.08l-21.8 49.44c-.72 1.59-1.1 2.87-2.68 2.87h-14.4c-2.07 0-3.21-.57-2.2-2.87l35.21-80.94c.72-1.35 1.17-2.34 2.75-2.34h6.24c1.58 0 2 1 2.75 2.34l35.21 81c1 2.3-.14 2.87-2.2 2.87h-14.4c-1.59 0-2-1.28-2.68-2.87l-21.8-49.5M475.91 86.4a1.84 1.84 0 01-1.84-1.84V1.84A1.84 1.84 0 01475.91 0h14.55a1.85 1.85 0 011.85 1.84v66.32h37a1.58 1.58 0 011.37 2.32l-6 14.08a2.6 2.6 0 01-2.57 1.84h-46.2M424.15 18.24H401a1.84 1.84 0 01-1.84-1.84V1.84A1.84 1.84 0 01401 0h64.5a1.85 1.85 0 011.85 1.84V16.4a1.85 1.85 0 01-1.85 1.84h-23.11v66.32a1.85 1.85 0 01-1.85 1.84H426a1.84 1.84 0 01-1.84-1.84V18.24M573.09 34.08l-21.8 49.44c-.72 1.59-1.1 2.87-2.68 2.87h-14.4c-2.07 0-3.21-.57-2.2-2.87l35.21-80.94c.72-1.35 1.16-2.34 2.75-2.34h6.23c1.59 0 2 1 2.76 2.34l35.21 81c1 2.3-.14 2.87-2.2 2.87h-14.4c-1.59 0-2-1.28-2.68-2.87l-21.8-49.44M224.39 0h38.72c15 0 27.12 12.53 27.12 28a28 28 0 01-16.64 25.79l20 29.78c.48 2.3-.86 2.87-2.92 2.87h-15.14c-1.59 0-2.2-1.52-3.16-2.87l-19.1-27.6h-12.48v28.59a1.85 1.85 0 01-1.85 1.84h-14.55a1.84 1.84 0 01-1.84-1.84V1.84A1.84 1.84 0 01224.39 0zm38.72 18.24h-22.32v19.44h22.32a9.68 9.68 0 000-19.36zM175.53 34.08l-21.8 49.44c-.72 1.59-1.09 2.87-2.68 2.87h-14.4c-2.06 0-3.2-.57-2.2-2.87l35.22-80.94c.72-1.35 1.16-2.34 2.75-2.34h6.23c1.59 0 2 1 2.75 2.34l35.22 81c1 2.3-.14 2.87-2.21 2.87H200c-1.58 0-1.95-1.28-2.67-2.87l-21.8-49.5M99.43 18.24h-26c-1.26 0-2.06-.83-1.44-2.32l6.08-14.08c.3-.72 1.06-1.84 2.08-1.84h60.63a1.85 1.85 0 011.85 1.84V16.4a1.85 1.85 0 01-1.85 1.84h-23.11v66.32a1.85 1.85 0 01-1.85 1.84h-14.55a1.84 1.84 0 01-1.84-1.84V18.24"
+							fill="#17181d" />
+						<path
+							d="M27.5 18.24a7.93 7.93 0 00-.28 15.84H47a26.16 26.16 0 01.12 52.32H1.91c-1.26 0-2.17-1.07-1.84-1.84l6-14.56a2.5 2.5 0 012.08-1.84h39a7.92 7.92 0 000-15.84h-19.6a26 26 0 01-25.8-26.16A26 26 0 0127.55 0h42c1 0 2 .71 1.61 1.84L64.87 16.4a2.47 2.47 0 01-2.33 1.84h-35"
+							fill="#17181D" />
+						<path fill="#17181D" d="M368.23 109.2l-14.4-28.8h28.32l-13.92 28.8" />
+					</g>
+				</svg>
+			</a>
+		</div>
+		<div class='TopBarCtas'>
+										<a target='_blank' href="https://play.staratlas.com" class='ButtonCta gradient arrowed'>
+					<span class="title">Play Now</span>
+					<span class='arrow'></span>
+				</a>
+					</div>
+	</div>
+</section>
+	<div class="MainMenu-CoverLayer bgNoise">
+	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 154 239">
+		<g fill="none" fill-rule="evenodd">
+			<path
+				d="M96.833 99.317L79.538 135 61.647 99.317h35.186zM83.373 0c1.969 0 2.524 1.227 3.419 2.893l43.75 100.298c1.244 2.855-.17 3.558-2.735 3.558l-17.892-.008c-1.97 0-2.434-1.593-3.328-3.557L79.5 41.927l-27.087 61.257c-.895 1.964-1.36 3.557-3.329 3.557l-17.891.008c-2.566 0-3.98-.703-2.734-3.558L72.208 2.893C73.102 1.227 73.658 0 75.627 0h7.747z"
+				fill="#D5D2D1" fill-rule="nonzero" />
+			<path stroke="#D5D2D1" stroke-width="2" stroke-dasharray="2,6" d="M0 205.5h160" />
+			<path
+				d="M38.982 238.183c.073 0 .11-.033.11-.099v-.902c0-.066-.037-.099-.11-.099H36.21v-5.896c0-.066-.033-.099-.099-.099H35.11c-.073 0-.11.033-.11.099v6.897c0 .066.037.099.11.099h3.872zm10.811.088c.968 0 1.648-.154 2.04-.462.393-.308.589-.807.589-1.496v-3.355c0-.69-.196-1.188-.588-1.496-.393-.308-1.073-.462-2.041-.462h-.066c-.968 0-1.65.154-2.046.462-.396.308-.594.807-.594 1.496v3.355c0 .69.198 1.188.594 1.496.396.308 1.078.462 2.046.462h.066zm0-1.1h-.066c-.587 0-.972-.059-1.155-.176-.183-.117-.275-.345-.275-.682v-3.355c0-.337.092-.565.275-.682.183-.117.568-.176 1.155-.176h.066c.58 0 .96.059 1.144.176.183.117.275.345.275.682v3.355c0 .337-.092.565-.275.682-.183.117-.565.176-1.144.176zm11.79 1.012c.066 0 .11-.026.132-.077l.484-1.441h2.442l.484 1.441c.022.051.062.077.121.077h1.056c.059 0 .088-.026.088-.077l-.011-.033-2.376-6.908c-.022-.051-.062-.077-.121-.077h-.924c-.059 0-.099.026-.121.077l-2.387 6.908c-.015.073.015.11.088.11h1.045zm2.684-2.607h-1.705l.374-1.122c.227-.638.389-1.192.484-1.661.088.425.246.979.473 1.661l.374 1.122zm13.033 2.607c.902 0 1.547-.154 1.936-.462.389-.308.583-.8.583-1.474v-3.223c0-.675-.194-1.166-.583-1.474-.389-.308-1.034-.462-1.936-.462h-2.453c-.073 0-.11.033-.11.099v6.897c0 .066.037.099.11.099H77.3zm-.132-1.1h-1.221v-4.895h1.221c.594 0 .983.057 1.166.17.183.114.275.336.275.666v3.223c0 .33-.092.552-.275.665-.183.114-.572.171-1.166.171zm12.604 1.1c.066 0 .099-.033.099-.099v-6.897c0-.066-.033-.099-.099-.099h-1.001c-.073 0-.11.033-.11.099v6.897c0 .066.037.099.11.099h1.001zm10.162 0c.066 0 .099-.033.099-.099v-3.201c0-.711-.018-1.371-.055-1.98.264.616.62 1.276 1.067 1.98l1.969 3.234c.037.044.077.066.121.066h1.089c.073 0 .11-.033.11-.099v-6.897c0-.066-.037-.099-.11-.099h-1.001c-.066 0-.099.033-.099.099v3.201c0 .726.018 1.393.055 2.002a8.61 8.61 0 00-.473-.968 23.82 23.82 0 00-.594-1.034l-1.969-3.234a.138.138 0 00-.121-.066h-1.089c-.073 0-.11.033-.11.099v6.897c0 .066.037.099.11.099h1.001zm15.904.088c.946 0 1.615-.154 2.008-.462.392-.308.588-.807.588-1.496v-1.826c0-.073-.033-.11-.099-.11h-2.376c-.066 0-.099.037-.099.11v.858c0 .073.033.11.099.11h1.265v.858c0 .337-.09.565-.27.682-.18.117-.551.176-1.116.176h-.066c-.565 0-.937-.059-1.117-.176-.18-.117-.269-.345-.269-.682v-3.355c0-.337.09-.565.27-.682.18-.117.551-.176 1.116-.176h.066c.565 0 .937.059 1.117.176.18.117.269.345.269.682v.154c0 .066.033.099.099.099h1.012c.066 0 .099-.033.099-.099v-.154c0-.69-.196-1.188-.588-1.496-.393-.308-1.062-.462-2.008-.462h-.066c-.946 0-1.615.154-2.008.462-.392.308-.588.807-.588 1.496v3.355c0 .69.196 1.188.588 1.496.393.308 1.062.462 2.008.462h.066z"
+				fill="#CFCDCB" fill-rule="nonzero" />
+		</g>
+	</svg>
+</div>
+<div class="MainMenu-Background"></div>
+<div class="MainMenu-Background-overlay">
+	<picture>
+		<source data-srcset="/assets/images/menu_background_colored_ring.webp" type="image/webp">
+		<source data-srcset="/assets/images/menu_background_colored_ring.png" type="image/png">
+		<img data-src="/assets/images/menu_background_colored_ring.webp" class="lazyload">
+	</picture>
+</div>
+<div class="MainMenu-Background-circles"><img class="desktop" src="/assets/svg/menu_circles.svg" /><img class="mobile" src="/assets/svg/menu_circles_mobile.svg" /></div>
+<div class="MainMenu">
+	<div class="MainMenu-CloseIcon">
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12">
+			<path d="M9.6.65l1.415 1.415-8.486 8.485-1.414-1.414 3.536-3.535-3.536-3.536L2.53.651l3.536 3.536L9.601.65zm-.707 6.365l2.122 2.121L9.6 10.55 7.479 8.43l1.414-1.414z" fill="#f93c04"
+				  fill-rule="evenodd" />
+		</svg>
+	</div>
+	<nav class="Menu-FadeIn">
+									<a href="/"><div class="MainMenu-circleDiamond">
+						<div class="outerDiamond"></div>
+						<div class="highlightDiamond"></div>
+						<div class="highlightDiamondOuter"></div>
+						<div class="innerDiamond"></div>
+					</div><span class="MainMenu-number">01</span><span class="MainMenu-itemTitle"><div class="MainMenu-diamonds"></div>Experience<div class="MainMenu-diamonds"></div></span></a>
+							<a href="/gallery"><div class="MainMenu-circleDiamond">
+						<div class="outerDiamond"></div>
+						<div class="highlightDiamond"></div>
+						<div class="highlightDiamondOuter"></div>
+						<div class="innerDiamond"></div>
+					</div><span class="MainMenu-number">02</span><span class="MainMenu-itemTitle"><div class="MainMenu-diamonds"></div>Gallery<div class="MainMenu-diamonds"></div></span></a>
+							<a href="/newsroom"><div class="MainMenu-circleDiamond">
+						<div class="outerDiamond"></div>
+						<div class="highlightDiamond"></div>
+						<div class="highlightDiamondOuter"></div>
+						<div class="innerDiamond"></div>
+					</div><span class="MainMenu-number">03</span><span class="MainMenu-itemTitle"><div class="MainMenu-diamonds"></div>News &amp; Info<div class="MainMenu-diamonds"></div></span></a>
+							<a href="/team"><div class="MainMenu-circleDiamond">
+						<div class="outerDiamond"></div>
+						<div class="highlightDiamond"></div>
+						<div class="highlightDiamondOuter"></div>
+						<div class="innerDiamond"></div>
+					</div><span class="MainMenu-number">04</span><span class="MainMenu-itemTitle"><div class="MainMenu-diamonds"></div>Team<div class="MainMenu-diamonds"></div></span></a>
+							<a href="/contact"><div class="MainMenu-circleDiamond">
+						<div class="outerDiamond"></div>
+						<div class="highlightDiamond"></div>
+						<div class="highlightDiamondOuter"></div>
+						<div class="innerDiamond"></div>
+					</div><span class="MainMenu-number">05</span><span class="MainMenu-itemTitle"><div class="MainMenu-diamonds"></div>Contact<div class="MainMenu-diamonds"></div></span></a>
+						</nav>
+	<div class="Menu-FadeIn MainMenu-secondaryLinks">
+									<a class="borderBottomDotted" href="/newsroom/economic-reports/">
+					<div>
+						<div class="MainMenu-diamonds"></div>
+						<span class="title">Economic Reports</span>
+					</div>
+					<p></p>
+				</a>
+																																		<a class="borderBottomDotted" href="/assets/pdfs/white-paper.pdf">
+							<div>
+								<div class="MainMenu-diamonds"></div>
+								<span class="title">White Paper • PDF</span>
+							</div>
+							<p>Read Our Official White Paper!</p>
+						</a>
+																																	<div class="MainMenu-Documents borderBottomDotted" data-title="&quot;Economics Paper \u2022 PDF&quot;" data-description="&quot;Learn the tokenomics of ATLAS and POLIS in the galactic economy.&quot;" data-documents="[&quot;Star Atlas Economics Paper - English|\/assets\/pdfs\/economics-paper.pdf&quot;,&quot;Star Atlas Economics Paper - Chinese|\/assets\/pdfs\/economics-paper-zn.pdf&quot;,&quot;Star Atlas Economics Paper - Korean|\/assets\/pdfs\/economics-paper-ko.pdf&quot;,&quot;Star Atlas Economics Paper - Hindi|\/assets\/pdfs\/economics-paper-hi.pdf&quot;,&quot;Star Atlas Economics Paper - Turkish|\/assets\/pdfs\/economics-paper-tr.pdf&quot;,&quot;Star Atlas Economics Paper - Tagalog|\/assets\/pdfs\/economics-paper-tl.pdf&quot;,&quot;Star Atlas Economics Paper - Vietnamese|\/assets\/pdfs\/economics-paper-vi.pdf&quot;,&quot;Star Atlas Economics Paper - Portuguese|\/assets\/pdfs\/economics-paper-pt.pdf&quot;,&quot;Star Atlas Economics Paper - Spanish|\/assets\/pdfs\/economics-paper-es.pdf&quot;,&quot;Star Atlas Economics Paper - French|\/assets\/pdfs\/economics-paper-fr.pdf&quot;]">
+							<div>
+								<div class="MainMenu-diamonds"></div>
+								<span class="title">Economics Paper • PDF</span>
+							</div>
+							<p>Learn the tokenomics of ATLAS and POLIS in the galactic economy.</p>
+						</div>
+																																	<a class="borderBottomDotted" href="/newsroom/governance-documentation">
+							<div>
+								<div class="MainMenu-diamonds"></div>
+								<span class="title">Governance Documentation</span>
+							</div>
+							<p>Learn how Star Atlas is governed and built by its community.</p>
+						</a>
+															</div>
+	<div class="Menu-FadeIn MainMenu-newsletter borderBottomDotted">
+					<form class="Newsletter" data-site-key="6Lf1g-kkAAAAAHFJ4bC4IZvgGxgENNETylIZuhwt">
+	<label class="Newsletter-title">
+		<span class="default">Sign up to our monthly Newsletter</span>
+		<span class="success">A message has been sent<br/> to confirm your email address.</span>
+	</label>
+
+	<div class="NewsletterInputWrapper">
+		<input class="Newsletter-email" type="email" name="mail" required placeholder="email@example.com">
+		<div class="Newsletter-signup">
+			<div class="Newsletter-signup-border"></div>
+			<input class="Newsletter-submit" type="submit" value="Subscribe">
+		</div>
+
+		<div class="Newsletter-loader"></div>
+
+		<div class="errors">
+			<span class="spacer">&nbsp;</span>
+			<span class="error error-409">You have already signed up using this email address.</span>
+			<span class="error error-429">You have registered too many email addresses.</span>
+			<span class="error error-general">There was a problem with signing up. Please try again.</span>
+		</div>
+	</div>
+</form>
+			</div>
+	<div class="Menu-FadeIn MainMenu-listingLinks">
+													<div class="MainMenu-listingLink">
+					<span>ATLAS</span>
+					<div class="listingLinks">
+						(
+												<a href="https://coinmarketcap.com/currencies/star-atlas/" data-title="CoinMarketCap listing for ATLAS">CMC</a>
+												<a href="https://www.coingecko.com/en/coins/star-atlas" data-title="CoinGecko listing for ATLAS">CoinGecko</a>
+												)
+					</div>
+				</div>
+															<div class="MainMenu-listingLink">
+					<span>POLIS</span>
+					<div class="listingLinks">
+						(
+												<a href="https://coinmarketcap.com/currencies/star-atlas-polis/" data-title="CoinMarketCap listing for POLIS">CMC</a>
+												<a href="https://www.coingecko.com/en/coins/star-atlas-dao" data-title="CoinGecko listing for POLIS">CoinGecko</a>
+												)
+					</div>
+				</div>
+										</div>
+	<div class="Menu-FadeIn MenuSocials">
+		<div class="SocialsList">
+							<a href="https://twitter.com/staratlas" data-social="twitter"><svg width="12" height="11" viewBox="0 0 12 11" xmlns="http://www.w3.org/2000/svg"><defs><filter color-interpolation-filters="auto" id="a"><feColorMatrix in="SourceGraphic" values="0 0 0 0 0.564706 0 0 0 0 0.639216 0 0 0 0 0.811765 0 0 0 1.000000 0"/></filter></defs><g transform="translate(-6 -6.5)" filter="url(#a)" fill="none" fill-rule="evenodd" opacity=".7"><path d="M11.827 9.66l.026.433-.434-.053c-1.578-.203-2.957-.892-4.127-2.048l-.572-.574-.148.424c-.312.944-.112 1.942.538 2.613.347.37.269.423-.33.203-.208-.071-.39-.124-.407-.097-.06.061.147.865.312 1.182.225.442.685.874 1.188 1.13l.425.203-.503.01c-.486 0-.503.008-.451.193.173.574.858 1.183 1.621 1.448l.538.185-.468.283a4.851 4.851 0 01-2.324.653c-.39.009-.711.044-.711.07 0 .089 1.058.583 1.673.777 1.847.574 4.041.327 5.688-.653 1.17-.697 2.341-2.083 2.888-3.425.295-.715.59-2.021.59-2.648 0-.406.025-.459.51-.944.287-.283.556-.592.608-.68.087-.168.078-.168-.364-.018-.737.265-.841.23-.477-.167.269-.283.59-.795.59-.945 0-.026-.13.018-.278.097-.156.088-.503.22-.763.3l-.468.15-.425-.291c-.234-.159-.564-.335-.737-.388-.442-.124-1.119-.106-1.518.035-1.083.397-1.768 1.421-1.69 2.542z" fill="#FFF"/></g></svg>
+</a>
+										<a href="https://discord.gg/staratlas" data-social="discord"><svg width="19" height="13" viewBox="0 0 19 13" xmlns="http://www.w3.org/2000/svg"><defs><filter color-interpolation-filters="auto" id="a"><feColorMatrix in="SourceGraphic" values="0 0 0 0 0.564706 0 0 0 0 0.639216 0 0 0 0 0.811765 0 0 0 1.000000 0"/></filter></defs><g transform="translate(-42 -6.5)" filter="url(#a)" fill="none" fill-rule="evenodd" opacity=".7"><path d="M49.04 6.5l.154.187c-2.776.796-4.041 2.03-4.041 2.03s.059-.033.169-.09l.156-.077c.15-.074.347-.167.585-.27 1.65-.734 2.961-.922 3.501-.984.093-.016.17-.031.262-.031a12.9 12.9 0 013.116-.032c1.465.172 3.039.61 4.643 1.483 0 0-1.219-1.17-3.84-1.966l.215-.25h.054c.343.006 2.266.11 4.265 1.623 0 0 2.221 4.042 2.221 9.02 0-.015-1.296 2.232-4.704 2.341l-.062-.074-.1-.121a112.8 112.8 0 01-.856-1.053c2.02-.578 2.791-1.842 2.791-1.842a8.788 8.788 0 01-1.773.921c-.772.328-1.512.53-2.237.671-1.48.281-2.838.203-3.995-.015a11.64 11.64 0 01-2.267-.671 8.99 8.99 0 01-1.126-.531l-.139-.078c-.03-.016-.046-.031-.062-.031a6.321 6.321 0 01-.368-.223l-.056-.038-.007-.005s.74 1.233 2.699 1.826l-.094.12-.191.241c-.383.48-.749.919-.749.919-3.408-.11-4.704-2.357-4.704-2.357 0-4.978 2.221-9.02 2.221-9.02 2.013-1.513 3.924-1.617 4.265-1.623h.054zm5.213 5.759c-.879 0-1.573.764-1.573 1.716s.71 1.717 1.573 1.717c.88 0 1.573-.765 1.573-1.717 0-.952-.709-1.716-1.573-1.716zm-5.63 0c-.879 0-1.573.764-1.573 1.716s.71 1.717 1.573 1.717c.88 0 1.574-.765 1.574-1.717.015-.952-.694-1.716-1.574-1.716z" fill="#FFF" fill-rule="nonzero"/></g></svg>
+</a>
+										<a href="https://t.me/staratlasgame" data-social="mail"><svg width="17" height="13" viewBox="0 0 17 13" xmlns="http://www.w3.org/2000/svg"><defs><filter color-interpolation-filters="auto" id="a"><feColorMatrix in="SourceGraphic" values="0 0 0 0 0.564706 0 0 0 0 0.639216 0 0 0 0 0.811765 0 0 0 1.000000 0"/></filter></defs><g transform="translate(-82 -6.5)" filter="url(#a)" fill="none" fill-rule="evenodd" opacity=".7"><path d="M86.903 10.617c-1.402.6-2.843 1.218-4.161 1.93-.689.494.226.844 1.084 1.172.137.052.271.104.398.155l.322.1c.954.298 2.018.63 2.945.13 1.522-.858 2.958-1.85 4.393-2.84.47-.325.94-.65 1.413-.969l.075-.047c.403-.256 1.309-.832.974-.038-.793.85-1.642 1.602-2.495 2.36a53.564 53.564 0 00-1.716 1.566c-.491.391-1.001 1.178-.451 1.726 1.266.87 2.551 1.718 3.836 2.566l1.254.828c.707.554 1.812.106 1.968-.76l.208-1.194c.384-2.2.767-4.402 1.106-6.61a60.2 60.2 0 01.15-1.039c.128-.84.254-1.68.294-2.524-.102-.843-1.143-.658-1.723-.468-2.978 1.112-5.927 2.306-8.864 3.521-.333.145-.67.29-1.01.435z" fill="#FFF"/></g></svg>
+</a>
+										<a href="https://www.reddit.com/r/StarAtlas/" data-social="reddit"><svg width="17" height="14" viewBox="0 0 17 14" xmlns="http://www.w3.org/2000/svg"><defs><filter color-interpolation-filters="auto" id="a"><feColorMatrix in="SourceGraphic" values="0 0 0 0 0.564706 0 0 0 0 0.639216 0 0 0 0 0.811765 0 0 0 1.000000 0"/></filter></defs><g transform="translate(-123 -5.5)" filter="url(#a)" fill="none" fill-rule="evenodd" opacity=".7"><path d="M139.5 12.606c-.036-.952-.848-1.696-1.819-1.663-.43.014-.839.188-1.15.479a8.635 8.635 0 00-4.624-1.455l.779-3.688 2.57.532c.072.65.664 1.12 1.324 1.049a1.187 1.187 0 001.065-1.302 1.196 1.196 0 00-1.322-1.05 1.19 1.19 0 00-.908.58l-2.944-.58c-.2-.043-.4.08-.445.28v.006l-.887 4.102a8.7 8.7 0 00-4.685 1.455 1.772 1.772 0 00-2.478.076 1.705 1.705 0 00.078 2.44 1.7 1.7 0 00.471.311 3.78 3.78 0 000 .52c0 2.648 3.136 4.802 7.002 4.802 3.867 0 7.002-2.151 7.002-4.802a3.78 3.78 0 000-.52c.603-.297.983-.908.97-1.572zm-12.013 1.184c0-.652.54-1.184 1.204-1.184.663 0 1.203.532 1.203 1.184 0 .653-.54 1.184-1.203 1.184-.666-.005-1.204-.531-1.204-1.184zm6.978 3.25a4.663 4.663 0 01-2.968.911 4.663 4.663 0 01-2.968-.91.317.317 0 01.045-.45.328.328 0 01.412 0c.723.52 1.604.784 2.5.743a4 4 0 002.51-.72.342.342 0 01.475.006c.129.13.126.341-.006.467v-.047zm-.215-2.024a1.196 1.196 0 01-1.203-1.185c0-.652.54-1.184 1.203-1.184s1.204.532 1.204 1.184a1.19 1.19 0 01-1.153 1.229h-.06l.01-.044z" fill="#FFF" fill-rule="nonzero"/></g></svg>
+</a>
+										<a href="https://www.facebook.com/StarAtlasMMO" data-social="facebook"><svg width="17" height="16" viewBox="0 0 17 16" xmlns="http://www.w3.org/2000/svg"><defs><filter color-interpolation-filters="auto" id="a"><feColorMatrix in="SourceGraphic" values="0 0 0 0 0.564706 0 0 0 0 0.639216 0 0 0 0 0.811765 0 0 0 1.000000 0"/></filter></defs><g transform="translate(-163 -4.5)" filter="url(#a)" fill="none" fill-rule="evenodd" opacity=".7"><path d="M174.614 14.876l.354-2.327h-2.218v-1.51c0-.3.068-.596.245-.825l.071-.084a.997.997 0 01.343-.233c.172-.073.385-.116.645-.116h1.009v-1.98s-.805-.139-1.627-.156l-.164-.002c-.457 0-.874.07-1.243.206l-.155.062c-.855.373-1.422 1.128-1.58 2.22-.029.202-.044.417-.044.644v1.774h-2.032v2.327h2.032V20.5c-3.825-.604-6.75-3.934-6.75-7.951 0-4.445 3.582-8.049 8-8.049s8 3.604 8 8.049c0 4.018-2.925 7.348-6.75 7.951v-5.624h1.864z" fill="#FFF"/></g></svg>
+</a>
+										<a href="https://www.instagram.com/staratlasgame/" data-social="instagram"><svg width="15" height="14" viewBox="0 0 15 14" xmlns="http://www.w3.org/2000/svg"><defs><filter color-interpolation-filters="auto" id="a"><feColorMatrix in="SourceGraphic" values="0 0 0 0 0.564706 0 0 0 0 0.639216 0 0 0 0 0.811765 0 0 0 1.000000 0"/></filter></defs><g transform="translate(-204 -5.5)" filter="url(#a)" fill="none" fill-rule="evenodd" opacity=".7"><path d="M212.383 5.5c1.12.004 1.39.014 2.001.042.746.034 1.255.152 1.701.325.461.18.85.418 1.24.808.39.389.629.78.808 1.24.172.445.29.954.325 1.699l.016.37.006.171c.013.373.018.775.02 1.655v1.38a51.03 51.03 0 01-.02 1.655l-.006.171-.016.37c-.035.745-.153 1.254-.325 1.7-.18.46-.419.85-.808 1.239-.39.39-.78.63-1.24.808-.445.173-.954.291-1.7.325-.135.006-.254.012-.37.016l-.258.01a44.51 44.51 0 01-1.194.015l-.373.001h-1.382a50.954 50.954 0 01-1.654-.02l-.171-.006-.37-.016c-.745-.034-1.254-.152-1.7-.325a3.428 3.428 0 01-1.24-.808 3.43 3.43 0 01-.807-1.24c-.173-.445-.29-.954-.325-1.699a66.803 66.803 0 01-.016-.37l-.007-.171c-.01-.287-.015-.591-.017-1.116l-.002-.538v-1.17-.211l.002-.538c.002-.526.008-.83.017-1.117l.007-.171c.004-.116.01-.235.016-.37.033-.745.151-1.254.325-1.7.18-.46.419-.85.808-1.24.39-.389.78-.628 1.24-.807.445-.173.954-.29 1.7-.325.61-.028.881-.038 2-.041zm-1.51 1.26c-1.306.001-1.556.01-2.202.04-.682.03-1.053.144-1.3.24-.327.128-.56.28-.805.524a2.169 2.169 0 00-.524.805c-.096.247-.21.618-.241 1.3l-.016.364-.006.168c-.013.393-.017.815-.018 1.825v.941c0 1.01.005 1.434.018 1.826l.006.169.016.364c.031.682.145 1.053.241 1.3.127.326.279.559.524.804s.478.397.805.523c.247.096.618.21 1.3.242l.364.016.169.006c.364.012.755.017 1.618.018h1.356a50.173 50.173 0 001.619-.018l.168-.006.364-.016c.683-.031 1.054-.145 1.3-.241.327-.127.56-.279.805-.524s.397-.477.524-.804c.095-.247.21-.617.24-1.3.03-.637.039-.89.041-2.15v-1.355a50.13 50.13 0 00-.018-1.618l-.007-.168-.015-.364c-.031-.683-.146-1.053-.241-1.3a2.172 2.172 0 00-.524-.805 2.165 2.165 0 00-.805-.523c-.247-.096-.617-.21-1.3-.241a59.966 59.966 0 00-.364-.016l-.168-.006a50.765 50.765 0 00-1.619-.018h-1.306zm.627 2.145a3.595 3.595 0 110 7.19 3.595 3.595 0 010-7.19zm0 1.262a2.333 2.333 0 100 4.667 2.333 2.333 0 000-4.667zm3.737-2.243a.84.84 0 110 1.68.84.84 0 010-1.68z" fill="#FFF"/></g></svg>
+</a>
+										<a href="https://www.youtube.com/channel/UCt-y8Npwje5KDG5MSZ0a9Jw" data-social="youtube"><svg width="16" height="11" viewBox="0 0 16 11" xmlns="http://www.w3.org/2000/svg"><defs><filter color-interpolation-filters="auto" id="a"><feColorMatrix in="SourceGraphic" values="0 0 0 0 0.564706 0 0 0 0 0.639216 0 0 0 0 0.811765 0 0 0 1.000000 0"/></filter></defs><g transform="translate(-244 -7.5)" filter="url(#a)" fill="none" fill-rule="evenodd" opacity=".7"><path d="M252.294 7.5c1.046.007 4.574.05 5.566.328.646.18 1.154.713 1.327 1.39.278 1.089.31 3.23.313 3.693v.178c-.004.463-.035 2.604-.313 3.693a1.926 1.926 0 01-1.327 1.39c-.992.278-4.52.32-5.566.327l-.184.001h-.405c-1.046-.007-4.573-.05-5.566-.328a1.926 1.926 0 01-1.326-1.39c-.267-1.044-.307-3.054-.312-3.626v-.312c.005-.572.045-2.583.312-3.626a1.925 1.925 0 011.326-1.39c.993-.278 4.52-.32 5.566-.327zm-1.7 3.348v4.783l3.75-2.392-3.75-2.391z" fill="#FFF"/></g></svg>
+</a>
+										<a href="https://www.twitch.tv/staratlasgame" data-social="twitch"><svg width="14" height="14" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg"><defs><filter color-interpolation-filters="auto" id="a"><feColorMatrix in="SourceGraphic" values="0 0 0 0 0.564706 0 0 0 0 0.639216 0 0 0 0 0.811765 0 0 0 1.000000 0"/></filter></defs><g transform="translate(-284 -5.5)" filter="url(#a)" fill="none" fill-rule="evenodd" opacity=".7"><path d="M285.387 5.5l-.887 2.435v9.738h3.25V19.5h1.773l1.772-1.827h2.659l3.546-3.65V5.5h-12.113zm1.18 1.217h9.751v6.695l-2.068 2.131H291l-1.772 1.825v-1.825h-2.66V6.717zm3.251 6.088H291V9.153h-1.182v3.652zm3.25 0h1.182V9.153h-1.182v3.652z" fill="#FFF"/></g></svg>
+</a>
+					</div>
+	</div>
+	<div class="Menu-FadeIn MainMenu-tertiaryLinks">
+									<a href="/terms-of-service">Terms of Service</a>
+							<a href="/privacy-policy">Privacy Policy</a>
+						</div>
+			<a href="https://play.staratlas.com" class='MainMenu-TopCTA ButtonCta gradient arrowed'>
+			<span class="title">Play Now</span>
+			<span class='arrow'></span>
+		</a>
+	</div>
+<div id="MainMenu-Documents-Modal">
+	<div class="download-svg-icon"><?xml version="1.0" encoding="UTF-8"?>
+<svg width="7px" height="7px" viewBox="0 0 7 7" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="1/icon/download" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M4,0 L4,5.098 L6,3.5 L6,5 L3.5,7 L1,5 L1,3.5 L3,5.1 L3,0 L4,0 Z" id="Combined-Shape" fill="#231F20"></path>
+    </g>
+</svg>
+</div>
+	<div class="modal-content">
+		<div class="modal-title">
+			<span class="title"></span>
+		</div>
+		<p class="description"></p>
+		<div class="modal-documents"></div>
+	</div>
+</div>
+
+
+
+
+
+	<div id="TemplateLayer">
+			<div data-template="DefaultTemplate" data-title="Gallery | Star Atlas" data-description="Immerse yourself in the spectacular living metaverse and experience the future." class="template DefaultTemplate">
+
+		
+								<div class='ShowroomModule' data-module='ShowroomModule'>
+	<div class='moduleInner'>
+		<div class="Showroom">
+			<ul class="FilterList">
+				<li class="FilterItem"><a href="#"></a></li>
+			</ul>
+			<div class='ShowroomFooterLinks'>
+									<ul>
+													<li><a href="/terms-of-service">Terms of Service</a></li>
+													<li><a href="/privacy-policy">Privacy Policy</a></li>
+											</ul>
+							</div>
+			<div class="PerspectiveContainer">
+				<div class="CenterPoint">
+																										<div class="ShowroomItem"
+	 data-index="0"
+	 data-tag-title="Environment"
+	 data-tag-slug="environment"	 data-title="Advanced Mining Town"
+	 data-description="&lt;p&gt;A new day in the deep space mining town. It&#039;s a new world, a new life of prosperity for yourself. Deep underneath the surface, you are on the hunt for the precious minerals powering galactic trade.&lt;/p&gt;
+"
+	 data-info-length="0"
+	 data-thumbnail-width="24"
+	 data-thumbnail-height="24"
+		 data-cta-length="0"
+				data-media-type="image"
+		data-media="//images.ctfassets.net/2kg7h835bpe1/2AJXLpxtaQ2rZyvzlWIjBv/1584f89dd8b913e527cfc996968baa74/1MfLvG1ap6baeo-xCrrX.jpg?q=85"
+		data-media-width="4800"
+		data-media-height="2100"
+	>
+	<div class="ShowroomInner" style="padding-bottom: 43.75%">
+		<picture>
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/2AJXLpxtaQ2rZyvzlWIjBv/1584f89dd8b913e527cfc996968baa74/1MfLvG1ap6baeo-xCrrX.jpg?w=1500&amp;h=1500&amp;fm=webp&amp;q=85&amp;q=85" type="image/webp">
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/2AJXLpxtaQ2rZyvzlWIjBv/1584f89dd8b913e527cfc996968baa74/1MfLvG1ap6baeo-xCrrX.jpg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" type="image/jpg">
+			<img data-src="//images.ctfassets.net/2kg7h835bpe1/2AJXLpxtaQ2rZyvzlWIjBv/1584f89dd8b913e527cfc996968baa74/1MfLvG1ap6baeo-xCrrX.jpg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" class="lazyload">
+		</picture>
+	</div>
+	<div class="ShowroomHoverButton">
+		<div class="ShowroomHoverButton-outer"></div>
+		<div class="ShowroomHoverButton-inner"><img src="//images.ctfassets.net/2kg7h835bpe1/1OGWlxcYnhJmA3HG6shTEk/aaa0ed2b739ce5d2809b06d442a62d6c/default.svg?" /></div>
+		<div class="ShowroomHoverButton-line"></div>
+		<div class="ShowroomHoverButton-lineDot"></div>
+		<div class="ShowroomHoverButton-label"><span>Advanced Mining Town</span></div>
+	</div>
+</div>
+																																<div class="ShowroomItem"
+	 data-index="1"
+	 data-tag-title="Environment"
+	 data-tag-slug="environment"	 data-title="Mining Site WIP"
+	 data-description="&lt;p&gt;The view is breath-taking. The power is overwhelming. The world is yours.&lt;/p&gt;
+&lt;p&gt;You are drilling at the heart of a planet in the far reaches of deep space. The energy you produce could power a country.&lt;/p&gt;
+&lt;p&gt;Those power plants from the ReBirth rewards drop came in handy after all.&lt;/p&gt;
+"
+	 data-info-length="0"
+	 data-thumbnail-width="24"
+	 data-thumbnail-height="24"
+		 data-cta-length="0"
+				data-media-type="image"
+		data-media="//images.ctfassets.net/2kg7h835bpe1/2Gx9e4nj7bwEJfnYMETRMf/f321d4fac28041b3da986a72e2b5467d/miningsite-01.jpg?q=85"
+		data-media-width="3750"
+		data-media-height="2109"
+	>
+	<div class="ShowroomInner" style="padding-bottom: 56.24%">
+		<picture>
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/2Gx9e4nj7bwEJfnYMETRMf/f321d4fac28041b3da986a72e2b5467d/miningsite-01.jpg?w=1500&amp;h=1500&amp;fm=webp&amp;q=85&amp;q=85" type="image/webp">
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/2Gx9e4nj7bwEJfnYMETRMf/f321d4fac28041b3da986a72e2b5467d/miningsite-01.jpg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" type="image/jpg">
+			<img data-src="//images.ctfassets.net/2kg7h835bpe1/2Gx9e4nj7bwEJfnYMETRMf/f321d4fac28041b3da986a72e2b5467d/miningsite-01.jpg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" class="lazyload">
+		</picture>
+	</div>
+	<div class="ShowroomHoverButton">
+		<div class="ShowroomHoverButton-outer"></div>
+		<div class="ShowroomHoverButton-inner"><img src="//images.ctfassets.net/2kg7h835bpe1/1OGWlxcYnhJmA3HG6shTEk/aaa0ed2b739ce5d2809b06d442a62d6c/default.svg?" /></div>
+		<div class="ShowroomHoverButton-line"></div>
+		<div class="ShowroomHoverButton-lineDot"></div>
+		<div class="ShowroomHoverButton-label"><span>Mining Site WIP</span></div>
+	</div>
+</div>
+																																<div class="ShowroomItem"
+	 data-index="2"
+	 data-tag-title="Factions"
+	 data-tag-slug="factions"	 data-title="Ustur WIP"
+	 data-description="&lt;p&gt;This Ustur knows the Void.&lt;/p&gt;
+&lt;p&gt;Drawing inner strength from that which has no beginning and no end, this higher being is a master of wisdom, logic and strategy.&lt;/p&gt;
+&lt;p&gt;If you could ask this particular Ustur for a single perfect piece of advice, what would the question be about?&lt;/p&gt;
+"
+	 data-info-length="0"
+	 data-thumbnail-width="24"
+	 data-thumbnail-height="24"
+		 data-cta-length="0"
+				data-media-type="image"
+		data-media="//images.ctfassets.net/2kg7h835bpe1/2USuskYnwu3Tkb9wZpSHcT/1ca8f2e4b0cafea788a707d8d47e9517/ustur-010.png?"
+		data-media-width="2707"
+		data-media-height="1975"
+	>
+	<div class="ShowroomInner" style="padding-bottom: 72.958995197636%">
+		<picture>
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/2USuskYnwu3Tkb9wZpSHcT/1ca8f2e4b0cafea788a707d8d47e9517/ustur-010.png?w=1500&amp;h=1500&amp;fm=webp&amp;q=85" type="image/webp">
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/2USuskYnwu3Tkb9wZpSHcT/1ca8f2e4b0cafea788a707d8d47e9517/ustur-010.png?w=1500&amp;h=1500&amp;fm=jpg" type="image/jpg">
+			<img data-src="//images.ctfassets.net/2kg7h835bpe1/2USuskYnwu3Tkb9wZpSHcT/1ca8f2e4b0cafea788a707d8d47e9517/ustur-010.png?w=1500&amp;h=1500&amp;fm=jpg" class="lazyload">
+		</picture>
+	</div>
+	<div class="ShowroomHoverButton">
+		<div class="ShowroomHoverButton-outer"></div>
+		<div class="ShowroomHoverButton-inner"><img src="//images.ctfassets.net/2kg7h835bpe1/1OGWlxcYnhJmA3HG6shTEk/aaa0ed2b739ce5d2809b06d442a62d6c/default.svg?" /></div>
+		<div class="ShowroomHoverButton-line"></div>
+		<div class="ShowroomHoverButton-lineDot"></div>
+		<div class="ShowroomHoverButton-label"><span>Ustur WIP</span></div>
+	</div>
+</div>
+																																<div class="ShowroomItem"
+	 data-index="3"
+	 data-tag-title="NFT Poster"
+	 data-tag-slug="nft-poster"	 data-title="Discovery Of Iris"
+	 data-description="&lt;p&gt;The rogue planet, Iris, dense with invaluable materials, draws in and collides with seven child planets in a remote region of space, creating what is henceforth referred to as “The Cataclysm”. When combined, these eight elements create a form of free energy. The collision creates a massively valuable debris field.&lt;/p&gt;
+"
+	 data-info-length="2"
+	 data-thumbnail-width="24"
+	 data-thumbnail-height="24"
+			data-info0="Poster Series 1/14"
+			data-info1="Poster Rewards Level: 0"
+		 data-cta-length="2"
+			data-cta-primary-text0="Augmented Reality Experience"
+		data-cta-secondary-text0=""
+		data-cta-url0="https://play.staratlas.com/market/AYXTVttPfhYmn3jryX5XbRjwPK2m9445mbN2iLyRD6nq"
+		data-cta-product-id0=""
+			data-cta-primary-text1="Buy &quot;Discovery of Iris&quot; Now"
+		data-cta-secondary-text1=""
+		data-cta-url1="https://play.staratlas.com/market/AYXTVttPfhYmn3jryX5XbRjwPK2m9445mbN2iLyRD6nq"
+		data-cta-product-id1=""
+				data-media-type="sketchFabUrl"
+		data-media="https://sketchfab.com/models/1de40e7d081946b989aa4017e807c3aa"
+	>
+	<div class="ShowroomInner" style="padding-bottom: 56.25%">
+		<picture>
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/7fTNuNkqfnSGdL10hDBz7x/c3318027ba3653208fb449a8de33eb1b/210225_StarAtlas_DotA_Scene_v01_01_v02b.jpg?w=1500&amp;h=1500&amp;fm=webp&amp;q=85&amp;q=85" type="image/webp">
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/7fTNuNkqfnSGdL10hDBz7x/c3318027ba3653208fb449a8de33eb1b/210225_StarAtlas_DotA_Scene_v01_01_v02b.jpg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" type="image/jpg">
+			<img data-src="//images.ctfassets.net/2kg7h835bpe1/7fTNuNkqfnSGdL10hDBz7x/c3318027ba3653208fb449a8de33eb1b/210225_StarAtlas_DotA_Scene_v01_01_v02b.jpg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" class="lazyload">
+		</picture>
+	</div>
+	<div class="ShowroomHoverButton">
+		<div class="ShowroomHoverButton-outer"></div>
+		<div class="ShowroomHoverButton-inner"><img src="//images.ctfassets.net/2kg7h835bpe1/5jM5KHSDhugAFoANGh0ikF/1a2ff7db01d33833d5a92f07f14ec8de/nft_card.svg?" /></div>
+		<div class="ShowroomHoverButton-line"></div>
+		<div class="ShowroomHoverButton-lineDot"></div>
+		<div class="ShowroomHoverButton-label"><span>Discovery Of Iris</span><span>Poster Series 1/14</span></div>
+	</div>
+</div>
+																																<div class="ShowroomItem"
+	 data-index="4"
+	 data-tag-title="NFT Poster"
+	 data-tag-slug="nft-poster"	 data-title="The Heart of Star Atlas"
+	 data-description="&lt;p&gt;At the core of Star Atlas lies a treasure trove of priceless data. After an unsuspecting deep space explorer discovers “The Cataclysm”, he scans its riches, creating what will once be known as the first intergalactic data block. He sells this invaluable information to all three rival factions, igniting a lethal spark that forever changes the course of history.&lt;/p&gt;
+"
+	 data-info-length="2"
+	 data-thumbnail-width="24"
+	 data-thumbnail-height="24"
+			data-info0="Poster Series 2/14"
+			data-info1="Poster Rewards Level: 1"
+		 data-cta-length="2"
+			data-cta-primary-text0="Augmented Reality Experience"
+		data-cta-secondary-text0=""
+		data-cta-url0="https://play.staratlas.com/market/5Erzgrw9pTjNWLeqHp2sChJq7smB7WXRQYw9wvkvA59t"
+		data-cta-product-id0=""
+			data-cta-primary-text1="Buy &quot;The Heart of Star Atlas&quot; Now"
+		data-cta-secondary-text1=""
+		data-cta-url1="https://play.staratlas.com/market/5Erzgrw9pTjNWLeqHp2sChJq7smB7WXRQYw9wvkvA59t"
+		data-cta-product-id1=""
+				data-media-type="sketchFabUrl"
+		data-media="https://sketchfab.com/models/7262398b14e4495d84b2edd92363ab3f/embed"
+	>
+	<div class="ShowroomInner" style="padding-bottom: 58.275%">
+		<picture>
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/xTv4oaRnAs46U1CdJoOg9/10a181b8e9c017c2b4c459014a428894/Cataclysm_edge_v007_Max_v04.png?w=1500&amp;h=1500&amp;fm=webp&amp;q=85" type="image/webp">
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/xTv4oaRnAs46U1CdJoOg9/10a181b8e9c017c2b4c459014a428894/Cataclysm_edge_v007_Max_v04.png?w=1500&amp;h=1500&amp;fm=jpg" type="image/jpg">
+			<img data-src="//images.ctfassets.net/2kg7h835bpe1/xTv4oaRnAs46U1CdJoOg9/10a181b8e9c017c2b4c459014a428894/Cataclysm_edge_v007_Max_v04.png?w=1500&amp;h=1500&amp;fm=jpg" class="lazyload">
+		</picture>
+	</div>
+	<div class="ShowroomHoverButton">
+		<div class="ShowroomHoverButton-outer"></div>
+		<div class="ShowroomHoverButton-inner"><img src="//images.ctfassets.net/2kg7h835bpe1/5jM5KHSDhugAFoANGh0ikF/1a2ff7db01d33833d5a92f07f14ec8de/nft_card.svg?" /></div>
+		<div class="ShowroomHoverButton-line"></div>
+		<div class="ShowroomHoverButton-lineDot"></div>
+		<div class="ShowroomHoverButton-label"><span>The Heart of Star Atlas</span><span>Poster Series 2/14</span></div>
+	</div>
+</div>
+																																<div class="ShowroomItem"
+	 data-index="5"
+	 data-tag-title="NFT Poster"
+	 data-tag-slug="nft-poster"	 data-title="The Convergence War"
+	 data-description="&lt;p&gt;All three factions, thinking they were the sole owners of the cataclysmic data drop, converge to settle the area. A devastating war breaks out across the galaxy after their inability to settle the disputed territory.&lt;/p&gt;
+"
+	 data-info-length="2"
+	 data-thumbnail-width="24"
+	 data-thumbnail-height="24"
+			data-info0="Poster Series 3/14"
+			data-info1="Poster Rewards Level: 1"
+		 data-cta-length="2"
+			data-cta-primary-text0="Augmented Reality Experience"
+		data-cta-secondary-text0=""
+		data-cta-url0="https://play.staratlas.com/market/DXPv2ZyMD6Y2mDenqYkAhkvGSjNahkuMkm4zv6DqB7RF"
+		data-cta-product-id0=""
+			data-cta-primary-text1="Buy &quot;The Convergence War&quot; Now"
+		data-cta-secondary-text1=""
+		data-cta-url1="https://play.staratlas.com/market/5Erzgrw9pTjNWLeqHp2sChJq7smB7WXRQYw9wvkvA59t"
+		data-cta-product-id1=""
+				data-media-type="sketchFabUrl"
+		data-media="https://sketchfab.com/models/5f05371aaf35427b830ddb98245faf2e/embed"
+	>
+	<div class="ShowroomInner" style="padding-bottom: 177.75520568817%">
+		<picture>
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/6ErKXU36DnKk4rdK4Es6Bj/9aa838b5ca46f7a4d7ce93c976b7ae87/Attack_Keyframe_Final_Shot.jpg?w=1500&amp;h=1500&amp;fm=webp&amp;q=85&amp;q=85" type="image/webp">
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/6ErKXU36DnKk4rdK4Es6Bj/9aa838b5ca46f7a4d7ce93c976b7ae87/Attack_Keyframe_Final_Shot.jpg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" type="image/jpg">
+			<img data-src="//images.ctfassets.net/2kg7h835bpe1/6ErKXU36DnKk4rdK4Es6Bj/9aa838b5ca46f7a4d7ce93c976b7ae87/Attack_Keyframe_Final_Shot.jpg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" class="lazyload">
+		</picture>
+	</div>
+	<div class="ShowroomHoverButton">
+		<div class="ShowroomHoverButton-outer"></div>
+		<div class="ShowroomHoverButton-inner"><img src="//images.ctfassets.net/2kg7h835bpe1/5jM5KHSDhugAFoANGh0ikF/1a2ff7db01d33833d5a92f07f14ec8de/nft_card.svg?" /></div>
+		<div class="ShowroomHoverButton-line"></div>
+		<div class="ShowroomHoverButton-lineDot"></div>
+		<div class="ShowroomHoverButton-label"><span>The Convergence War</span><span>Poster Series 3/14</span></div>
+	</div>
+</div>
+																																<div class="ShowroomItem"
+	 data-index="6"
+	 data-tag-title="NFT Poster"
+	 data-tag-slug="nft-poster"	 data-title="Short Story of a Lost Astronaut"
+	 data-description="&lt;p&gt;He thought it would be just another routine exploration mission. Get there, scan, save data blocks and return. But when a surprise radiation storm knocked out his spaceship and swept him up into its high-velocity current, the only thing that saved him from certain doom was his custom ion shield.&lt;/p&gt;
+"
+	 data-info-length="2"
+	 data-thumbnail-width="24"
+	 data-thumbnail-height="24"
+			data-info0="Poster Series 4/14"
+			data-info1="Poster Rewards Level: 2"
+		 data-cta-length="2"
+			data-cta-primary-text0="Augmented Reality Experience"
+		data-cta-secondary-text0=""
+		data-cta-url0="https://play.staratlas.com/market/73d9N7BbWVKBG6A2xwwwEHcxzPB26YzbMnRjue3DPzqs"
+		data-cta-product-id0=""
+			data-cta-primary-text1="Buy &quot;Short Story of a Lost Astronaut&quot; Now"
+		data-cta-secondary-text1=""
+		data-cta-url1="https://play.staratlas.com/market/73d9N7BbWVKBG6A2xwwwEHcxzPB26YzbMnRjue3DPzqs"
+		data-cta-product-id1=""
+				data-media-type="sketchFabUrl"
+		data-media="https://sketchfab.com/models/da02ca47cc44488db3adacd86ebc78d2/embed"
+	>
+	<div class="ShowroomInner" style="padding-bottom: 120.01200120012%">
+		<picture>
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/36gz3FhkCAGc0p4joX7ay2/08affec70b4807bfff8c59eba048dd57/05_TravelingAstronaut_v04_02_v04.jpg?w=1500&amp;h=1500&amp;fm=webp&amp;q=85&amp;q=85" type="image/webp">
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/36gz3FhkCAGc0p4joX7ay2/08affec70b4807bfff8c59eba048dd57/05_TravelingAstronaut_v04_02_v04.jpg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" type="image/jpg">
+			<img data-src="//images.ctfassets.net/2kg7h835bpe1/36gz3FhkCAGc0p4joX7ay2/08affec70b4807bfff8c59eba048dd57/05_TravelingAstronaut_v04_02_v04.jpg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" class="lazyload">
+		</picture>
+	</div>
+	<div class="ShowroomHoverButton">
+		<div class="ShowroomHoverButton-outer"></div>
+		<div class="ShowroomHoverButton-inner"><img src="//images.ctfassets.net/2kg7h835bpe1/5jM5KHSDhugAFoANGh0ikF/1a2ff7db01d33833d5a92f07f14ec8de/nft_card.svg?" /></div>
+		<div class="ShowroomHoverButton-line"></div>
+		<div class="ShowroomHoverButton-lineDot"></div>
+		<div class="ShowroomHoverButton-label"><span>Short Story of a Lost Astronaut</span><span>Poster Series 4/14</span></div>
+	</div>
+</div>
+																																<div class="ShowroomItem"
+	 data-index="7"
+	 data-tag-title="NFT Poster"
+	 data-tag-slug="nft-poster"	 data-title="B ❤ P"
+	 data-description="&lt;p&gt;Paizul, the charismatic and brilliant leader of the ONI consortium, vividly recalls the first time she saw her one true love. It was a warm summer day, full of raging ionic storms. Lightning was piercing the sky as Bekalu took off his helmet and locked eyes with her. “What are the chances of nearly colliding with someone flying through these wastelands on a day like this”, he smiled with his booming voice. “Perhaps it’s destiny,” she smiled back mysteriously. There was another strike of lightning, but this time the sky remained calm.&lt;/p&gt;
+"
+	 data-info-length="2"
+	 data-thumbnail-width="24"
+	 data-thumbnail-height="24"
+			data-info0="Poster Series 5/14"
+			data-info1="Poster Rewards Level: 2"
+		 data-cta-length="2"
+			data-cta-primary-text0="Augmented Reality Experience"
+		data-cta-secondary-text0=""
+		data-cta-url0="https://play.staratlas.com/market/AM9sNDh48N2qhYSgpA58m9dHvrMoQongtyYu2u2XoYTc"
+		data-cta-product-id0=""
+			data-cta-primary-text1="Buy &quot;B ❤ P&quot; Now"
+		data-cta-secondary-text1=""
+		data-cta-url1="https://play.staratlas.com/market/AM9sNDh48N2qhYSgpA58m9dHvrMoQongtyYu2u2XoYTc"
+		data-cta-product-id1=""
+				data-media-type="sketchFabUrl"
+		data-media="https://sketchfab.com/models/3b2e7c07f295451c9acb42f663ec764b/embed"
+	>
+	<div class="ShowroomInner" style="padding-bottom: 133.20013320013%">
+		<picture>
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/2rpXDXIkQrbuzkYyrmmwVv/62f12bd29be507878393cd712c8ff00e/Love_Story.png?w=1500&amp;h=1500&amp;fm=webp&amp;q=85" type="image/webp">
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/2rpXDXIkQrbuzkYyrmmwVv/62f12bd29be507878393cd712c8ff00e/Love_Story.png?w=1500&amp;h=1500&amp;fm=jpg" type="image/jpg">
+			<img data-src="//images.ctfassets.net/2kg7h835bpe1/2rpXDXIkQrbuzkYyrmmwVv/62f12bd29be507878393cd712c8ff00e/Love_Story.png?w=1500&amp;h=1500&amp;fm=jpg" class="lazyload">
+		</picture>
+	</div>
+	<div class="ShowroomHoverButton">
+		<div class="ShowroomHoverButton-outer"></div>
+		<div class="ShowroomHoverButton-inner"><img src="//images.ctfassets.net/2kg7h835bpe1/5jM5KHSDhugAFoANGh0ikF/1a2ff7db01d33833d5a92f07f14ec8de/nft_card.svg?" /></div>
+		<div class="ShowroomHoverButton-line"></div>
+		<div class="ShowroomHoverButton-lineDot"></div>
+		<div class="ShowroomHoverButton-label"><span>B ❤ P</span><span>Poster Series 5/14</span></div>
+	</div>
+</div>
+																																<div class="ShowroomItem"
+	 data-index="8"
+	 data-tag-title="NFT Poster"
+	 data-tag-slug="nft-poster"	 data-title="The Assassination of Paizul"
+	 data-description="&lt;p&gt;Suffering one of the cruelest fates in the universe, the Sogmian race of aliens was driven to the brink of extinction. With only 10,000 members left, they put all hope of salvation in the hands of their leader Paizul. After she was assassinated in a gruesome public way, so much fear was struck in the hearts of survivors that they set out to build their “Last Stand”.&lt;/p&gt;
+"
+	 data-info-length="2"
+	 data-thumbnail-width="24"
+	 data-thumbnail-height="24"
+			data-info0="Poster Series 6/14"
+			data-info1="Poster Rewards Level: 3"
+		 data-cta-length="2"
+			data-cta-primary-text0="Augmented Reality Experience"
+		data-cta-secondary-text0=""
+		data-cta-url0="https://play.staratlas.com/market/BJiV2gCLwMvj2c1CbhnMjjy68RjqoMzYT8brDrpVyceA"
+		data-cta-product-id0=""
+			data-cta-primary-text1="Buy &quot;The Assassination of Paizul&quot; Now"
+		data-cta-secondary-text1=""
+		data-cta-url1="https://play.staratlas.com/market/BJiV2gCLwMvj2c1CbhnMjjy68RjqoMzYT8brDrpVyceA"
+		data-cta-product-id1=""
+				data-media-type="sketchFabUrl"
+		data-media="https://sketchfab.com/models/75a49b4e668b4d4c9588c14a9f771bae/embed"
+	>
+	<div class="ShowroomInner" style="padding-bottom: 125.36170212766%">
+		<picture>
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/2QU7ISK271yiWeOYAUYXeN/639e50f78699d4740879dc2f03c4ed5a/SA_20210316_Paizul_Assassination_sketches_v002_JP.jpg?w=1500&amp;h=1500&amp;fm=webp&amp;q=85&amp;q=85" type="image/webp">
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/2QU7ISK271yiWeOYAUYXeN/639e50f78699d4740879dc2f03c4ed5a/SA_20210316_Paizul_Assassination_sketches_v002_JP.jpg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" type="image/jpg">
+			<img data-src="//images.ctfassets.net/2kg7h835bpe1/2QU7ISK271yiWeOYAUYXeN/639e50f78699d4740879dc2f03c4ed5a/SA_20210316_Paizul_Assassination_sketches_v002_JP.jpg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" class="lazyload">
+		</picture>
+	</div>
+	<div class="ShowroomHoverButton">
+		<div class="ShowroomHoverButton-outer"></div>
+		<div class="ShowroomHoverButton-inner"><img src="//images.ctfassets.net/2kg7h835bpe1/5jM5KHSDhugAFoANGh0ikF/1a2ff7db01d33833d5a92f07f14ec8de/nft_card.svg?" /></div>
+		<div class="ShowroomHoverButton-line"></div>
+		<div class="ShowroomHoverButton-lineDot"></div>
+		<div class="ShowroomHoverButton-label"><span>The Assassination of Paizul</span><span>Poster Series 6/14</span></div>
+	</div>
+</div>
+																																<div class="ShowroomItem"
+	 data-index="9"
+	 data-tag-title="NFT Poster"
+	 data-tag-slug="nft-poster"	 data-title="Paizul Funeral Procession"
+	 data-description="&lt;p&gt;The sound of wailing echoes across the plains. The Sogmian procession solemnly marches in step past their ancestors’ gravestones, still haunted by the fate of their leader. The sun begins to set as they bring Paizul’s cryopod at the top of the Rock of Light. As a beam of light consumes the pod to upload it to eternal rest with the ancients, Bekalu falls to his knees with a wrathful howl. The crowd is rattled to the core, a foreboding of things to come.&lt;/p&gt;
+"
+	 data-info-length="2"
+	 data-thumbnail-width="24"
+	 data-thumbnail-height="24"
+			data-info0="Poster Series 7/14"
+			data-info1="Poster Rewards Level: 3"
+		 data-cta-length="2"
+			data-cta-primary-text0="Augmented Reality Experience"
+		data-cta-secondary-text0=""
+		data-cta-url0="https://play.staratlas.com/market/7JzaEAuVfjkrZyMwJgZF5aQkiEyVyCaTWA3N1fQK7Y6V"
+		data-cta-product-id0=""
+			data-cta-primary-text1="Buy &quot;Paizul Funeral Procession&quot; Now"
+		data-cta-secondary-text1=""
+		data-cta-url1="https://play.staratlas.com/market/7JzaEAuVfjkrZyMwJgZF5aQkiEyVyCaTWA3N1fQK7Y6V"
+		data-cta-product-id1=""
+				data-media-type="sketchFabUrl"
+		data-media="https://sketchfab.com/models/88a2c72d19154d0a8283ba5a48977a75/embed"
+	>
+	<div class="ShowroomInner" style="padding-bottom: 133.94160583942%">
+		<picture>
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/5lWJPxrN35XkGrrM5zfZ5Y/17af793b402e3b3dc0e4490231b923d6/SA_20210309_ONI_memorial_v002_JP.png?w=1500&amp;h=1500&amp;fm=webp&amp;q=85" type="image/webp">
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/5lWJPxrN35XkGrrM5zfZ5Y/17af793b402e3b3dc0e4490231b923d6/SA_20210309_ONI_memorial_v002_JP.png?w=1500&amp;h=1500&amp;fm=jpg" type="image/jpg">
+			<img data-src="//images.ctfassets.net/2kg7h835bpe1/5lWJPxrN35XkGrrM5zfZ5Y/17af793b402e3b3dc0e4490231b923d6/SA_20210309_ONI_memorial_v002_JP.png?w=1500&amp;h=1500&amp;fm=jpg" class="lazyload">
+		</picture>
+	</div>
+	<div class="ShowroomHoverButton">
+		<div class="ShowroomHoverButton-outer"></div>
+		<div class="ShowroomHoverButton-inner"><img src="//images.ctfassets.net/2kg7h835bpe1/5jM5KHSDhugAFoANGh0ikF/1a2ff7db01d33833d5a92f07f14ec8de/nft_card.svg?" /></div>
+		<div class="ShowroomHoverButton-line"></div>
+		<div class="ShowroomHoverButton-lineDot"></div>
+		<div class="ShowroomHoverButton-label"><span>Paizul Funeral Procession</span><span>Poster Series 7/14</span></div>
+	</div>
+</div>
+																																<div class="ShowroomItem"
+	 data-index="10"
+	 data-tag-title="NFT Poster"
+	 data-tag-slug="nft-poster"	 data-title="Ahr Visits Earth"
+	 data-description="&lt;p&gt;Humankind is visited by Ahr, a mysterious being of pure light. But not all is as it seems… For through the power of illusion, we are tricked into forming a space-based religion, plundering the planet and launching ourselves towards the stars, permanently leaving the Earth.&lt;/p&gt;
+"
+	 data-info-length="2"
+	 data-thumbnail-width="24"
+	 data-thumbnail-height="24"
+			data-info0="Poster Series Number 8/14"
+			data-info1="Poster Rewards Level: 3"
+		 data-cta-length="2"
+			data-cta-primary-text0="Augmented Reality Experience"
+		data-cta-secondary-text0=""
+		data-cta-url0="https://play.staratlas.com/market/8yQzsbraXJFoPG5PdX73B8EVYFuPR9aC2axAqWearGKu"
+		data-cta-product-id0=""
+			data-cta-primary-text1="Buy &quot;Ahr Visits Earth&quot; Now"
+		data-cta-secondary-text1=""
+		data-cta-url1="https://play.staratlas.com/market/8yQzsbraXJFoPG5PdX73B8EVYFuPR9aC2axAqWearGKu"
+		data-cta-product-id1=""
+				data-media-type="sketchFabUrl"
+		data-media="https://sketchfab.com/models/301b3cff8c514ab681229d87ad9c4ab0/embed"
+	>
+	<div class="ShowroomInner" style="padding-bottom: 137.6%">
+		<picture>
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/5OPO69gVTKa5diZPKAu2Qp/58e8e6e098174569ce47d1f0cb3c274b/Ahr_v008.jpg?w=1500&amp;h=1500&amp;fm=webp&amp;q=85&amp;q=85" type="image/webp">
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/5OPO69gVTKa5diZPKAu2Qp/58e8e6e098174569ce47d1f0cb3c274b/Ahr_v008.jpg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" type="image/jpg">
+			<img data-src="//images.ctfassets.net/2kg7h835bpe1/5OPO69gVTKa5diZPKAu2Qp/58e8e6e098174569ce47d1f0cb3c274b/Ahr_v008.jpg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" class="lazyload">
+		</picture>
+	</div>
+	<div class="ShowroomHoverButton">
+		<div class="ShowroomHoverButton-outer"></div>
+		<div class="ShowroomHoverButton-inner"><img src="//images.ctfassets.net/2kg7h835bpe1/5jM5KHSDhugAFoANGh0ikF/1a2ff7db01d33833d5a92f07f14ec8de/nft_card.svg?" /></div>
+		<div class="ShowroomHoverButton-line"></div>
+		<div class="ShowroomHoverButton-lineDot"></div>
+		<div class="ShowroomHoverButton-label"><span>Ahr Visits Earth</span><span>Poster Series Number 8/14</span></div>
+	</div>
+</div>
+																																<div class="ShowroomItem"
+	 data-index="11"
+	 data-tag-title="NFT Poster"
+	 data-tag-slug="nft-poster"	 data-title="The Last Stand"
+	 data-description="&lt;p&gt;Their Titan class warship served as a fortified city to protect them. Built in retaliation for the decimation of their species and the slaying of their leader, the Sogmian behemoth was a galactic alpha predator. This weapon of war was so intimidating it caused the other factions to encourage peace talks.&lt;/p&gt;
+"
+	 data-info-length="2"
+	 data-thumbnail-width="24"
+	 data-thumbnail-height="24"
+			data-info0="Poster Series 9/14"
+			data-info1="Poster Rewards Level: 4"
+		 data-cta-length="2"
+			data-cta-primary-text0="Augmented Reality Experience"
+		data-cta-secondary-text0=""
+		data-cta-url0="https://play.staratlas.com/market/AVHndcEDUjP9Liz5dfcvAPAMffADXG6KMPn8sWB1XhFQ"
+		data-cta-product-id0=""
+			data-cta-primary-text1="Buy &quot;The Last Stand&quot; Now"
+		data-cta-secondary-text1=""
+		data-cta-url1="https://play.staratlas.com/market/AVHndcEDUjP9Liz5dfcvAPAMffADXG6KMPn8sWB1XhFQ"
+		data-cta-product-id1=""
+				data-media-type="sketchFabUrl"
+		data-media="https://sketchfab.com/models/72f9b5ef7df54805ac8748fde899d652/embed"
+	>
+	<div class="ShowroomInner" style="padding-bottom: 49.983958934873%">
+		<picture>
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/23zQmxilGs8wwhI1XYC74d/08eecdfd501492babd279272d39b7d40/04_TheLastStand_Blockout_v06_v04.jpg?w=1500&amp;h=1500&amp;fm=webp&amp;q=85&amp;q=85" type="image/webp">
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/23zQmxilGs8wwhI1XYC74d/08eecdfd501492babd279272d39b7d40/04_TheLastStand_Blockout_v06_v04.jpg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" type="image/jpg">
+			<img data-src="//images.ctfassets.net/2kg7h835bpe1/23zQmxilGs8wwhI1XYC74d/08eecdfd501492babd279272d39b7d40/04_TheLastStand_Blockout_v06_v04.jpg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" class="lazyload">
+		</picture>
+	</div>
+	<div class="ShowroomHoverButton">
+		<div class="ShowroomHoverButton-outer"></div>
+		<div class="ShowroomHoverButton-inner"><img src="//images.ctfassets.net/2kg7h835bpe1/5jM5KHSDhugAFoANGh0ikF/1a2ff7db01d33833d5a92f07f14ec8de/nft_card.svg?" /></div>
+		<div class="ShowroomHoverButton-line"></div>
+		<div class="ShowroomHoverButton-lineDot"></div>
+		<div class="ShowroomHoverButton-label"><span>The Last Stand</span><span>Poster Series 9/14</span></div>
+	</div>
+</div>
+																																<div class="ShowroomItem"
+	 data-index="12"
+	 data-tag-title="NFT Poster"
+	 data-tag-slug="nft-poster"	 data-title="The Signing of the Peace Treaty"
+	 data-description="&lt;p&gt;All three faction leaders sign the Treaty of Peace and establish the galactic Council of Peace (COP). The treaty establishes the open sharing of all scanned data of space on a light-speed intergalactic blockchain. The data includes fleet movements, installations and resource discoveries. An era of peaceful trading is ushered in and the economies of all factions boom simultaneously.&lt;/p&gt;
+"
+	 data-info-length="2"
+	 data-thumbnail-width="24"
+	 data-thumbnail-height="24"
+			data-info0="Poster Series 10/14"
+			data-info1="Poster Rewards Level: 4"
+		 data-cta-length="2"
+			data-cta-primary-text0="Augmented Reality Experience"
+		data-cta-secondary-text0=""
+		data-cta-url0="https://play.staratlas.com/market/FZ9xhZbkt9bKKVpWmFxRhEJyzgxqU5w5xu3mXcF6Eppe"
+		data-cta-product-id0=""
+			data-cta-primary-text1="Buy &quot;The Signing of the Peace Treaty&quot; Now"
+		data-cta-secondary-text1=""
+		data-cta-url1="https://play.staratlas.com/market/FZ9xhZbkt9bKKVpWmFxRhEJyzgxqU5w5xu3mXcF6Eppe"
+		data-cta-product-id1=""
+				data-media-type="sketchFabUrl"
+		data-media="https://sketchfab.com/models/8c50dde696c242e794f81e614217b9d4/embed"
+	>
+	<div class="ShowroomInner" style="padding-bottom: 135.7312521208%">
+		<picture>
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/3ejbFtxAPdSi6MivuKhc35/6d4fcd4f698b0eda9b9ee975405eb5d0/thesigning.jpg?w=1500&amp;h=1500&amp;fm=webp&amp;q=85&amp;q=85" type="image/webp">
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/3ejbFtxAPdSi6MivuKhc35/6d4fcd4f698b0eda9b9ee975405eb5d0/thesigning.jpg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" type="image/jpg">
+			<img data-src="//images.ctfassets.net/2kg7h835bpe1/3ejbFtxAPdSi6MivuKhc35/6d4fcd4f698b0eda9b9ee975405eb5d0/thesigning.jpg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" class="lazyload">
+		</picture>
+	</div>
+	<div class="ShowroomHoverButton">
+		<div class="ShowroomHoverButton-outer"></div>
+		<div class="ShowroomHoverButton-inner"><img src="//images.ctfassets.net/2kg7h835bpe1/5jM5KHSDhugAFoANGh0ikF/1a2ff7db01d33833d5a92f07f14ec8de/nft_card.svg?" /></div>
+		<div class="ShowroomHoverButton-line"></div>
+		<div class="ShowroomHoverButton-lineDot"></div>
+		<div class="ShowroomHoverButton-label"><span>The Signing of the Peace Treaty</span><span>Poster Series 10/14</span></div>
+	</div>
+</div>
+																																<div class="ShowroomItem"
+	 data-index="13"
+	 data-tag-title="NFT Poster"
+	 data-tag-slug="nft-poster"	 data-title="The Peacebringers Archive"
+	 data-description="&lt;p&gt;&quot;At dawn they laid their souls to rest, Battle scars long washed away. Chains of metal, flesh and bone at last Broken, turned to dust today. Ships and shields were shattered. Worlds were torn asunder. Yet in their darkest hour Their cry of peace triumphed over thunder. -To Honorable Leaders Armi.eldr, Bekalu and Charon, signatories of the Galactic Peace Treaty. Passed away on the day of the fiftieth anniversary of the treaty’s signing.&quot;&lt;/p&gt;
+"
+	 data-info-length="2"
+	 data-thumbnail-width="24"
+	 data-thumbnail-height="24"
+			data-info0="Poster Series 11/14"
+			data-info1="Poster Rewards Level: 4"
+		 data-cta-length="2"
+			data-cta-primary-text0="Augmented Reality Experience"
+		data-cta-secondary-text0=""
+		data-cta-url0="https://play.staratlas.com/market/4jN1R453Acv9egnr7Dry3x9Xe3jqh1tqz5RokniaeVhy"
+		data-cta-product-id0=""
+			data-cta-primary-text1="Buy &quot;The Peacebringers Archive&quot; Now"
+		data-cta-secondary-text1=""
+		data-cta-url1="https://play.staratlas.com/dex/4jN1R453Acv9egnr7Dry3x9Xe3jqh1tqz5RokniaeVhy"
+		data-cta-product-id1=""
+				data-media-type="sketchFabUrl"
+		data-media="https://sketchfab.com/models/864e7e1533d6460792a8414797469f7e/embed"
+	>
+	<div class="ShowroomInner" style="padding-bottom: 100%">
+		<picture>
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/2KHpIjHmK1ac7YMbIi4FuD/86fd0dda8c5638d80769a5494a1a7b46/poster11-still.png?w=1500&amp;h=1500&amp;fm=webp&amp;q=85" type="image/webp">
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/2KHpIjHmK1ac7YMbIi4FuD/86fd0dda8c5638d80769a5494a1a7b46/poster11-still.png?w=1500&amp;h=1500&amp;fm=jpg" type="image/jpg">
+			<img data-src="//images.ctfassets.net/2kg7h835bpe1/2KHpIjHmK1ac7YMbIi4FuD/86fd0dda8c5638d80769a5494a1a7b46/poster11-still.png?w=1500&amp;h=1500&amp;fm=jpg" class="lazyload">
+		</picture>
+	</div>
+	<div class="ShowroomHoverButton">
+		<div class="ShowroomHoverButton-outer"></div>
+		<div class="ShowroomHoverButton-inner"><img src="//images.ctfassets.net/2kg7h835bpe1/5jM5KHSDhugAFoANGh0ikF/1a2ff7db01d33833d5a92f07f14ec8de/nft_card.svg?" /></div>
+		<div class="ShowroomHoverButton-line"></div>
+		<div class="ShowroomHoverButton-lineDot"></div>
+		<div class="ShowroomHoverButton-label"><span>The Peacebringers Archive</span><span>Poster Series 11/14</span></div>
+	</div>
+</div>
+																																<div class="ShowroomItem"
+	 data-index="14"
+	 data-tag-title="NFT Poster"
+	 data-tag-slug="nft-poster"	 data-title="Ustur Wod.bod"
+	 data-description="&lt;p&gt;The Ustur are a race of androids spawned by an advanced, multi-generational AI who sought to express themself through physicalized form. They are mechanical beings with a developed sense of identity, culture and fashion. Their anatomy articulates in a relatable way to organic substrate beings to convey demeanor and to emote. They enjoy establishing bonds with all intelligent life and satisfying higher spiritual exploration.&lt;/p&gt;
+"
+	 data-info-length="2"
+	 data-thumbnail-width="24"
+	 data-thumbnail-height="24"
+			data-info0="Poster Series 12/14"
+			data-info1="Poster Rewards Level: 5"
+		 data-cta-length="2"
+			data-cta-primary-text0="Augmented Reality Experience"
+		data-cta-secondary-text0=""
+		data-cta-url0="https://play.staratlas.com/market/J99HsFQEWKR3UiFQpKTnF11iaNiR1enf2LxHfgsbVc59"
+		data-cta-product-id0=""
+			data-cta-primary-text1="Buy &quot;Ustur Wod.bod&quot; Now"
+		data-cta-secondary-text1=""
+		data-cta-url1="https://play.staratlas.com/market/J99HsFQEWKR3UiFQpKTnF11iaNiR1enf2LxHfgsbVc59"
+		data-cta-product-id1=""
+				data-media-type="sketchFabUrl"
+		data-media="https://sketchfab.com/models/b464dbbbc2904a1099b53f8fa54f4e54/embed"
+	>
+	<div class="ShowroomInner" style="padding-bottom: 125%">
+		<picture>
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/2yUrqNnUOPXYrLwdYxF0i4/f9681aed1660014114aac67d7cf0f388/UsturWodbod.png?w=1500&amp;h=1500&amp;fm=webp&amp;q=85" type="image/webp">
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/2yUrqNnUOPXYrLwdYxF0i4/f9681aed1660014114aac67d7cf0f388/UsturWodbod.png?w=1500&amp;h=1500&amp;fm=jpg" type="image/jpg">
+			<img data-src="//images.ctfassets.net/2kg7h835bpe1/2yUrqNnUOPXYrLwdYxF0i4/f9681aed1660014114aac67d7cf0f388/UsturWodbod.png?w=1500&amp;h=1500&amp;fm=jpg" class="lazyload">
+		</picture>
+	</div>
+	<div class="ShowroomHoverButton">
+		<div class="ShowroomHoverButton-outer"></div>
+		<div class="ShowroomHoverButton-inner"><img src="//images.ctfassets.net/2kg7h835bpe1/5jM5KHSDhugAFoANGh0ikF/1a2ff7db01d33833d5a92f07f14ec8de/nft_card.svg?" /></div>
+		<div class="ShowroomHoverButton-line"></div>
+		<div class="ShowroomHoverButton-lineDot"></div>
+		<div class="ShowroomHoverButton-label"><span>Ustur Wod.bod</span><span>Poster Series 12/14</span></div>
+	</div>
+</div>
+																																<div class="ShowroomItem"
+	 data-index="15"
+	 data-tag-title="NFT Poster"
+	 data-tag-slug="nft-poster"	 data-title="Om Photoli"
+	 data-description="&lt;p&gt;The Photoli race are highly advanced aliens of light. Their natural state is navigating the universe in the form of light energy. Their ability to maintain a corporeal form with amorphous anatomical shapes and halos conveys expressions to other species. During galactic explorations, they are known to be confused with deities by more primitive civilizations. One Photoli rogue scout in particular played a pivotal role in advancing humankind to the stars.&lt;/p&gt;
+"
+	 data-info-length="2"
+	 data-thumbnail-width="24"
+	 data-thumbnail-height="24"
+			data-info0="Poster Series 13/14"
+			data-info1="Poster Rewards Level: 5"
+		 data-cta-length="2"
+			data-cta-primary-text0="Augmented Reality Experience"
+		data-cta-secondary-text0=""
+		data-cta-url0="https://play.staratlas.com/market/HdvXMScwAQQh9pEvLZjuaaeJcLTmixxYoMFefeqHFn2E"
+		data-cta-product-id0=""
+			data-cta-primary-text1="Buy &quot;Om Photoli&quot; Now"
+		data-cta-secondary-text1=""
+		data-cta-url1="https://play.staratlas.com/market/HdvXMScwAQQh9pEvLZjuaaeJcLTmixxYoMFefeqHFn2E"
+		data-cta-product-id1=""
+				data-media-type="sketchFabUrl"
+		data-media="https://sketchfab.com/models/f122414c011545f79b57b69c9df83edf"
+	>
+	<div class="ShowroomInner" style="padding-bottom: 125%">
+		<picture>
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/5CR0JCXttJlUdipIVOVLFr/8a0e336d46d0dbaee0ffdab868d21330/01_Photoli_MarkerImage.png?w=1500&amp;h=1500&amp;fm=webp&amp;q=85" type="image/webp">
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/5CR0JCXttJlUdipIVOVLFr/8a0e336d46d0dbaee0ffdab868d21330/01_Photoli_MarkerImage.png?w=1500&amp;h=1500&amp;fm=jpg" type="image/jpg">
+			<img data-src="//images.ctfassets.net/2kg7h835bpe1/5CR0JCXttJlUdipIVOVLFr/8a0e336d46d0dbaee0ffdab868d21330/01_Photoli_MarkerImage.png?w=1500&amp;h=1500&amp;fm=jpg" class="lazyload">
+		</picture>
+	</div>
+	<div class="ShowroomHoverButton">
+		<div class="ShowroomHoverButton-outer"></div>
+		<div class="ShowroomHoverButton-inner"><img src="//images.ctfassets.net/2kg7h835bpe1/5jM5KHSDhugAFoANGh0ikF/1a2ff7db01d33833d5a92f07f14ec8de/nft_card.svg?" /></div>
+		<div class="ShowroomHoverButton-line"></div>
+		<div class="ShowroomHoverButton-lineDot"></div>
+		<div class="ShowroomHoverButton-label"><span>Om Photoli</span><span>Poster Series 13/14</span></div>
+	</div>
+</div>
+																																<div class="ShowroomItem"
+	 data-index="16"
+	 data-tag-title="NFT Poster"
+	 data-tag-slug="nft-poster"	 data-title="Star Atlas"
+	 data-description="&lt;p&gt;“The first to arrive at the universe’s next frontier is the first to knock on the gates of prosperity.” — Ustur Armi.eldr&lt;/p&gt;
+"
+	 data-info-length="2"
+	 data-thumbnail-width="24"
+	 data-thumbnail-height="24"
+			data-info0="Poster Series 14/14"
+			data-info1="Poster Rewards Level: 6"
+		 data-cta-length="2"
+			data-cta-primary-text0="Augmented Reality Experience"
+		data-cta-secondary-text0=""
+		data-cta-url0="https://play.staratlas.com/market/KHw8L2eE6kpp8ziWPghBTtiAVCUvdSKMvGtT1e9AuJd"
+		data-cta-product-id0=""
+			data-cta-primary-text1="Buy &quot;Star Atlas&quot; Now"
+		data-cta-secondary-text1=""
+		data-cta-url1="https://play.staratlas.com/market/KHw8L2eE6kpp8ziWPghBTtiAVCUvdSKMvGtT1e9AuJd"
+		data-cta-product-id1=""
+				data-media-type="sketchFabUrl"
+		data-media="https://sketchfab.com/models/0e0eb24342d64579836aa9ea2d768bcc/embed"
+	>
+	<div class="ShowroomInner" style="padding-bottom: 149.96250937266%">
+		<picture>
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/3fyBVmcJ7oYz4TSuAEHZFc/76f55214c72afcd957b23b62527264d3/06_StarAtlasTheMoviePoster_v3.png?w=1500&amp;h=1500&amp;fm=webp&amp;q=85" type="image/webp">
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/3fyBVmcJ7oYz4TSuAEHZFc/76f55214c72afcd957b23b62527264d3/06_StarAtlasTheMoviePoster_v3.png?w=1500&amp;h=1500&amp;fm=jpg" type="image/jpg">
+			<img data-src="//images.ctfassets.net/2kg7h835bpe1/3fyBVmcJ7oYz4TSuAEHZFc/76f55214c72afcd957b23b62527264d3/06_StarAtlasTheMoviePoster_v3.png?w=1500&amp;h=1500&amp;fm=jpg" class="lazyload">
+		</picture>
+	</div>
+	<div class="ShowroomHoverButton">
+		<div class="ShowroomHoverButton-outer"></div>
+		<div class="ShowroomHoverButton-inner"><img src="//images.ctfassets.net/2kg7h835bpe1/5jM5KHSDhugAFoANGh0ikF/1a2ff7db01d33833d5a92f07f14ec8de/nft_card.svg?" /></div>
+		<div class="ShowroomHoverButton-line"></div>
+		<div class="ShowroomHoverButton-lineDot"></div>
+		<div class="ShowroomHoverButton-label"><span>Star Atlas</span><span>Poster Series 14/14</span></div>
+	</div>
+</div>
+																																<div class="ShowroomItem"
+	 data-index="17"
+	 data-tag-title="NFT Poster"
+	 data-tag-slug="nft-poster"	 data-title="Armstrong Forever"
+	 data-description="&lt;p&gt;When humans were racing to expand into outer space under Ahr’s influence, the devastation they inflicted upon the planet was so great that it weakened the Earth’s geomagnetic field. The reckless way the planet’s orbit was populated by machines and debris led to distortions in the gravity field. All this culminated in a disastrous slingshot effect for the many satellites orbiting the blue dot, altering their trajectories to loosen the direct gravity pull of the planet and scatter into deep space. Some of these satellites contained valuable data that was lost forever. In 2621, the Council of Peace put a bounty on these ancient artifacts to integrate them into Star Atlas, leading to a hunt for them across the galaxy. One of the most sought-after satellites in history records bears the name of Neil Armstrong, the first human to set foot on the Moon. Initially launched into medium Earth orbit as a cornerstone of the global positioning system (GPS), the satellite had untold additional capabilities that made it more and more valuable as it drifted off into the void.&lt;/p&gt;
+"
+	 data-info-length="2"
+	 data-thumbnail-width="24"
+	 data-thumbnail-height="24"
+			data-info0="Legends Series #1"
+			data-info1="Poster Rewards Level: 1"
+		 data-cta-length="2"
+			data-cta-primary-text0="Augmented Reality Experience"
+		data-cta-secondary-text0=""
+		data-cta-url0="https://play.staratlas.com/market/3J73XDv9QUsXJdWKD8J6YFk4XxPNx5hijqjyxdNJqaG9"
+		data-cta-product-id0=""
+			data-cta-primary-text1="Buy &quot;Armstrong Forever&quot; Now"
+		data-cta-secondary-text1=""
+		data-cta-url1="https://play.staratlas.com/market/3J73XDv9QUsXJdWKD8J6YFk4XxPNx5hijqjyxdNJqaG9"
+		data-cta-product-id1=""
+				data-media-type="sketchFabUrl"
+		data-media="https://sketchfab.com/models/4d1a5db0988f40faa1a56cf1066a73aa/embed"
+	>
+	<div class="ShowroomInner" style="padding-bottom: 57.36137667304%">
+		<picture>
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/3p50TD748kgRGEgLybQJQx/0a4334a309720a23d0d0f7b64cb9e1ad/08_ArmstrongForeverPoster_Scene_01_v04.jpg?w=1500&amp;h=1500&amp;fm=webp&amp;q=85&amp;q=85" type="image/webp">
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/3p50TD748kgRGEgLybQJQx/0a4334a309720a23d0d0f7b64cb9e1ad/08_ArmstrongForeverPoster_Scene_01_v04.jpg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" type="image/jpg">
+			<img data-src="//images.ctfassets.net/2kg7h835bpe1/3p50TD748kgRGEgLybQJQx/0a4334a309720a23d0d0f7b64cb9e1ad/08_ArmstrongForeverPoster_Scene_01_v04.jpg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" class="lazyload">
+		</picture>
+	</div>
+	<div class="ShowroomHoverButton">
+		<div class="ShowroomHoverButton-outer"></div>
+		<div class="ShowroomHoverButton-inner"><img src="//images.ctfassets.net/2kg7h835bpe1/5jM5KHSDhugAFoANGh0ikF/1a2ff7db01d33833d5a92f07f14ec8de/nft_card.svg?" /></div>
+		<div class="ShowroomHoverButton-line"></div>
+		<div class="ShowroomHoverButton-lineDot"></div>
+		<div class="ShowroomHoverButton-label"><span>Armstrong Forever</span><span>Legends Series #1</span></div>
+	</div>
+</div>
+																																<div class="ShowroomItem"
+	 data-index="18"
+	 data-tag-title="Factions"
+	 data-tag-slug="factions"	 data-title="Photoli"
+	 data-description="&lt;p&gt;A voice from beyond space-time enters your mind… &lt;/p&gt;
+&lt;p&gt;…The time is near…&lt;/p&gt;
+&lt;p&gt;…economic revolution…&lt;/p&gt;
+&lt;p&gt;…the gates of galactic prosperity…&lt;/p&gt;
+&lt;p&gt;…prepare yourself.&lt;/p&gt;
+"
+	 data-info-length="0"
+	 data-thumbnail-width="24"
+	 data-thumbnail-height="24"
+		 data-cta-length="0"
+				data-media-type="image"
+		data-media="//images.ctfassets.net/2kg7h835bpe1/3R4lS5eSoI1Dyho2ZYhdIB/e7a1109e87d198e82a8b823f18336408/photoli-001.png?"
+		data-media-width="1341"
+		data-media-height="2298"
+	>
+	<div class="ShowroomInner" style="padding-bottom: 171.36465324385%">
+		<picture>
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/3R4lS5eSoI1Dyho2ZYhdIB/e7a1109e87d198e82a8b823f18336408/photoli-001.png?w=1500&amp;h=1500&amp;fm=webp&amp;q=85" type="image/webp">
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/3R4lS5eSoI1Dyho2ZYhdIB/e7a1109e87d198e82a8b823f18336408/photoli-001.png?w=1500&amp;h=1500&amp;fm=jpg" type="image/jpg">
+			<img data-src="//images.ctfassets.net/2kg7h835bpe1/3R4lS5eSoI1Dyho2ZYhdIB/e7a1109e87d198e82a8b823f18336408/photoli-001.png?w=1500&amp;h=1500&amp;fm=jpg" class="lazyload">
+		</picture>
+	</div>
+	<div class="ShowroomHoverButton">
+		<div class="ShowroomHoverButton-outer"></div>
+		<div class="ShowroomHoverButton-inner"><img src="//images.ctfassets.net/2kg7h835bpe1/1OGWlxcYnhJmA3HG6shTEk/aaa0ed2b739ce5d2809b06d442a62d6c/default.svg?" /></div>
+		<div class="ShowroomHoverButton-line"></div>
+		<div class="ShowroomHoverButton-lineDot"></div>
+		<div class="ShowroomHoverButton-label"><span>Photoli</span></div>
+	</div>
+</div>
+																																<div class="ShowroomItem"
+	 data-index="19"
+	 data-tag-title="Factions"
+	 data-tag-slug="factions"	 data-title="MUD Crew"
+	 data-description="&lt;p&gt;Our crew is out for a surveying mission in no man’s land…&lt;/p&gt;
+&lt;p&gt;Having detected a large ore transport wreckage on a new exoplanet and a hostile ONI signal close by, things can escalate at any moment.&lt;/p&gt;
+"
+	 data-info-length="0"
+	 data-thumbnail-width="24"
+	 data-thumbnail-height="24"
+		 data-cta-length="0"
+				data-media-type="image"
+		data-media="//images.ctfassets.net/2kg7h835bpe1/4w4VtTqr5si8Q7fPhxt7Do/ca8d3e5cfc0b7387e8190a788b613120/mud-crew-001.png?"
+		data-media-width="3192"
+		data-media-height="1797"
+	>
+	<div class="ShowroomInner" style="padding-bottom: 56.296992481203%">
+		<picture>
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/4w4VtTqr5si8Q7fPhxt7Do/ca8d3e5cfc0b7387e8190a788b613120/mud-crew-001.png?w=1500&amp;h=1500&amp;fm=webp&amp;q=85" type="image/webp">
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/4w4VtTqr5si8Q7fPhxt7Do/ca8d3e5cfc0b7387e8190a788b613120/mud-crew-001.png?w=1500&amp;h=1500&amp;fm=jpg" type="image/jpg">
+			<img data-src="//images.ctfassets.net/2kg7h835bpe1/4w4VtTqr5si8Q7fPhxt7Do/ca8d3e5cfc0b7387e8190a788b613120/mud-crew-001.png?w=1500&amp;h=1500&amp;fm=jpg" class="lazyload">
+		</picture>
+	</div>
+	<div class="ShowroomHoverButton">
+		<div class="ShowroomHoverButton-outer"></div>
+		<div class="ShowroomHoverButton-inner"><img src="//images.ctfassets.net/2kg7h835bpe1/1OGWlxcYnhJmA3HG6shTEk/aaa0ed2b739ce5d2809b06d442a62d6c/default.svg?" /></div>
+		<div class="ShowroomHoverButton-line"></div>
+		<div class="ShowroomHoverButton-lineDot"></div>
+		<div class="ShowroomHoverButton-label"><span>MUD Crew</span></div>
+	</div>
+</div>
+																																<div class="ShowroomItem"
+	 data-index="20"
+	 data-tag-title="Factions"
+	 data-tag-slug="factions"	 data-title="MUD Unreal Engine 5 WIP"
+	 data-description="&lt;p&gt;This is unreal.&lt;/p&gt;
+&lt;p&gt;And it&#039;s happening.&lt;/p&gt;
+&lt;p&gt;All of it is unfolding right in front of your eyes.&lt;/p&gt;
+"
+	 data-info-length="0"
+	 data-thumbnail-width="24"
+	 data-thumbnail-height="24"
+		 data-cta-length="0"
+				data-media-type="image"
+		data-media="//images.ctfassets.net/2kg7h835bpe1/6RsakBMVkQGpRs0pQ1LBk/2aa8e2ac3542377953c00ef0ffe6da77/MUD_UE5_WIP.png?"
+		data-media-width="1715"
+		data-media-height="960"
+	>
+	<div class="ShowroomInner" style="padding-bottom: 55.97667638484%">
+		<picture>
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/6RsakBMVkQGpRs0pQ1LBk/2aa8e2ac3542377953c00ef0ffe6da77/MUD_UE5_WIP.png?w=1500&amp;h=1500&amp;fm=webp&amp;q=85" type="image/webp">
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/6RsakBMVkQGpRs0pQ1LBk/2aa8e2ac3542377953c00ef0ffe6da77/MUD_UE5_WIP.png?w=1500&amp;h=1500&amp;fm=jpg" type="image/jpg">
+			<img data-src="//images.ctfassets.net/2kg7h835bpe1/6RsakBMVkQGpRs0pQ1LBk/2aa8e2ac3542377953c00ef0ffe6da77/MUD_UE5_WIP.png?w=1500&amp;h=1500&amp;fm=jpg" class="lazyload">
+		</picture>
+	</div>
+	<div class="ShowroomHoverButton">
+		<div class="ShowroomHoverButton-outer"></div>
+		<div class="ShowroomHoverButton-inner"><img src="//images.ctfassets.net/2kg7h835bpe1/1OGWlxcYnhJmA3HG6shTEk/aaa0ed2b739ce5d2809b06d442a62d6c/default.svg?" /></div>
+		<div class="ShowroomHoverButton-line"></div>
+		<div class="ShowroomHoverButton-lineDot"></div>
+		<div class="ShowroomHoverButton-label"><span>MUD Unreal Engine 5 WIP</span></div>
+	</div>
+</div>
+																																<div class="ShowroomItem"
+	 data-index="21"
+	 data-tag-title="Environment"
+	 data-tag-slug="environment"	 data-title="Gather Site WIP"
+	 data-description="&lt;p&gt;Before being sent to the orbit for trade and further processing, your valuable resources have to be gathered and prepared for transport. It takes experience to run an efficient gathering operation, so get right into it.&lt;/p&gt;
+"
+	 data-info-length="0"
+	 data-thumbnail-width="24"
+	 data-thumbnail-height="24"
+		 data-cta-length="0"
+				data-media-type="image"
+		data-media="//images.ctfassets.net/2kg7h835bpe1/4OwHTQ8yvwtYLCPnSspEJ6/8bf2b9571b33aa2ef37eb58634df5ca1/gather-site-001.png?"
+		data-media-width="3000"
+		data-media-height="1312"
+	>
+	<div class="ShowroomInner" style="padding-bottom: 43.733333333333%">
+		<picture>
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/4OwHTQ8yvwtYLCPnSspEJ6/8bf2b9571b33aa2ef37eb58634df5ca1/gather-site-001.png?w=1500&amp;h=1500&amp;fm=webp&amp;q=85" type="image/webp">
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/4OwHTQ8yvwtYLCPnSspEJ6/8bf2b9571b33aa2ef37eb58634df5ca1/gather-site-001.png?w=1500&amp;h=1500&amp;fm=jpg" type="image/jpg">
+			<img data-src="//images.ctfassets.net/2kg7h835bpe1/4OwHTQ8yvwtYLCPnSspEJ6/8bf2b9571b33aa2ef37eb58634df5ca1/gather-site-001.png?w=1500&amp;h=1500&amp;fm=jpg" class="lazyload">
+		</picture>
+	</div>
+	<div class="ShowroomHoverButton">
+		<div class="ShowroomHoverButton-outer"></div>
+		<div class="ShowroomHoverButton-inner"><img src="//images.ctfassets.net/2kg7h835bpe1/1OGWlxcYnhJmA3HG6shTEk/aaa0ed2b739ce5d2809b06d442a62d6c/default.svg?" /></div>
+		<div class="ShowroomHoverButton-line"></div>
+		<div class="ShowroomHoverButton-lineDot"></div>
+		<div class="ShowroomHoverButton-label"><span>Gather Site WIP</span></div>
+	</div>
+</div>
+																																<div class="ShowroomItem"
+	 data-index="22"
+	 data-tag-title="Environment"
+	 data-tag-slug="environment"	 data-title="Council of Peace Station"
+	 data-description="&lt;p&gt;Decide the fate of the galaxy by participating in decision-making on the grand scale.&lt;/p&gt;
+"
+	 data-info-length="0"
+	 data-thumbnail-width="24"
+	 data-thumbnail-height="24"
+		 data-cta-length="0"
+				data-media-type="image"
+		data-media="//images.ctfassets.net/2kg7h835bpe1/4CXIszp1SdRk9TokpCE97h/3aff1a1acf4d3ebb50245b8abae22fd3/cop-station-rotunda01.png?"
+		data-media-width="1920"
+		data-media-height="1080"
+	>
+	<div class="ShowroomInner" style="padding-bottom: 56.25%">
+		<picture>
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/4CXIszp1SdRk9TokpCE97h/3aff1a1acf4d3ebb50245b8abae22fd3/cop-station-rotunda01.png?w=1500&amp;h=1500&amp;fm=webp&amp;q=85" type="image/webp">
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/4CXIszp1SdRk9TokpCE97h/3aff1a1acf4d3ebb50245b8abae22fd3/cop-station-rotunda01.png?w=1500&amp;h=1500&amp;fm=jpg" type="image/jpg">
+			<img data-src="//images.ctfassets.net/2kg7h835bpe1/4CXIszp1SdRk9TokpCE97h/3aff1a1acf4d3ebb50245b8abae22fd3/cop-station-rotunda01.png?w=1500&amp;h=1500&amp;fm=jpg" class="lazyload">
+		</picture>
+	</div>
+	<div class="ShowroomHoverButton">
+		<div class="ShowroomHoverButton-outer"></div>
+		<div class="ShowroomHoverButton-inner"><img src="//images.ctfassets.net/2kg7h835bpe1/1OGWlxcYnhJmA3HG6shTEk/aaa0ed2b739ce5d2809b06d442a62d6c/default.svg?" /></div>
+		<div class="ShowroomHoverButton-line"></div>
+		<div class="ShowroomHoverButton-lineDot"></div>
+		<div class="ShowroomHoverButton-label"><span>Council of Peace Station</span></div>
+	</div>
+</div>
+																																<div class="ShowroomItem"
+	 data-index="23"
+	 data-tag-title="Spaceships"
+	 data-tag-slug="spaceships"	 data-title="Pearce X4"
+	 data-description="&lt;p&gt;A spaceworthy, single passenger space bike that packs a punch. A popular model for short range COP patrols in space and on land. No pilot&#039;s license required to explore distant exoplanets on a whim with the best, fully unobstructed view Pearce can offer. Comes standard with a bit of cargo space for those extra long trips through the vast, open range of outer space.&lt;/p&gt;
+"
+	 data-info-length="2"
+	 data-thumbnail-width="24"
+	 data-thumbnail-height="24"
+			data-info0="Ship Spec: Fighter"
+			data-info1="Ship Rarity: Common"
+		 data-cta-length="1"
+			data-cta-primary-text0="Buy Pearce X4 Now"
+		data-cta-secondary-text0=""
+		data-cta-url0="https://play.staratlas.com/market/MTc1macY8G2v1MubFxDp4W8cooaSBUZvc2KqaCNwhQE"
+		data-cta-product-id0="1234"
+				data-media-type="image"
+		data-media="//images.ctfassets.net/2kg7h835bpe1/4uWczBlhDJcDeM6iAV1qJ6/aa6ad0e62750924b13a682b22d5aad80/Pearce_X4_Thumbnail.jpg?q=85"
+		data-media-width="2560"
+		data-media-height="1295"
+	>
+	<div class="ShowroomInner" style="padding-bottom: 50.5859375%">
+		<picture>
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/4uWczBlhDJcDeM6iAV1qJ6/aa6ad0e62750924b13a682b22d5aad80/Pearce_X4_Thumbnail.jpg?w=1500&amp;h=1500&amp;fm=webp&amp;q=85&amp;q=85" type="image/webp">
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/4uWczBlhDJcDeM6iAV1qJ6/aa6ad0e62750924b13a682b22d5aad80/Pearce_X4_Thumbnail.jpg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" type="image/jpg">
+			<img data-src="//images.ctfassets.net/2kg7h835bpe1/4uWczBlhDJcDeM6iAV1qJ6/aa6ad0e62750924b13a682b22d5aad80/Pearce_X4_Thumbnail.jpg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" class="lazyload">
+		</picture>
+	</div>
+	<div class="ShowroomHoverButton">
+		<div class="ShowroomHoverButton-outer"></div>
+		<div class="ShowroomHoverButton-inner"><img src="//images.ctfassets.net/2kg7h835bpe1/2E2NcYl3hicrtDyZ7dpk93/5452e9affd683e5e84fffb98c343a2da/spaceships.svg?" /></div>
+		<div class="ShowroomHoverButton-line"></div>
+		<div class="ShowroomHoverButton-lineDot"></div>
+		<div class="ShowroomHoverButton-label"><span>Pearce X4</span><span>Ship Spec: Fighter</span></div>
+	</div>
+</div>
+																																<div class="ShowroomItem"
+	 data-index="24"
+	 data-tag-title="Spaceships"
+	 data-tag-slug="spaceships"	 data-title="Opal Jet"
+	 data-description="&lt;p&gt;The smaller sibling to the Opal Jetjet, the Jet mimics the oversized engine block for blazing fast speeds on the racetrack. The Opal Jet is a one seater space racer capable of warping planet to planet. Packed with enough firepower to throw cover fire and then slip away in a wink. Enjoy insane speeds, no license required!&lt;/p&gt;
+"
+	 data-info-length="2"
+	 data-thumbnail-width="24"
+	 data-thumbnail-height="24"
+			data-info0="Ship Spec: Racer"
+			data-info1="Ship Rarity: Common"
+		 data-cta-length="1"
+			data-cta-primary-text0="Buy Opal Jet Now"
+		data-cta-secondary-text0=""
+		data-cta-url0="https://play.staratlas.com/market/2z52mwzBPqA2jGf8jJhCQijHTJ1EUEscX5Mz718SBvmM"
+		data-cta-product-id0=""
+				data-media-type="image"
+		data-media="//images.ctfassets.net/2kg7h835bpe1/3Y7G86ht2JiAhzfAn3Ec33/413160ceac0dfbf73ecd17bb8c969d9b/Opal_Jet_Marketplace_Thumbnail.jpg?q=85"
+		data-media-width="4000"
+		data-media-height="2500"
+	>
+	<div class="ShowroomInner" style="padding-bottom: 62.5%">
+		<picture>
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/3Y7G86ht2JiAhzfAn3Ec33/413160ceac0dfbf73ecd17bb8c969d9b/Opal_Jet_Marketplace_Thumbnail.jpg?w=1500&amp;h=1500&amp;fm=webp&amp;q=85&amp;q=85" type="image/webp">
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/3Y7G86ht2JiAhzfAn3Ec33/413160ceac0dfbf73ecd17bb8c969d9b/Opal_Jet_Marketplace_Thumbnail.jpg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" type="image/jpg">
+			<img data-src="//images.ctfassets.net/2kg7h835bpe1/3Y7G86ht2JiAhzfAn3Ec33/413160ceac0dfbf73ecd17bb8c969d9b/Opal_Jet_Marketplace_Thumbnail.jpg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" class="lazyload">
+		</picture>
+	</div>
+	<div class="ShowroomHoverButton">
+		<div class="ShowroomHoverButton-outer"></div>
+		<div class="ShowroomHoverButton-inner"><img src="//images.ctfassets.net/2kg7h835bpe1/2E2NcYl3hicrtDyZ7dpk93/5452e9affd683e5e84fffb98c343a2da/spaceships.svg?" /></div>
+		<div class="ShowroomHoverButton-line"></div>
+		<div class="ShowroomHoverButton-lineDot"></div>
+		<div class="ShowroomHoverButton-label"><span>Opal Jet</span><span>Ship Spec: Racer</span></div>
+	</div>
+</div>
+																																<div class="ShowroomItem"
+	 data-index="25"
+	 data-tag-title="Spaceships"
+	 data-tag-slug="spaceships"	 data-title="Fimbul Airbike"
+	 data-description="&lt;p&gt;The Fimbul Airbike is the perfect starter ship for the budget conscious space traveler. Even though the oversized impulse engine fitting is using some slightly dated technologies, the Airbike can still perform speeds and distances typical of its class. Fresh off the production line, this ship does not come with stocked weapons, but the hardpoint can be equipped aftermarket to utilize all of its capabilities. Shipcraft engineers tend to fondly recall their first Airbike blueprint that turned them onto the wonders of space flight.&lt;/p&gt;
+"
+	 data-info-length="2"
+	 data-thumbnail-width="24"
+	 data-thumbnail-height="24"
+			data-info0="Ship Spec: Racer"
+			data-info1="Ship Rarity: Common"
+		 data-cta-length="1"
+			data-cta-primary-text0="Buy Fimbul Airbike Now"
+		data-cta-secondary-text0=""
+		data-cta-url0="https://play.staratlas.com/market/5xdJFqr5Au4kgGpfoQz9u1fpHhTWoHi4smRB1xxMM4CN"
+		data-cta-product-id0=""
+				data-media-type="image"
+		data-media="//images.ctfassets.net/2kg7h835bpe1/7qJJixYD3z1pWT7FVvtvOR/e2c512902ba9f983fca72f327ad635e5/AIRBIKE_KEYART_NOTION_02.jpg?q=85"
+		data-media-width="3008"
+		data-media-height="1470"
+	>
+	<div class="ShowroomInner" style="padding-bottom: 48.869680851064%">
+		<picture>
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/7qJJixYD3z1pWT7FVvtvOR/e2c512902ba9f983fca72f327ad635e5/AIRBIKE_KEYART_NOTION_02.jpg?w=1500&amp;h=1500&amp;fm=webp&amp;q=85&amp;q=85" type="image/webp">
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/7qJJixYD3z1pWT7FVvtvOR/e2c512902ba9f983fca72f327ad635e5/AIRBIKE_KEYART_NOTION_02.jpg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" type="image/jpg">
+			<img data-src="//images.ctfassets.net/2kg7h835bpe1/7qJJixYD3z1pWT7FVvtvOR/e2c512902ba9f983fca72f327ad635e5/AIRBIKE_KEYART_NOTION_02.jpg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" class="lazyload">
+		</picture>
+	</div>
+	<div class="ShowroomHoverButton">
+		<div class="ShowroomHoverButton-outer"></div>
+		<div class="ShowroomHoverButton-inner"><img src="//images.ctfassets.net/2kg7h835bpe1/2E2NcYl3hicrtDyZ7dpk93/5452e9affd683e5e84fffb98c343a2da/spaceships.svg?" /></div>
+		<div class="ShowroomHoverButton-line"></div>
+		<div class="ShowroomHoverButton-lineDot"></div>
+		<div class="ShowroomHoverButton-label"><span>Fimbul Airbike</span><span>Ship Spec: Racer</span></div>
+	</div>
+</div>
+																																<div class="ShowroomItem"
+	 data-index="26"
+	 data-tag-title="Spaceships"
+	 data-tag-slug="spaceships"	 data-title="Fimbul Lowbie"
+	 data-description="&lt;p&gt;Ride in pure classical comfort in this flexible flying vehicle platform. The Fimbul Lowbie is a clear sign that the driver is coming up in the world and their ambitions are finally being rewarded with a well-rounded and reliable space capable vessel. Take a slice of home with you whenever you go cruising, hauling or transporting.&lt;/p&gt;
+"
+	 data-info-length="2"
+	 data-thumbnail-width="24"
+	 data-thumbnail-height="24"
+			data-info0="Ship Spec: Transport"
+			data-info1="Ship Rarity: Common"
+		 data-cta-length="1"
+			data-cta-primary-text0="Buy Fimbul Lowbie Now"
+		data-cta-secondary-text0=""
+		data-cta-url0="https://play.staratlas.com/market/8nqjw5UVN65GyfdqiXnfJNbDVBgbk8RpFFd7uACXenbx"
+		data-cta-product-id0=""
+				data-media-type="image"
+		data-media="//images.ctfassets.net/2kg7h835bpe1/2WpRI43ClBac2u6WFe25jt/a45f6c8db5cc6ec342ade0f560e5be4a/FIMBUL_LOWBIE_KEYART_01.jpg?q=85"
+		data-media-width="4000"
+		data-media-height="2250"
+	>
+	<div class="ShowroomInner" style="padding-bottom: 56.25%">
+		<picture>
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/2WpRI43ClBac2u6WFe25jt/a45f6c8db5cc6ec342ade0f560e5be4a/FIMBUL_LOWBIE_KEYART_01.jpg?w=1500&amp;h=1500&amp;fm=webp&amp;q=85&amp;q=85" type="image/webp">
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/2WpRI43ClBac2u6WFe25jt/a45f6c8db5cc6ec342ade0f560e5be4a/FIMBUL_LOWBIE_KEYART_01.jpg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" type="image/jpg">
+			<img data-src="//images.ctfassets.net/2kg7h835bpe1/2WpRI43ClBac2u6WFe25jt/a45f6c8db5cc6ec342ade0f560e5be4a/FIMBUL_LOWBIE_KEYART_01.jpg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" class="lazyload">
+		</picture>
+	</div>
+	<div class="ShowroomHoverButton">
+		<div class="ShowroomHoverButton-outer"></div>
+		<div class="ShowroomHoverButton-inner"><img src="//images.ctfassets.net/2kg7h835bpe1/2E2NcYl3hicrtDyZ7dpk93/5452e9affd683e5e84fffb98c343a2da/spaceships.svg?" /></div>
+		<div class="ShowroomHoverButton-line"></div>
+		<div class="ShowroomHoverButton-lineDot"></div>
+		<div class="ShowroomHoverButton-label"><span>Fimbul Lowbie</span><span>Ship Spec: Transport</span></div>
+	</div>
+</div>
+																																<div class="ShowroomItem"
+	 data-index="27"
+	 data-tag-title="Spaceships"
+	 data-tag-slug="spaceships"	 data-title="Pearce X5"
+	 data-description="&lt;p&gt;Pearce&#039;s X5 Car is a shapeshifting, two seater, nimble fighter and starship. It has four different primary modes of operation. (1) Attack mode with all weapons pointing forward. (2) Speed mode with all thrusters pointing to the rear. (3) Normal mode with the weapons and thrusters split to the forward and read. (4) Defense mode with the arms retracted and hull plating with the largest coverage. The X5 Car is the stock patrol vessel for the Council of Peace with a pervasive presence throughout secured faction territories in space and on land. Be sure to earn your pilot&#039;s license to take this through faction space.&lt;/p&gt;
+"
+	 data-info-length="2"
+	 data-thumbnail-width="24"
+	 data-thumbnail-height="24"
+			data-info0="Ship Spec: Fighter"
+			data-info1="Ship Rarity: Uncommon"
+		 data-cta-length="1"
+			data-cta-primary-text0="Buy Pearce X5 Now"
+		data-cta-secondary-text0=""
+		data-cta-url0="https://play.staratlas.com/market/3ySaxSspDCsEM53zRTfpyr9s9yfq9yNpZFXSEbvbadLf"
+		data-cta-product-id0=""
+				data-media-type="image"
+		data-media="//images.ctfassets.net/2kg7h835bpe1/3F9mcqo4zNJBrKLPXXv6Zg/bb0abdffe46699c455f9ef1f8ca9d78b/Pearce_X5_Marketplace_Thumbnail.jpg?q=85"
+		data-media-width="2560"
+		data-media-height="1440"
+	>
+	<div class="ShowroomInner" style="padding-bottom: 56.25%">
+		<picture>
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/3F9mcqo4zNJBrKLPXXv6Zg/bb0abdffe46699c455f9ef1f8ca9d78b/Pearce_X5_Marketplace_Thumbnail.jpg?w=1500&amp;h=1500&amp;fm=webp&amp;q=85&amp;q=85" type="image/webp">
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/3F9mcqo4zNJBrKLPXXv6Zg/bb0abdffe46699c455f9ef1f8ca9d78b/Pearce_X5_Marketplace_Thumbnail.jpg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" type="image/jpg">
+			<img data-src="//images.ctfassets.net/2kg7h835bpe1/3F9mcqo4zNJBrKLPXXv6Zg/bb0abdffe46699c455f9ef1f8ca9d78b/Pearce_X5_Marketplace_Thumbnail.jpg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" class="lazyload">
+		</picture>
+	</div>
+	<div class="ShowroomHoverButton">
+		<div class="ShowroomHoverButton-outer"></div>
+		<div class="ShowroomHoverButton-inner"><img src="//images.ctfassets.net/2kg7h835bpe1/2E2NcYl3hicrtDyZ7dpk93/5452e9affd683e5e84fffb98c343a2da/spaceships.svg?" /></div>
+		<div class="ShowroomHoverButton-line"></div>
+		<div class="ShowroomHoverButton-lineDot"></div>
+		<div class="ShowroomHoverButton-label"><span>Pearce X5</span><span>Ship Spec: Fighter</span></div>
+	</div>
+</div>
+																																<div class="ShowroomItem"
+	 data-index="28"
+	 data-tag-title="Spaceships"
+	 data-tag-slug="spaceships"	 data-title="Opal Jetjet"
+	 data-description="&lt;p&gt;Often thought of as the fastest modifiable, two seater, space racer vehicle, the Opal Jetjet growls its massive engine block and utilizes its forward and rear weapon turrets to overtake other would be competitors on the racetrack. Coated in pure style from bow to stern, this ship can whip you across the track almost as fast as it can warp you across the sector. A comfortable and classic interior provides a familiar callback to an ancient and timeless aesthetic that humankind will never forget.&lt;/p&gt;
+"
+	 data-info-length="2"
+	 data-thumbnail-width="24"
+	 data-thumbnail-height="24"
+			data-info0="Ship Spec: Racer"
+			data-info1="Ship Rarity: Uncommon"
+		 data-cta-length="1"
+			data-cta-primary-text0="Buy Opal Jetjet Now"
+		data-cta-secondary-text0=""
+		data-cta-url0="https://play.staratlas.com/market/2W6ff8LajAwekXVxDARGQ9QFNcRbxmJPE2p3eNsGR7Qu"
+		data-cta-product-id0=""
+				data-media-type="image"
+		data-media="//images.ctfassets.net/2kg7h835bpe1/17IM5Hx0Zd4t2e6GIupUAY/209990ae0812991d0486d9aeea5e386c/Opal_Jetjet_Marketplace_Thumbnail.jpg?q=85"
+		data-media-width="3984"
+		data-media-height="2247"
+	>
+	<div class="ShowroomInner" style="padding-bottom: 56.400602409639%">
+		<picture>
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/17IM5Hx0Zd4t2e6GIupUAY/209990ae0812991d0486d9aeea5e386c/Opal_Jetjet_Marketplace_Thumbnail.jpg?w=1500&amp;h=1500&amp;fm=webp&amp;q=85&amp;q=85" type="image/webp">
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/17IM5Hx0Zd4t2e6GIupUAY/209990ae0812991d0486d9aeea5e386c/Opal_Jetjet_Marketplace_Thumbnail.jpg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" type="image/jpg">
+			<img data-src="//images.ctfassets.net/2kg7h835bpe1/17IM5Hx0Zd4t2e6GIupUAY/209990ae0812991d0486d9aeea5e386c/Opal_Jetjet_Marketplace_Thumbnail.jpg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" class="lazyload">
+		</picture>
+	</div>
+	<div class="ShowroomHoverButton">
+		<div class="ShowroomHoverButton-outer"></div>
+		<div class="ShowroomHoverButton-inner"><img src="//images.ctfassets.net/2kg7h835bpe1/2E2NcYl3hicrtDyZ7dpk93/5452e9affd683e5e84fffb98c343a2da/spaceships.svg?" /></div>
+		<div class="ShowroomHoverButton-line"></div>
+		<div class="ShowroomHoverButton-lineDot"></div>
+		<div class="ShowroomHoverButton-label"><span>Opal Jetjet</span><span>Ship Spec: Racer</span></div>
+	</div>
+</div>
+																																<div class="ShowroomItem"
+	 data-index="29"
+	 data-tag-title="Spaceships"
+	 data-tag-slug="spaceships"	 data-title="Calico Evac"
+	 data-description="&lt;p&gt;The Calico Evac is a nimble but robust rescue and recovery vessel. These vessels could be found in any well-equipped active combat scenes. With the ability to launch and retrieve multiple rescue drones, the Evac quite literally is the difference between life and death. Higher tiered medical bay facilities and personnel have the ability to revive stunned and critical casualties or to pull cryostatic escape pod crew out from indefinite slumber. The custom hull-piercing cockpit screen makes visibility a vital component in the success of dangerously tight rescue missions. The Evac is a testament to the brilliant designs and industrial mechanical genius behind the teams at Calico.&lt;/p&gt;
+"
+	 data-info-length="2"
+	 data-thumbnail-width="24"
+	 data-thumbnail-height="24"
+			data-info0="Ship Spec: Rescue"
+			data-info1="Ship Rarity: Uncommon"
+		 data-cta-length="1"
+			data-cta-primary-text0="Buy Calico Evac Now"
+		data-cta-secondary-text0=""
+		data-cta-url0="https://play.staratlas.com/market/5m1iwMhjBCCpy2oRWzL3pvpCvQU6yUcvChXLBzGYGQ2R"
+		data-cta-product-id0=""
+				data-media-type="image"
+		data-media="//images.ctfassets.net/2kg7h835bpe1/7oQPXaweZic3kxDEaWpxRb/35c7d07750b9ad1030d058bf73fb66ff/Calico_Emergenc_Ship_KeyVis_Rescue_Mission.jpg?q=85"
+		data-media-width="3840"
+		data-media-height="2160"
+	>
+	<div class="ShowroomInner" style="padding-bottom: 56.25%">
+		<picture>
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/7oQPXaweZic3kxDEaWpxRb/35c7d07750b9ad1030d058bf73fb66ff/Calico_Emergenc_Ship_KeyVis_Rescue_Mission.jpg?w=1500&amp;h=1500&amp;fm=webp&amp;q=85&amp;q=85" type="image/webp">
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/7oQPXaweZic3kxDEaWpxRb/35c7d07750b9ad1030d058bf73fb66ff/Calico_Emergenc_Ship_KeyVis_Rescue_Mission.jpg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" type="image/jpg">
+			<img data-src="//images.ctfassets.net/2kg7h835bpe1/7oQPXaweZic3kxDEaWpxRb/35c7d07750b9ad1030d058bf73fb66ff/Calico_Emergenc_Ship_KeyVis_Rescue_Mission.jpg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" class="lazyload">
+		</picture>
+	</div>
+	<div class="ShowroomHoverButton">
+		<div class="ShowroomHoverButton-outer"></div>
+		<div class="ShowroomHoverButton-inner"><img src="//images.ctfassets.net/2kg7h835bpe1/2E2NcYl3hicrtDyZ7dpk93/5452e9affd683e5e84fffb98c343a2da/spaceships.svg?" /></div>
+		<div class="ShowroomHoverButton-line"></div>
+		<div class="ShowroomHoverButton-lineDot"></div>
+		<div class="ShowroomHoverButton-label"><span>Calico Evac</span><span>Ship Spec: Rescue</span></div>
+	</div>
+</div>
+																																<div class="ShowroomItem"
+	 data-index="30"
+	 data-tag-title="Spaceships"
+	 data-tag-slug="spaceships"	 data-title="Calico Compakt Hero"
+	 data-description="&lt;p&gt;The Calico Compakt Hero nestles nicely into the Guardian&#039;s hangar for distant shuttling or away team expeditions. Manufactured under the cost effective Compakt supply line, the styling is more befitting to rough exploration rather than traveling in high luxury style. Should the expedition carry on longer than planned, the Compakt Hero has fully sustainable life support capabilities onboard this medium sized, multi-crew, multi-role ship. Utilize the standard medium cargo hold and additional fuel module for freight lines to bring in some additional capital when traveling long and far in the comfortable interior accomodations. Enjoy the panoramic views of the nearly all glass ceiling on the top deck making the long flights a sight to behold from any angle of the ship. Additional VTOL and side winglet thrusters make this a highly maneuverable ship if things were to get hairy when deep in unknown territory. This robust ship is destined to help you survive and thrive among the stars.&lt;/p&gt;
+"
+	 data-info-length="2"
+	 data-thumbnail-width="24"
+	 data-thumbnail-height="24"
+			data-info0="Ship Spec: Multi-role"
+			data-info1="Ship Rarity: Rare"
+		 data-cta-length="1"
+			data-cta-primary-text0="Buy Calico Compakt Hero Now"
+		data-cta-secondary-text0=""
+		data-cta-url0="https://play.staratlas.com/market/6ybME9qMbXgLs3PLWvEv8uyL2LWnUZUz7CYGE4m8kEFm"
+		data-cta-product-id0=""
+				data-media-type="image"
+		data-media="//images.ctfassets.net/2kg7h835bpe1/2vmge0VYrgJl48sgQobvi1/0417a9073148c0b6997cbe5ba7a44cd3/Calico_Compakt_Hero_Marketplace_Thumbnail.jpg?q=85"
+		data-media-width="3147"
+		data-media-height="1760"
+	>
+	<div class="ShowroomInner" style="padding-bottom: 55.926278995869%">
+		<picture>
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/2vmge0VYrgJl48sgQobvi1/0417a9073148c0b6997cbe5ba7a44cd3/Calico_Compakt_Hero_Marketplace_Thumbnail.jpg?w=1500&amp;h=1500&amp;fm=webp&amp;q=85&amp;q=85" type="image/webp">
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/2vmge0VYrgJl48sgQobvi1/0417a9073148c0b6997cbe5ba7a44cd3/Calico_Compakt_Hero_Marketplace_Thumbnail.jpg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" type="image/jpg">
+			<img data-src="//images.ctfassets.net/2kg7h835bpe1/2vmge0VYrgJl48sgQobvi1/0417a9073148c0b6997cbe5ba7a44cd3/Calico_Compakt_Hero_Marketplace_Thumbnail.jpg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" class="lazyload">
+		</picture>
+	</div>
+	<div class="ShowroomHoverButton">
+		<div class="ShowroomHoverButton-outer"></div>
+		<div class="ShowroomHoverButton-inner"><img src="//images.ctfassets.net/2kg7h835bpe1/2E2NcYl3hicrtDyZ7dpk93/5452e9affd683e5e84fffb98c343a2da/spaceships.svg?" /></div>
+		<div class="ShowroomHoverButton-line"></div>
+		<div class="ShowroomHoverButton-lineDot"></div>
+		<div class="ShowroomHoverButton-label"><span>Calico Compakt Hero</span><span>Ship Spec: Multi-role</span></div>
+	</div>
+</div>
+																																<div class="ShowroomItem"
+	 data-index="31"
+	 data-tag-title="Spaceships"
+	 data-tag-slug="spaceships"	 data-title="Pearce F4"
+	 data-description="&lt;p&gt;Standard issue Council of Peace medium sized patrol vessel made available to the private sector. The Pearce F4 has oversized weapon hardpoints and missile bay to punch above its weight class. Throw in that extra bit of fuel storage for those deep space patrols. The F4 is a workhorse, a patrol vessel, an escort and has a nice sized cargo hold to do a little freight on the side. It&#039;s a well rounded ship with all the amenities to house a crew of four to five members for most of your difficult missions.&lt;/p&gt;
+"
+	 data-info-length="2"
+	 data-thumbnail-width="24"
+	 data-thumbnail-height="24"
+			data-info0="Ship Spec: Fighter"
+			data-info1="Ship Rarity: Rare"
+		 data-cta-length="1"
+			data-cta-primary-text0="Buy Pearce F4 Now"
+		data-cta-secondary-text0=""
+		data-cta-url0="https://play.staratlas.com/market/CWn74XJsh98zWVYWtzqn1dGuz96KFxb18pYQQfECuCzA"
+		data-cta-product-id0=""
+				data-media-type="image"
+		data-media="//images.ctfassets.net/2kg7h835bpe1/4xMLwKiBkbh6E5FR6rRG8/712af73664294c7baccc7a74a5c08f37/Pearce_F4.jpg?q=85"
+		data-media-width="3840"
+		data-media-height="1600"
+	>
+	<div class="ShowroomInner" style="padding-bottom: 41.666666666667%">
+		<picture>
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/4xMLwKiBkbh6E5FR6rRG8/712af73664294c7baccc7a74a5c08f37/Pearce_F4.jpg?w=1500&amp;h=1500&amp;fm=webp&amp;q=85&amp;q=85" type="image/webp">
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/4xMLwKiBkbh6E5FR6rRG8/712af73664294c7baccc7a74a5c08f37/Pearce_F4.jpg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" type="image/jpg">
+			<img data-src="//images.ctfassets.net/2kg7h835bpe1/4xMLwKiBkbh6E5FR6rRG8/712af73664294c7baccc7a74a5c08f37/Pearce_F4.jpg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" class="lazyload">
+		</picture>
+	</div>
+	<div class="ShowroomHoverButton">
+		<div class="ShowroomHoverButton-outer"></div>
+		<div class="ShowroomHoverButton-inner"><img src="//images.ctfassets.net/2kg7h835bpe1/2E2NcYl3hicrtDyZ7dpk93/5452e9affd683e5e84fffb98c343a2da/spaceships.svg?" /></div>
+		<div class="ShowroomHoverButton-line"></div>
+		<div class="ShowroomHoverButton-lineDot"></div>
+		<div class="ShowroomHoverButton-label"><span>Pearce F4</span><span>Ship Spec: Fighter</span></div>
+	</div>
+</div>
+																																<div class="ShowroomItem"
+	 data-index="32"
+	 data-tag-title="Spaceships"
+	 data-tag-slug="spaceships"	 data-title="VZUS ambwe"
+	 data-description="&lt;p&gt;The VZUS ambwe is specifically crafted for those long journeys on the trail of your next bounty. This small bounty hunting ship has full life support amenities for you and your captures. The ambwe&#039;s onboard firepower is enough to make quick work of your cornered target. VZUS branded stealth features reduce overall energy output to fly under the radar and execute that surprise attack.&lt;/p&gt;
+"
+	 data-info-length="2"
+	 data-thumbnail-width="24"
+	 data-thumbnail-height="24"
+			data-info0="Ship Spec: Bounty Hunter"
+			data-info1="Ship Rarity: Rare"
+		 data-cta-length="1"
+			data-cta-primary-text0="Buy VZUS ambwe Now"
+		data-cta-secondary-text0=""
+		data-cta-url0="https://play.staratlas.com/market/HcYLMMtf55i1X8pXkEppp6e8n8GKTeJHaGfXdh8AJnte"
+		data-cta-product-id0=""
+				data-media-type="image"
+		data-media="//images.ctfassets.net/2kg7h835bpe1/6QDx3gQjzwTZnaerR2nK2n/d709b283631bc0ef9557219a8a346055/Vzus_2_keyart1.jpg?q=85"
+		data-media-width="3600"
+		data-media-height="2250"
+	>
+	<div class="ShowroomInner" style="padding-bottom: 62.5%">
+		<picture>
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/6QDx3gQjzwTZnaerR2nK2n/d709b283631bc0ef9557219a8a346055/Vzus_2_keyart1.jpg?w=1500&amp;h=1500&amp;fm=webp&amp;q=85&amp;q=85" type="image/webp">
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/6QDx3gQjzwTZnaerR2nK2n/d709b283631bc0ef9557219a8a346055/Vzus_2_keyart1.jpg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" type="image/jpg">
+			<img data-src="//images.ctfassets.net/2kg7h835bpe1/6QDx3gQjzwTZnaerR2nK2n/d709b283631bc0ef9557219a8a346055/Vzus_2_keyart1.jpg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" class="lazyload">
+		</picture>
+	</div>
+	<div class="ShowroomHoverButton">
+		<div class="ShowroomHoverButton-outer"></div>
+		<div class="ShowroomHoverButton-inner"><img src="//images.ctfassets.net/2kg7h835bpe1/2E2NcYl3hicrtDyZ7dpk93/5452e9affd683e5e84fffb98c343a2da/spaceships.svg?" /></div>
+		<div class="ShowroomHoverButton-line"></div>
+		<div class="ShowroomHoverButton-lineDot"></div>
+		<div class="ShowroomHoverButton-label"><span>VZUS ambwe</span><span>Ship Spec: Bounty Hunter</span></div>
+	</div>
+</div>
+																																<div class="ShowroomItem"
+	 data-index="33"
+	 data-tag-title="Spaceships"
+	 data-tag-slug="spaceships"	 data-title="Ogrika Mik"
+	 data-description="&lt;p&gt;The latest from Ogrika, the Mik is a nimble and deadly small fighter that slices through the air. A signature whirring sound can be made out seconds before this cunning combat vessel surprise attacks its prey. Generous amenities fill the cabin with a comfortable living space for two. Get cozy with your shipmate and bring a ration or three because an additionally equipped fuel module will allow for those lengthy space patrols and deep space security escorts.&lt;/p&gt;
+"
+	 data-info-length="2"
+	 data-thumbnail-width="24"
+	 data-thumbnail-height="24"
+			data-info0="Ship Spec: Fighter"
+			data-info1="Ship Rarity: Rare"
+		 data-cta-length="1"
+			data-cta-primary-text0="Buy Ogrika Mik Now"
+		data-cta-secondary-text0=""
+		data-cta-url0="https://play.staratlas.com/market/D67jgoRefKgFHNxwyFma4uBFANL6LgbT5Ye5oZHFYMzH"
+		data-cta-product-id0=""
+				data-media-type="image"
+		data-media="//images.ctfassets.net/2kg7h835bpe1/4cBA1yn47ezrBWozqUJEkJ/b59007db63bc1e2af1dd3b85e039e374/Cam_1_Final_Crop_Without_Logo.jpg?q=85"
+		data-media-width="4000"
+		data-media-height="2230"
+	>
+	<div class="ShowroomInner" style="padding-bottom: 55.75%">
+		<picture>
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/4cBA1yn47ezrBWozqUJEkJ/b59007db63bc1e2af1dd3b85e039e374/Cam_1_Final_Crop_Without_Logo.jpg?w=1500&amp;h=1500&amp;fm=webp&amp;q=85&amp;q=85" type="image/webp">
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/4cBA1yn47ezrBWozqUJEkJ/b59007db63bc1e2af1dd3b85e039e374/Cam_1_Final_Crop_Without_Logo.jpg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" type="image/jpg">
+			<img data-src="//images.ctfassets.net/2kg7h835bpe1/4cBA1yn47ezrBWozqUJEkJ/b59007db63bc1e2af1dd3b85e039e374/Cam_1_Final_Crop_Without_Logo.jpg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" class="lazyload">
+		</picture>
+	</div>
+	<div class="ShowroomHoverButton">
+		<div class="ShowroomHoverButton-outer"></div>
+		<div class="ShowroomHoverButton-inner"><img src="//images.ctfassets.net/2kg7h835bpe1/2E2NcYl3hicrtDyZ7dpk93/5452e9affd683e5e84fffb98c343a2da/spaceships.svg?" /></div>
+		<div class="ShowroomHoverButton-line"></div>
+		<div class="ShowroomHoverButton-lineDot"></div>
+		<div class="ShowroomHoverButton-label"><span>Ogrika Mik</span><span>Ship Spec: Fighter</span></div>
+	</div>
+</div>
+																																<div class="ShowroomItem"
+	 data-index="34"
+	 data-tag-title="Spaceships"
+	 data-tag-slug="spaceships"	 data-title="Pearce X6"
+	 data-description="&lt;p&gt;Pearce&#039;s fixed-wing X6 provides a surprising amount of comfortable living space aboard a compact and highly agile fighter patrol ship. A supremely capable combat vessel with an extended atmoglass canopy provides a conspicuous piloting advantage as well as a way to soak in the beauty of the cosmos. Packed with best-in-class weaponry, generous onboard storage and a default brig configuration makes this combat and capture vessel a no-brainer for the security minded starfarer.&lt;/p&gt;
+"
+	 data-info-length="2"
+	 data-thumbnail-width="24"
+	 data-thumbnail-height="24"
+			data-info0="Ship Spec: Fighter"
+			data-info1="Ship Rarity: Rare"
+		 data-cta-length="1"
+			data-cta-primary-text0="Buy Pearce X6 Now"
+		data-cta-secondary-text0=""
+		data-cta-url0="https://play.staratlas.com/market/5iYpFwUxYj4wgBTZsz6RpCaVFCSy7NfPa3LmSUDKQpqs"
+		data-cta-product-id0=""
+				data-media-type="image"
+		data-media="//images.ctfassets.net/2kg7h835bpe1/3JRbtNzhVPIFf5atRmmXC8/f7cd30aeb1e6bde06b6779fcaf9a3876/x6_Visual_1v4.jpg?q=85"
+		data-media-width="3840"
+		data-media-height="2160"
+	>
+	<div class="ShowroomInner" style="padding-bottom: 56.25%">
+		<picture>
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/3JRbtNzhVPIFf5atRmmXC8/f7cd30aeb1e6bde06b6779fcaf9a3876/x6_Visual_1v4.jpg?w=1500&amp;h=1500&amp;fm=webp&amp;q=85&amp;q=85" type="image/webp">
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/3JRbtNzhVPIFf5atRmmXC8/f7cd30aeb1e6bde06b6779fcaf9a3876/x6_Visual_1v4.jpg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" type="image/jpg">
+			<img data-src="//images.ctfassets.net/2kg7h835bpe1/3JRbtNzhVPIFf5atRmmXC8/f7cd30aeb1e6bde06b6779fcaf9a3876/x6_Visual_1v4.jpg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" class="lazyload">
+		</picture>
+	</div>
+	<div class="ShowroomHoverButton">
+		<div class="ShowroomHoverButton-outer"></div>
+		<div class="ShowroomHoverButton-inner"><img src="//images.ctfassets.net/2kg7h835bpe1/2E2NcYl3hicrtDyZ7dpk93/5452e9affd683e5e84fffb98c343a2da/spaceships.svg?" /></div>
+		<div class="ShowroomHoverButton-line"></div>
+		<div class="ShowroomHoverButton-lineDot"></div>
+		<div class="ShowroomHoverButton-label"><span>Pearce X6</span><span>Ship Spec: Fighter</span></div>
+	</div>
+</div>
+																																<div class="ShowroomItem"
+	 data-index="35"
+	 data-tag-title="Spaceships"
+	 data-tag-slug="spaceships"	 data-title="VZUS Opod"
+	 data-description="&lt;p&gt;The VZUS opod is a stealthy, data validation vessel with robust living quarters and well-rounded starship amenities. Highly robust scanning radars, antennae, surveillence equipment and packed with explorer drones make this ship a favorite for small deep space explorer crews looking to trade in information with rare and valuable data.&lt;/p&gt;
+"
+	 data-info-length="2"
+	 data-thumbnail-width="24"
+	 data-thumbnail-height="24"
+			data-info0="Ship Spec: Data runner"
+			data-info1="Ship Rarity: Rare"
+		 data-cta-length="1"
+			data-cta-primary-text0="Buy VZUS Opod Now"
+		data-cta-secondary-text0=""
+		data-cta-url0="https://play.staratlas.com/market/AT1AoPoFU8WZkW8AnpQsSpUDaRyymvLPvG7k2kGZSwZr"
+		data-cta-product-id0=""
+				data-media-type="image"
+		data-media="//images.ctfassets.net/2kg7h835bpe1/6wSlhr1DXwr4AmNzzlKDsj/3f613f2c906e51d8698f46321f264eeb/VZUS_Opod_WIP_2.png?"
+		data-media-width="4000"
+		data-media-height="2048"
+	>
+	<div class="ShowroomInner" style="padding-bottom: 51.2%">
+		<picture>
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/6wSlhr1DXwr4AmNzzlKDsj/3f613f2c906e51d8698f46321f264eeb/VZUS_Opod_WIP_2.png?w=1500&amp;h=1500&amp;fm=webp&amp;q=85" type="image/webp">
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/6wSlhr1DXwr4AmNzzlKDsj/3f613f2c906e51d8698f46321f264eeb/VZUS_Opod_WIP_2.png?w=1500&amp;h=1500&amp;fm=jpg" type="image/jpg">
+			<img data-src="//images.ctfassets.net/2kg7h835bpe1/6wSlhr1DXwr4AmNzzlKDsj/3f613f2c906e51d8698f46321f264eeb/VZUS_Opod_WIP_2.png?w=1500&amp;h=1500&amp;fm=jpg" class="lazyload">
+		</picture>
+	</div>
+	<div class="ShowroomHoverButton">
+		<div class="ShowroomHoverButton-outer"></div>
+		<div class="ShowroomHoverButton-inner"><img src="//images.ctfassets.net/2kg7h835bpe1/2E2NcYl3hicrtDyZ7dpk93/5452e9affd683e5e84fffb98c343a2da/spaceships.svg?" /></div>
+		<div class="ShowroomHoverButton-line"></div>
+		<div class="ShowroomHoverButton-lineDot"></div>
+		<div class="ShowroomHoverButton-label"><span>VZUS Opod</span><span>Ship Spec: Data runner</span></div>
+	</div>
+</div>
+																																<div class="ShowroomItem"
+	 data-index="36"
+	 data-tag-title="Spaceships"
+	 data-tag-slug="spaceships"	 data-title="Fimbul BYOS Packlite"
+	 data-description="&lt;p&gt;BYOS stands for Build Your Own Ship. Fimbul offers a full do-it-yourself package for the starship mechanic who likes to get their hands dirty. We do not guarantee all parts have survived their space trek to your doorstep but our handy guide will help you find a suitable replacement at a nearby scrapyard. Once assembled, your Packlite provides cozy and sufficient amenities for the space dweller who is resillient to life on the open slowave sea. A robust cargo hold can extend beyond its walls to take on those extra chunky hauls that pay the big bucks. If you need any extra room, reinforced mycellium bungies will ensure you use every last inch of cargo space. For the frugal cargo freighter, the Packlite is your dream boat.&lt;/p&gt;
+"
+	 data-info-length="2"
+	 data-thumbnail-width="24"
+	 data-thumbnail-height="24"
+			data-info0="Ship Spec: Freight"
+			data-info1="Ship Rarity: Rare"
+		 data-cta-length="1"
+			data-cta-primary-text0="Buy Fimbul BYOS Packlite Now"
+		data-cta-secondary-text0=""
+		data-cta-url0="https://play.staratlas.com/market/BeqGJwPnRb3fJwhSrfhzgUYKqegUtGtvXajTYzEpgGYr"
+		data-cta-product-id0=""
+				data-media-type="image"
+		data-media="//images.ctfassets.net/2kg7h835bpe1/6fgPEh5OegLPRGO3rlMMsg/fa847f72d4527853d00cb0dcf423cadd/Fimbul_BYOS_Packlite_Marketplace_Thumbnail.jpeg?q=85"
+		data-media-width="3218"
+		data-media-height="1678"
+	>
+	<div class="ShowroomInner" style="padding-bottom: 52.144188937228%">
+		<picture>
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/6fgPEh5OegLPRGO3rlMMsg/fa847f72d4527853d00cb0dcf423cadd/Fimbul_BYOS_Packlite_Marketplace_Thumbnail.jpeg?w=1500&amp;h=1500&amp;fm=webp&amp;q=85&amp;q=85" type="image/webp">
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/6fgPEh5OegLPRGO3rlMMsg/fa847f72d4527853d00cb0dcf423cadd/Fimbul_BYOS_Packlite_Marketplace_Thumbnail.jpeg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" type="image/jpg">
+			<img data-src="//images.ctfassets.net/2kg7h835bpe1/6fgPEh5OegLPRGO3rlMMsg/fa847f72d4527853d00cb0dcf423cadd/Fimbul_BYOS_Packlite_Marketplace_Thumbnail.jpeg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" class="lazyload">
+		</picture>
+	</div>
+	<div class="ShowroomHoverButton">
+		<div class="ShowroomHoverButton-outer"></div>
+		<div class="ShowroomHoverButton-inner"><img src="//images.ctfassets.net/2kg7h835bpe1/2E2NcYl3hicrtDyZ7dpk93/5452e9affd683e5e84fffb98c343a2da/spaceships.svg?" /></div>
+		<div class="ShowroomHoverButton-line"></div>
+		<div class="ShowroomHoverButton-lineDot"></div>
+		<div class="ShowroomHoverButton-label"><span>Fimbul BYOS Packlite</span><span>Ship Spec: Freight</span></div>
+	</div>
+</div>
+																																<div class="ShowroomItem"
+	 data-index="37"
+	 data-tag-title="Spaceships"
+	 data-tag-slug="spaceships"	 data-title="Fimbul BYOS Earp"
+	 data-description="&lt;p&gt;True to Fimbul BYOS form, the Earp sheds all grace and dignity for raw, specialized power and functionality. This combat ready ship is tuned to manage oversized cannons and engines to allow for a beefy damage rate in a uniquely quick flight style. Dogfighting against one of these puppies is not recommended if your goal is to keep your head intact with your neck. Onboard accommodations are sure to conjure fond memories of time spent in solitary confinement. Pilots of the Earp know space can be dark, cold and unforgiving and only those with the hide of a jupran ox can endure her chronic punishment.&lt;/p&gt;
+"
+	 data-info-length="2"
+	 data-thumbnail-width="24"
+	 data-thumbnail-height="24"
+			data-info0="Ship Spec: Fighter"
+			data-info1="Ship Rarity: Epic"
+		 data-cta-length="1"
+			data-cta-primary-text0="Buy Fimbul BYOS Earp Now"
+		data-cta-secondary-text0=""
+		data-cta-url0="https://play.staratlas.com/market/HKBan7kpLyRHvMHwHSgMneGBhev9EUHZRp8NbWEi7tA6"
+		data-cta-product-id0=""
+				data-media-type="image"
+		data-media="//images.ctfassets.net/2kg7h835bpe1/1WN4r9M7q8oDY01QP5ftib/cbde6478ea9323267ee9ca7746502426/Day_2_01.jpg?q=85"
+		data-media-width="3500"
+		data-media-height="1900"
+	>
+	<div class="ShowroomInner" style="padding-bottom: 54.285714285714%">
+		<picture>
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/1WN4r9M7q8oDY01QP5ftib/cbde6478ea9323267ee9ca7746502426/Day_2_01.jpg?w=1500&amp;h=1500&amp;fm=webp&amp;q=85&amp;q=85" type="image/webp">
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/1WN4r9M7q8oDY01QP5ftib/cbde6478ea9323267ee9ca7746502426/Day_2_01.jpg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" type="image/jpg">
+			<img data-src="//images.ctfassets.net/2kg7h835bpe1/1WN4r9M7q8oDY01QP5ftib/cbde6478ea9323267ee9ca7746502426/Day_2_01.jpg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" class="lazyload">
+		</picture>
+	</div>
+	<div class="ShowroomHoverButton">
+		<div class="ShowroomHoverButton-outer"></div>
+		<div class="ShowroomHoverButton-inner"><img src="//images.ctfassets.net/2kg7h835bpe1/2E2NcYl3hicrtDyZ7dpk93/5452e9affd683e5e84fffb98c343a2da/spaceships.svg?" /></div>
+		<div class="ShowroomHoverButton-line"></div>
+		<div class="ShowroomHoverButton-lineDot"></div>
+		<div class="ShowroomHoverButton-label"><span>Fimbul BYOS Earp</span><span>Ship Spec: Fighter</span></div>
+	</div>
+</div>
+																																<div class="ShowroomItem"
+	 data-index="38"
+	 data-tag-title="Spaceships"
+	 data-tag-slug="spaceships"	 data-title="Fimbul ECOS Greenader"
+	 data-description="&lt;p&gt;Fimbul is a supplier of exotic spacecraft that fits a need no other manufacturer can deliver on. Their ECOS line of ships holds the namesake of the righteous environmental faction known as the Earth Conscious Ontological Society. The Greenader is fueled through sustainable byproducts of biodynamic agricultural harvests. In an undying quest to propagate the only true biome of humankind, ECOS bomber ships give might to the cause with highly destructive low orbit space bombs that rain down destruction on any well defended industrial sprawl. Once these structures are terrorized, the bomb&#039;s aftermath releases terraforming compounds to restore to nature what was lost through the greedy pursuit of mineral riches.&lt;/p&gt;
+"
+	 data-info-length="2"
+	 data-thumbnail-width="24"
+	 data-thumbnail-height="24"
+			data-info0="Ship Spec: Bomber"
+			data-info1="Ship Rarity: Epic"
+		 data-cta-length="1"
+			data-cta-primary-text0="Buy Fimbul ECOS Greenader Now"
+		data-cta-secondary-text0=""
+		data-cta-url0="https://play.staratlas.com/market/9VvHp11hiCPQT2GMMVvmyWPTEzJ1Ey3kqAGA5VsxQwjB"
+		data-cta-product-id0=""
+				data-media-type="image"
+		data-media="//images.ctfassets.net/2kg7h835bpe1/19JgmR6SvI69Vt7ShL6epF/7c2138eeaeb4b0272ba903be698dfb09/Greenader_N2_copy.jpg?q=85"
+		data-media-width="3840"
+		data-media-height="1600"
+	>
+	<div class="ShowroomInner" style="padding-bottom: 41.666666666667%">
+		<picture>
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/19JgmR6SvI69Vt7ShL6epF/7c2138eeaeb4b0272ba903be698dfb09/Greenader_N2_copy.jpg?w=1500&amp;h=1500&amp;fm=webp&amp;q=85&amp;q=85" type="image/webp">
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/19JgmR6SvI69Vt7ShL6epF/7c2138eeaeb4b0272ba903be698dfb09/Greenader_N2_copy.jpg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" type="image/jpg">
+			<img data-src="//images.ctfassets.net/2kg7h835bpe1/19JgmR6SvI69Vt7ShL6epF/7c2138eeaeb4b0272ba903be698dfb09/Greenader_N2_copy.jpg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" class="lazyload">
+		</picture>
+	</div>
+	<div class="ShowroomHoverButton">
+		<div class="ShowroomHoverButton-outer"></div>
+		<div class="ShowroomHoverButton-inner"><img src="//images.ctfassets.net/2kg7h835bpe1/2E2NcYl3hicrtDyZ7dpk93/5452e9affd683e5e84fffb98c343a2da/spaceships.svg?" /></div>
+		<div class="ShowroomHoverButton-line"></div>
+		<div class="ShowroomHoverButton-lineDot"></div>
+		<div class="ShowroomHoverButton-label"><span>Fimbul ECOS Greenader</span><span>Ship Spec: Bomber</span></div>
+	</div>
+</div>
+																																<div class="ShowroomItem"
+	 data-index="39"
+	 data-tag-title="Spaceships"
+	 data-tag-slug="spaceships"	 data-title="Rainbow Om"
+	 data-description="&lt;p&gt;Rainbow Om is the masterpiece starship that emerges when the best human and photoli designers collaborate to achieve perfection. This comfortable, flexi-role ship is an enigma of space travel that will ensure you arrive in style after effortlessly covering half the distance of our known sector.&lt;/p&gt;
+"
+	 data-info-length="2"
+	 data-thumbnail-width="24"
+	 data-thumbnail-height="24"
+			data-info0="Ship Spec: Freight"
+			data-info1="Ship Rarity: Epic"
+		 data-cta-length="1"
+			data-cta-primary-text0="Buy Rainbow Om Now"
+		data-cta-secondary-text0=""
+		data-cta-url0="https://play.staratlas.com/market/8HgYiWUyQDfsK7ofXJD9Jw4a9t6GundiD8TWwdGbWEaH"
+		data-cta-product-id0=""
+				data-media-type="image"
+		data-media="//images.ctfassets.net/2kg7h835bpe1/2KMrpR0njydp021j2S3kOA/1c826a0f3e02e2c970b4d1c7ab57f17f/R1.jpg?q=85"
+		data-media-width="4000"
+		data-media-height="2250"
+	>
+	<div class="ShowroomInner" style="padding-bottom: 56.25%">
+		<picture>
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/2KMrpR0njydp021j2S3kOA/1c826a0f3e02e2c970b4d1c7ab57f17f/R1.jpg?w=1500&amp;h=1500&amp;fm=webp&amp;q=85&amp;q=85" type="image/webp">
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/2KMrpR0njydp021j2S3kOA/1c826a0f3e02e2c970b4d1c7ab57f17f/R1.jpg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" type="image/jpg">
+			<img data-src="//images.ctfassets.net/2kg7h835bpe1/2KMrpR0njydp021j2S3kOA/1c826a0f3e02e2c970b4d1c7ab57f17f/R1.jpg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" class="lazyload">
+		</picture>
+	</div>
+	<div class="ShowroomHoverButton">
+		<div class="ShowroomHoverButton-outer"></div>
+		<div class="ShowroomHoverButton-inner"><img src="//images.ctfassets.net/2kg7h835bpe1/2E2NcYl3hicrtDyZ7dpk93/5452e9affd683e5e84fffb98c343a2da/spaceships.svg?" /></div>
+		<div class="ShowroomHoverButton-line"></div>
+		<div class="ShowroomHoverButton-lineDot"></div>
+		<div class="ShowroomHoverButton-label"><span>Rainbow Om</span><span>Ship Spec: Freight</span></div>
+	</div>
+</div>
+																																<div class="ShowroomItem"
+	 data-index="40"
+	 data-tag-title="Spaceships"
+	 data-tag-slug="spaceships"	 data-title="Tufa Feist"
+	 data-description="&lt;p&gt;The metagenic stone beings comprise the Tufa faction and when one of them take the shape of this small fighter ship they identify as a Feist. No longer can one feel safe casually navigating an asteroid field because lurking in plain sight is a potential ambush vehicle collecting its raw power for a brutal sneak attack. Living, sentient rock formations combine discarded mining tech into a powerful, blitz-styled combat platform with local stone material shifting camouflage abilities. Despite the exotic blend of industrial technologies with breathing non-organics, the Tufa Feist is a surprisingly comfortable vessel to take on many challenges in an variety of deep space adventures.&lt;/p&gt;
+"
+	 data-info-length="2"
+	 data-thumbnail-width="24"
+	 data-thumbnail-height="24"
+			data-info0="Ship Spec: Fighter"
+			data-info1="Ship Rarity: Epic"
+		 data-cta-length="1"
+			data-cta-primary-text0="Buy Tufa Feist Now"
+		data-cta-secondary-text0=""
+		data-cta-url0="https://play.staratlas.com/market/FifgJPRZdsX8LwME3XnNavhCcDLm1LxdynFrffyXiYxA"
+		data-cta-product-id0=""
+				data-media-type="image"
+		data-media="//images.ctfassets.net/2kg7h835bpe1/6bEOhAx9gbckC4eN2TJDZh/cf3e547dd89ca710c00e7e6b919608e9/SA-AsteroidShip-Illustration-AttackFin-02.jpg?q=85"
+		data-media-width="3500"
+		data-media-height="1594"
+	>
+	<div class="ShowroomInner" style="padding-bottom: 45.542857142857%">
+		<picture>
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/6bEOhAx9gbckC4eN2TJDZh/cf3e547dd89ca710c00e7e6b919608e9/SA-AsteroidShip-Illustration-AttackFin-02.jpg?w=1500&amp;h=1500&amp;fm=webp&amp;q=85&amp;q=85" type="image/webp">
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/6bEOhAx9gbckC4eN2TJDZh/cf3e547dd89ca710c00e7e6b919608e9/SA-AsteroidShip-Illustration-AttackFin-02.jpg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" type="image/jpg">
+			<img data-src="//images.ctfassets.net/2kg7h835bpe1/6bEOhAx9gbckC4eN2TJDZh/cf3e547dd89ca710c00e7e6b919608e9/SA-AsteroidShip-Illustration-AttackFin-02.jpg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" class="lazyload">
+		</picture>
+	</div>
+	<div class="ShowroomHoverButton">
+		<div class="ShowroomHoverButton-outer"></div>
+		<div class="ShowroomHoverButton-inner"><img src="//images.ctfassets.net/2kg7h835bpe1/2E2NcYl3hicrtDyZ7dpk93/5452e9affd683e5e84fffb98c343a2da/spaceships.svg?" /></div>
+		<div class="ShowroomHoverButton-line"></div>
+		<div class="ShowroomHoverButton-lineDot"></div>
+		<div class="ShowroomHoverButton-label"><span>Tufa Feist</span><span>Ship Spec: Fighter</span></div>
+	</div>
+</div>
+																																<div class="ShowroomItem"
+	 data-index="41"
+	 data-tag-title="Spaceships"
+	 data-tag-slug="spaceships"	 data-title="Rainbow Chi"
+	 data-description="&lt;p&gt;The enigmatic Rainbow Chi is a slippery fighter ship with integrated photoli derived shape-shifting technology. This revolutionary tech allows for the repurposing of charged mass into an array of functional optimizations. Hierarchical morphing hull systems create a platform that can fully power weapon groupings or instantly shift charges to amplify distributed hullshock dispersal. This flexible vehicle architecture boasts near perfect, constant equilibrium while fiercely turning the tides in any spaceborne threat.&lt;/p&gt;
+"
+	 data-info-length="2"
+	 data-thumbnail-width="24"
+	 data-thumbnail-height="24"
+			data-info0="Ship Spec: Fighter"
+			data-info1="Ship Rarity: Epic"
+		 data-cta-length="1"
+			data-cta-primary-text0="Buy Rainbow Chi Now"
+		data-cta-secondary-text0=""
+		data-cta-url0="https://play.staratlas.com/market/8fheYiTj9byWQ2BWiwkdyv7RDZC1aQ4HCLfEG8eYEL7o"
+		data-cta-product-id0=""
+				data-media-type="image"
+		data-media="//images.ctfassets.net/2kg7h835bpe1/5CuRKfkou8QQqWJQlBfEsD/9d7b60d5b82a55df531a20b728aab1ad/Ship2_Keyframe2_v01_v03.jpg?q=85"
+		data-media-width="4000"
+		data-media-height="2100"
+	>
+	<div class="ShowroomInner" style="padding-bottom: 52.5%">
+		<picture>
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/5CuRKfkou8QQqWJQlBfEsD/9d7b60d5b82a55df531a20b728aab1ad/Ship2_Keyframe2_v01_v03.jpg?w=1500&amp;h=1500&amp;fm=webp&amp;q=85&amp;q=85" type="image/webp">
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/5CuRKfkou8QQqWJQlBfEsD/9d7b60d5b82a55df531a20b728aab1ad/Ship2_Keyframe2_v01_v03.jpg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" type="image/jpg">
+			<img data-src="//images.ctfassets.net/2kg7h835bpe1/5CuRKfkou8QQqWJQlBfEsD/9d7b60d5b82a55df531a20b728aab1ad/Ship2_Keyframe2_v01_v03.jpg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" class="lazyload">
+		</picture>
+	</div>
+	<div class="ShowroomHoverButton">
+		<div class="ShowroomHoverButton-outer"></div>
+		<div class="ShowroomHoverButton-inner"><img src="//images.ctfassets.net/2kg7h835bpe1/2E2NcYl3hicrtDyZ7dpk93/5452e9affd683e5e84fffb98c343a2da/spaceships.svg?" /></div>
+		<div class="ShowroomHoverButton-line"></div>
+		<div class="ShowroomHoverButton-lineDot"></div>
+		<div class="ShowroomHoverButton-label"><span>Rainbow Chi</span><span>Ship Spec: Fighter</span></div>
+	</div>
+</div>
+																																<div class="ShowroomItem"
+	 data-index="42"
+	 data-tag-title="Spaceships"
+	 data-tag-slug="spaceships"	 data-title="Pearce R8"
+	 data-description="&lt;p&gt;The Pearce R8 is a mechanical innovation combining two major ship functions into one. The R8 contains a large cargo hold to store scrap metal for performing open space repairs. It also contains two additional fuel modules which serve as refueling cannisters for all ships. These refueling cannisters can also be jettisoned directly into the Pearce C9 for a rapid refueling service. The command deck rotates 180 degrees to enable the onboard command crew to focus on refueling duties or turn around and activate the repair arms. All accommodations are onboard this ship for long escort missions or for exploring into the unknown and being prepared for many types of support missions that may appear on radar.&lt;/p&gt;
+"
+	 data-info-length="2"
+	 data-thumbnail-width="24"
+	 data-thumbnail-height="24"
+			data-info0="Ship Spec: Refuel/repair"
+			data-info1="Ship Rarity: Epic"
+		 data-cta-length="1"
+			data-cta-primary-text0="Buy Pearce R8 Now"
+		data-cta-secondary-text0=""
+		data-cta-url0="https://play.staratlas.com/market/4nSVznRaTiQrX4rhVY5KnUC8HPNZh85RsaTbLQZznBMs"
+		data-cta-product-id0=""
+				data-media-type="image"
+		data-media="//images.ctfassets.net/2kg7h835bpe1/1d9VKE42wWHzimUXqHv6au/d724c3cca5265551ab4481fcef0d9f4e/PR8.jpg?q=85"
+		data-media-width="3600"
+		data-media-height="2250"
+	>
+	<div class="ShowroomInner" style="padding-bottom: 62.5%">
+		<picture>
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/1d9VKE42wWHzimUXqHv6au/d724c3cca5265551ab4481fcef0d9f4e/PR8.jpg?w=1500&amp;h=1500&amp;fm=webp&amp;q=85&amp;q=85" type="image/webp">
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/1d9VKE42wWHzimUXqHv6au/d724c3cca5265551ab4481fcef0d9f4e/PR8.jpg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" type="image/jpg">
+			<img data-src="//images.ctfassets.net/2kg7h835bpe1/1d9VKE42wWHzimUXqHv6au/d724c3cca5265551ab4481fcef0d9f4e/PR8.jpg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" class="lazyload">
+		</picture>
+	</div>
+	<div class="ShowroomHoverButton">
+		<div class="ShowroomHoverButton-outer"></div>
+		<div class="ShowroomHoverButton-inner"><img src="//images.ctfassets.net/2kg7h835bpe1/2E2NcYl3hicrtDyZ7dpk93/5452e9affd683e5e84fffb98c343a2da/spaceships.svg?" /></div>
+		<div class="ShowroomHoverButton-line"></div>
+		<div class="ShowroomHoverButton-lineDot"></div>
+		<div class="ShowroomHoverButton-label"><span>Pearce R8</span><span>Ship Spec: Refuel/repair</span></div>
+	</div>
+</div>
+																																<div class="ShowroomItem"
+	 data-index="43"
+	 data-tag-title="Spaceships"
+	 data-tag-slug="spaceships"	 data-title="Fimbul ECOS Unibomba"
+	 data-description="&lt;p&gt;The unmistakable Fimbul ECOS Unibomba sports a hefty and quickly reloadable bomb bay large enough to house exactly one oversized terrabomb. This single seater allows one brave soul to surgically deliver death from above with the focused devotion towards generating new life and spreading mother nature’s born-again beauty.&lt;/p&gt;
+"
+	 data-info-length="2"
+	 data-thumbnail-width="24"
+	 data-thumbnail-height="24"
+			data-info0="Ship Spec: Bomber"
+			data-info1="Ship Rarity: Epic"
+		 data-cta-length="1"
+			data-cta-primary-text0="Buy Fimbul ECOS Unibomba Now"
+		data-cta-secondary-text0=""
+		data-cta-url0="https://play.staratlas.com/market/3obvzbhuUWfBWKU4hxsCZKuTqm7tQXToRCTxtL2uyppY"
+		data-cta-product-id0=""
+				data-media-type="image"
+		data-media="//images.ctfassets.net/2kg7h835bpe1/1Gwv5ZCArTTtyQo5ul2G68/e96439bae04abcd69aecdfbfc7e2978b/fimbul_eco_bike_keyart_3_copy.jpg?q=85"
+		data-media-width="4000"
+		data-media-height="2250"
+	>
+	<div class="ShowroomInner" style="padding-bottom: 56.25%">
+		<picture>
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/1Gwv5ZCArTTtyQo5ul2G68/e96439bae04abcd69aecdfbfc7e2978b/fimbul_eco_bike_keyart_3_copy.jpg?w=1500&amp;h=1500&amp;fm=webp&amp;q=85&amp;q=85" type="image/webp">
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/1Gwv5ZCArTTtyQo5ul2G68/e96439bae04abcd69aecdfbfc7e2978b/fimbul_eco_bike_keyart_3_copy.jpg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" type="image/jpg">
+			<img data-src="//images.ctfassets.net/2kg7h835bpe1/1Gwv5ZCArTTtyQo5ul2G68/e96439bae04abcd69aecdfbfc7e2978b/fimbul_eco_bike_keyart_3_copy.jpg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" class="lazyload">
+		</picture>
+	</div>
+	<div class="ShowroomHoverButton">
+		<div class="ShowroomHoverButton-outer"></div>
+		<div class="ShowroomHoverButton-inner"><img src="//images.ctfassets.net/2kg7h835bpe1/2E2NcYl3hicrtDyZ7dpk93/5452e9affd683e5e84fffb98c343a2da/spaceships.svg?" /></div>
+		<div class="ShowroomHoverButton-line"></div>
+		<div class="ShowroomHoverButton-lineDot"></div>
+		<div class="ShowroomHoverButton-label"><span>Fimbul ECOS Unibomba</span><span>Ship Spec: Bomber</span></div>
+	</div>
+</div>
+																																<div class="ShowroomItem"
+	 data-index="44"
+	 data-tag-title="Spaceships"
+	 data-tag-slug="spaceships"	 data-title="Rainbow Arc"
+	 data-description="&lt;p&gt;The Rainbow Arc embodies the highest attainable manufacturing practices to the known Star Atlas metaverse. Utilizing Photoli light levitation, the paneling of the Arc allows for facile transportation of cargo and personnel movements, ship chassis integrity and active defensive hull security. A generous cargo hold makes for economically effective freighting while the crew quarters accommodate luxurious and tranquil long haul creature comforts.&lt;/p&gt;
+"
+	 data-info-length="2"
+	 data-thumbnail-width="24"
+	 data-thumbnail-height="24"
+			data-info0="Ship Spec: Freight"
+			data-info1="Ship Rarity: Epic"
+		 data-cta-length="1"
+			data-cta-primary-text0="Buy Rainbow Arc Now"
+		data-cta-secondary-text0=""
+		data-cta-url0="https://play.staratlas.com/market/287f9V8JReL3bXhQsM6CPb5C5ARcxCMLygLajN9iUsMZ"
+		data-cta-product-id0=""
+				data-media-type="image"
+		data-media="//images.ctfassets.net/2kg7h835bpe1/5F9Xrxwczpn8DiHynbOonH/7f39e14642eda0cfce92e3867c2ce2bb/Ship3_Arc_Exterior03_v05.jpg?q=85"
+		data-media-width="4000"
+		data-media-height="2250"
+	>
+	<div class="ShowroomInner" style="padding-bottom: 56.25%">
+		<picture>
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/5F9Xrxwczpn8DiHynbOonH/7f39e14642eda0cfce92e3867c2ce2bb/Ship3_Arc_Exterior03_v05.jpg?w=1500&amp;h=1500&amp;fm=webp&amp;q=85&amp;q=85" type="image/webp">
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/5F9Xrxwczpn8DiHynbOonH/7f39e14642eda0cfce92e3867c2ce2bb/Ship3_Arc_Exterior03_v05.jpg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" type="image/jpg">
+			<img data-src="//images.ctfassets.net/2kg7h835bpe1/5F9Xrxwczpn8DiHynbOonH/7f39e14642eda0cfce92e3867c2ce2bb/Ship3_Arc_Exterior03_v05.jpg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" class="lazyload">
+		</picture>
+	</div>
+	<div class="ShowroomHoverButton">
+		<div class="ShowroomHoverButton-outer"></div>
+		<div class="ShowroomHoverButton-inner"><img src="//images.ctfassets.net/2kg7h835bpe1/2E2NcYl3hicrtDyZ7dpk93/5452e9affd683e5e84fffb98c343a2da/spaceships.svg?" /></div>
+		<div class="ShowroomHoverButton-line"></div>
+		<div class="ShowroomHoverButton-lineDot"></div>
+		<div class="ShowroomHoverButton-label"><span>Rainbow Arc</span><span>Ship Spec: Freight</span></div>
+	</div>
+</div>
+																																<div class="ShowroomItem"
+	 data-index="45"
+	 data-tag-title="Spaceships"
+	 data-tag-slug="spaceships"	 data-title="Ogrika Thripid"
+	 data-description="&lt;p&gt;The Ogrika Thripid is a testment to glorious super luxury Punaab culture while demonstrating powerful and brutal strength. This large and heavy fighter also has a powerful rudder thruster for unusually quick maneuverability for a ship this size. The massive forward facing cannons are positioned to obliterate any enemy on the business end of the Thripid. On top of being an arsenal powerhouse, the interior provides a very comfortable and equally luxury accomodations. The Captain of a ship of this magnitude can utilize the weaponry to establish a very safe escort environment while enjoying the lush amenities for long distance space travel with a huge boost to peace of mind.&lt;/p&gt;
+"
+	 data-info-length="2"
+	 data-thumbnail-width="24"
+	 data-thumbnail-height="24"
+			data-info0="Ship Spec: Fighter"
+			data-info1="Ship Rarity: Legendary"
+		 data-cta-length="1"
+			data-cta-primary-text0="Buy Ogrika Thripid Now"
+		data-cta-secondary-text0=""
+		data-cta-url0="https://play.staratlas.com/market/2qU6MtkBS4NQhzx7FQyxS7qfsjU3ZdbLVyUFjea3KBV2"
+		data-cta-product-id0=""
+				data-media-type="image"
+		data-media="//images.ctfassets.net/2kg7h835bpe1/6GPCEkiIdyp94XHF5fGRRD/eacc1683365713f6f581ecc01140641f/Ogrika_Thripid_Marketplace_Thumbnail.jpg?q=85"
+		data-media-width="3840"
+		data-media-height="2092"
+	>
+	<div class="ShowroomInner" style="padding-bottom: 54.479166666667%">
+		<picture>
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/6GPCEkiIdyp94XHF5fGRRD/eacc1683365713f6f581ecc01140641f/Ogrika_Thripid_Marketplace_Thumbnail.jpg?w=1500&amp;h=1500&amp;fm=webp&amp;q=85&amp;q=85" type="image/webp">
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/6GPCEkiIdyp94XHF5fGRRD/eacc1683365713f6f581ecc01140641f/Ogrika_Thripid_Marketplace_Thumbnail.jpg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" type="image/jpg">
+			<img data-src="//images.ctfassets.net/2kg7h835bpe1/6GPCEkiIdyp94XHF5fGRRD/eacc1683365713f6f581ecc01140641f/Ogrika_Thripid_Marketplace_Thumbnail.jpg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" class="lazyload">
+		</picture>
+	</div>
+	<div class="ShowroomHoverButton">
+		<div class="ShowroomHoverButton-outer"></div>
+		<div class="ShowroomHoverButton-inner"><img src="//images.ctfassets.net/2kg7h835bpe1/2E2NcYl3hicrtDyZ7dpk93/5452e9affd683e5e84fffb98c343a2da/spaceships.svg?" /></div>
+		<div class="ShowroomHoverButton-line"></div>
+		<div class="ShowroomHoverButton-lineDot"></div>
+		<div class="ShowroomHoverButton-label"><span>Ogrika Thripid</span><span>Ship Spec: Fighter</span></div>
+	</div>
+</div>
+																																<div class="ShowroomItem"
+	 data-index="46"
+	 data-tag-title="Spaceships"
+	 data-tag-slug="spaceships"	 data-title="Calico Guardian"
+	 data-description="&lt;p&gt;Calico&#039;s flagship multi-role, exploration vessel, the Guardian, is a marvel of modern spaceship technology. Clean, sporty and full of utility, this capital ship can be the home of an extra large crew destined to comb the furthest reaches of the known and unknown sectors of our galactic neighborhood. All imaginable creature comforts and sustainable bio practices onboard this ship put the crew of any Guardian at ease as they explore for new life and new biomes. Packed with two extra large chambers of explorer drones and dual cartography navigation rooms, the Guardian also doubles as the space charting headquarters for any and all exploration or data validation fleets. Comes standard with a double decker theater for keeping the crew entertained with the latest the metaverse has to offer in live, hyperlive and streaming entertainment. Stacked with massive turret cannons for heavy defense, if you had to choose only one ship to get you through your entire space life and career, you cannot possibly go wrong with the Calico Guardian.&lt;/p&gt;
+"
+	 data-info-length="2"
+	 data-thumbnail-width="24"
+	 data-thumbnail-height="24"
+			data-info0="Ship Spec: Multi-role"
+			data-info1="Ship Rarity: Legendary"
+		 data-cta-length="1"
+			data-cta-primary-text0="Buy Calico Guardian Now"
+		data-cta-secondary-text0=""
+		data-cta-url0="https://play.staratlas.com/market/4TpCAobnJfGFRbZ8gAppS9aZBwEGG1k9tRVmx6FPUvUp"
+		data-cta-product-id0=""
+				data-media-type="image"
+		data-media="//images.ctfassets.net/2kg7h835bpe1/6HLTL3DdhhHSwrp6MNJBSh/d6307043b24ac7035de8cc6ddd3b3c33/Calico_Guardian_Marketplace_Thumbnail.jpg?q=85"
+		data-media-width="3840"
+		data-media-height="1600"
+	>
+	<div class="ShowroomInner" style="padding-bottom: 41.666666666667%">
+		<picture>
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/6HLTL3DdhhHSwrp6MNJBSh/d6307043b24ac7035de8cc6ddd3b3c33/Calico_Guardian_Marketplace_Thumbnail.jpg?w=1500&amp;h=1500&amp;fm=webp&amp;q=85&amp;q=85" type="image/webp">
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/6HLTL3DdhhHSwrp6MNJBSh/d6307043b24ac7035de8cc6ddd3b3c33/Calico_Guardian_Marketplace_Thumbnail.jpg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" type="image/jpg">
+			<img data-src="//images.ctfassets.net/2kg7h835bpe1/6HLTL3DdhhHSwrp6MNJBSh/d6307043b24ac7035de8cc6ddd3b3c33/Calico_Guardian_Marketplace_Thumbnail.jpg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" class="lazyload">
+		</picture>
+	</div>
+	<div class="ShowroomHoverButton">
+		<div class="ShowroomHoverButton-outer"></div>
+		<div class="ShowroomHoverButton-inner"><img src="//images.ctfassets.net/2kg7h835bpe1/2E2NcYl3hicrtDyZ7dpk93/5452e9affd683e5e84fffb98c343a2da/spaceships.svg?" /></div>
+		<div class="ShowroomHoverButton-line"></div>
+		<div class="ShowroomHoverButton-lineDot"></div>
+		<div class="ShowroomHoverButton-label"><span>Calico Guardian</span><span>Ship Spec: Multi-role</span></div>
+	</div>
+</div>
+																																<div class="ShowroomItem"
+	 data-index="47"
+	 data-tag-title="Spaceships"
+	 data-tag-slug="spaceships"	 data-title="Pearce C9"
+	 data-description="&lt;p&gt;The original crowning glory of Pearce manufactured battleships, the C9 capital carrier comes stock fitted with commander sized weaponry and best in class hull plating. The capital drone port houses a team of Pearce Hulltank attack drones. A generous sized top deck and adjacent hangar bay allows an effective sized fleet of varying sized ships for tactical deployment, cargo and vehicle transport and maintenance. An oversized command deck creates the best tactical viewpoint and strike team for any security focused Captain and crew. A ship or fleet out in deep space will measure twice and think again before engaging the C9 and the crew can rest or work safely knowing the power they wield at the helm of this highly equipped space platform.&lt;/p&gt;
+"
+	 data-info-length="2"
+	 data-thumbnail-width="24"
+	 data-thumbnail-height="24"
+			data-info0="Ship Spec: Fighter"
+			data-info1="Ship Rarity: Legendary"
+		 data-cta-length="1"
+			data-cta-primary-text0="Buy Pearce C9 Now"
+		data-cta-secondary-text0=""
+		data-cta-url0="https://play.staratlas.com/market/6SriSyRDGm8tS7f3njPeFEqSu88MsfFjSBzjMdodenqU"
+		data-cta-product-id0=""
+				data-media-type="image"
+		data-media="//images.ctfassets.net/2kg7h835bpe1/34in2ZwkctFh8aIYrk8Egm/a40b6dc4053ef3f4f5608a5da1f7711c/PC9.jpg?q=85"
+		data-media-width="3600"
+		data-media-height="1482"
+	>
+	<div class="ShowroomInner" style="padding-bottom: 41.166666666667%">
+		<picture>
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/34in2ZwkctFh8aIYrk8Egm/a40b6dc4053ef3f4f5608a5da1f7711c/PC9.jpg?w=1500&amp;h=1500&amp;fm=webp&amp;q=85&amp;q=85" type="image/webp">
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/34in2ZwkctFh8aIYrk8Egm/a40b6dc4053ef3f4f5608a5da1f7711c/PC9.jpg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" type="image/jpg">
+			<img data-src="//images.ctfassets.net/2kg7h835bpe1/34in2ZwkctFh8aIYrk8Egm/a40b6dc4053ef3f4f5608a5da1f7711c/PC9.jpg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" class="lazyload">
+		</picture>
+	</div>
+	<div class="ShowroomHoverButton">
+		<div class="ShowroomHoverButton-outer"></div>
+		<div class="ShowroomHoverButton-inner"><img src="//images.ctfassets.net/2kg7h835bpe1/2E2NcYl3hicrtDyZ7dpk93/5452e9affd683e5e84fffb98c343a2da/spaceships.svg?" /></div>
+		<div class="ShowroomHoverButton-line"></div>
+		<div class="ShowroomHoverButton-lineDot"></div>
+		<div class="ShowroomHoverButton-label"><span>Pearce C9</span><span>Ship Spec: Fighter</span></div>
+	</div>
+</div>
+																																<div class="ShowroomItem"
+	 data-index="48"
+	 data-tag-title="Spaceships"
+	 data-tag-slug="spaceships"	 data-title="Pearce C11"
+	 data-description="&lt;p&gt;The Pearce C11 is the most significant fleet carrier vessel to come from the MUD Territory. The C11&#039;s hull is riddled with hangar bays and studded with turret weapon arrays providing a platform to house and protect an entire fleet of ships all the way up to capital sized docking mechanics. Attempting to approach this ship with hostility is a well documented fatal error and that fact is common knowledge for any Jorvik roving band of pirates. Often doubling as organization headquarters, the C11 provides every imaginable onboard accommodations to equip and sustain an entire fleet of ships and a broad roster of crew members.&lt;/p&gt;
+"
+	 data-info-length="2"
+	 data-thumbnail-width="24"
+	 data-thumbnail-height="24"
+			data-info0="Ship Spec: Fighter"
+			data-info1="Ship Rarity: Legendary"
+		 data-cta-length="1"
+			data-cta-primary-text0="Buy Pearce C11 Now"
+		data-cta-secondary-text0=""
+		data-cta-url0="https://play.staratlas.com/market/AGeUtKq71xhttwu1PS7uZ7pwXhKXAUFFwiVzYvkzoYaF"
+		data-cta-product-id0=""
+				data-media-type="image"
+		data-media="//images.ctfassets.net/2kg7h835bpe1/3wVQRXva89H2cHBFoYjU6o/5f6fc3f3aacdf5915fa718e16adf5041/Commander_1_store.jpg?q=85"
+		data-media-width="3600"
+		data-media-height="1482"
+	>
+	<div class="ShowroomInner" style="padding-bottom: 41.166666666667%">
+		<picture>
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/3wVQRXva89H2cHBFoYjU6o/5f6fc3f3aacdf5915fa718e16adf5041/Commander_1_store.jpg?w=1500&amp;h=1500&amp;fm=webp&amp;q=85&amp;q=85" type="image/webp">
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/3wVQRXva89H2cHBFoYjU6o/5f6fc3f3aacdf5915fa718e16adf5041/Commander_1_store.jpg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" type="image/jpg">
+			<img data-src="//images.ctfassets.net/2kg7h835bpe1/3wVQRXva89H2cHBFoYjU6o/5f6fc3f3aacdf5915fa718e16adf5041/Commander_1_store.jpg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" class="lazyload">
+		</picture>
+	</div>
+	<div class="ShowroomHoverButton">
+		<div class="ShowroomHoverButton-outer"></div>
+		<div class="ShowroomHoverButton-inner"><img src="//images.ctfassets.net/2kg7h835bpe1/2E2NcYl3hicrtDyZ7dpk93/5452e9affd683e5e84fffb98c343a2da/spaceships.svg?" /></div>
+		<div class="ShowroomHoverButton-line"></div>
+		<div class="ShowroomHoverButton-lineDot"></div>
+		<div class="ShowroomHoverButton-label"><span>Pearce C11</span><span>Ship Spec: Fighter</span></div>
+	</div>
+</div>
+																																<div class="ShowroomItem"
+	 data-index="49"
+	 data-tag-title="Spaceships"
+	 data-tag-slug="spaceships"	 data-title="Ogrika Jod Asteris"
+	 data-description="&lt;p&gt;The Ogrika Jod Asteris is a capital class transport vessel representing the ultimate in punaab ultra-luxury accommodations. With an onboard capital sized theater for live events, multiple cafes, lounge areas and a generous sized observatory deck, this cruise ship is the finest way to tour the stars. Experience astronomical opulence only attainable through the inimitable signature of the viciously wealthy punaab ship manufacturers.&lt;/p&gt;
+"
+	 data-info-length="2"
+	 data-thumbnail-width="24"
+	 data-thumbnail-height="24"
+			data-info0="Ship Spec: Transport"
+			data-info1="Ship Rarity: Legendary"
+		 data-cta-length="1"
+			data-cta-primary-text0="Buy Ogrika Jod Asteris Now"
+		data-cta-secondary-text0=""
+		data-cta-url0="https://play.staratlas.com/market/Ak9fBVwFpm7yit7G8LLcCSXxc7fMXymyJBoH1p9uK28b"
+		data-cta-product-id0=""
+				data-media-type="image"
+		data-media="//images.ctfassets.net/2kg7h835bpe1/4Hf4mkdwLKaeKEolk9KORU/ec23735ce94db6699358254318a59f0f/3_3.jpg?q=85"
+		data-media-width="3940"
+		data-media-height="2167"
+	>
+	<div class="ShowroomInner" style="padding-bottom: 55%">
+		<picture>
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/4Hf4mkdwLKaeKEolk9KORU/ec23735ce94db6699358254318a59f0f/3_3.jpg?w=1500&amp;h=1500&amp;fm=webp&amp;q=85&amp;q=85" type="image/webp">
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/4Hf4mkdwLKaeKEolk9KORU/ec23735ce94db6699358254318a59f0f/3_3.jpg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" type="image/jpg">
+			<img data-src="//images.ctfassets.net/2kg7h835bpe1/4Hf4mkdwLKaeKEolk9KORU/ec23735ce94db6699358254318a59f0f/3_3.jpg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" class="lazyload">
+		</picture>
+	</div>
+	<div class="ShowroomHoverButton">
+		<div class="ShowroomHoverButton-outer"></div>
+		<div class="ShowroomHoverButton-inner"><img src="//images.ctfassets.net/2kg7h835bpe1/2E2NcYl3hicrtDyZ7dpk93/5452e9affd683e5e84fffb98c343a2da/spaceships.svg?" /></div>
+		<div class="ShowroomHoverButton-line"></div>
+		<div class="ShowroomHoverButton-lineDot"></div>
+		<div class="ShowroomHoverButton-label"><span>Ogrika Jod Asteris</span><span>Ship Spec: Transport</span></div>
+	</div>
+</div>
+																																<div class="ShowroomItem"
+	 data-index="50"
+	 data-tag-title="Spaceships"
+	 data-tag-slug="spaceships"	 data-title="Fimbul ECOS Bombarella"
+	 data-description="&lt;p&gt;The Fimbul ECOS Bombarella is a massive, capital-sized bombardment system housed in a holistic and empathetic space vessel. With an emphasis on unusually thick hull plating, oversized bomb bays, highly comfortable and meditative living facilities, the Bombarella commits swift justice to the violators of the natural worlds while providing one of the most satisfying ways to experience life on the open vacuum of black space. Peace and love through dismantlement and rebirth.&lt;/p&gt;
+"
+	 data-info-length="2"
+	 data-thumbnail-width="24"
+	 data-thumbnail-height="24"
+			data-info0="Ship Spec: Bomber"
+			data-info1="Ship Rarity: Legendary"
+		 data-cta-length="1"
+			data-cta-primary-text0="Buy Fimbul ECOS Bombarella Now"
+		data-cta-secondary-text0=""
+		data-cta-url0="https://play.staratlas.com/market/YdzJfjiors9HXFwSedNkcFKXKvTyDFH951TPaU5G7jt"
+		data-cta-product-id0=""
+				data-media-type="image"
+		data-media="//images.ctfassets.net/2kg7h835bpe1/f8zAm6YicsFoFQP7rxv9h/8d0d101b66e2746bbf34dc62c3fe3a29/1MlA3E1IwxKK5A-kQNdm.jpeg?q=85"
+		data-media-width="4000"
+		data-media-height="2100"
+	>
+	<div class="ShowroomInner" style="padding-bottom: 52.5%">
+		<picture>
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/f8zAm6YicsFoFQP7rxv9h/8d0d101b66e2746bbf34dc62c3fe3a29/1MlA3E1IwxKK5A-kQNdm.jpeg?w=1500&amp;h=1500&amp;fm=webp&amp;q=85&amp;q=85" type="image/webp">
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/f8zAm6YicsFoFQP7rxv9h/8d0d101b66e2746bbf34dc62c3fe3a29/1MlA3E1IwxKK5A-kQNdm.jpeg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" type="image/jpg">
+			<img data-src="//images.ctfassets.net/2kg7h835bpe1/f8zAm6YicsFoFQP7rxv9h/8d0d101b66e2746bbf34dc62c3fe3a29/1MlA3E1IwxKK5A-kQNdm.jpeg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" class="lazyload">
+		</picture>
+	</div>
+	<div class="ShowroomHoverButton">
+		<div class="ShowroomHoverButton-outer"></div>
+		<div class="ShowroomHoverButton-inner"><img src="//images.ctfassets.net/2kg7h835bpe1/2E2NcYl3hicrtDyZ7dpk93/5452e9affd683e5e84fffb98c343a2da/spaceships.svg?" /></div>
+		<div class="ShowroomHoverButton-line"></div>
+		<div class="ShowroomHoverButton-lineDot"></div>
+		<div class="ShowroomHoverButton-label"><span>Fimbul ECOS Bombarella</span><span>Ship Spec: Bomber</span></div>
+	</div>
+</div>
+																																<div class="ShowroomItem"
+	 data-index="51"
+	 data-tag-title="Spaceships"
+	 data-tag-slug="spaceships"	 data-title="Fimbul ECOS Treearrow"
+	 data-description="&lt;p&gt;The Fimbul ECOS Treearrow takes a slice out of pre-MUDian earth era biomes and creates a portable living vessel welcoming to all of humankind. All peoples who feel stranded and abandoned by the traumatizing break humanity experienced when they loosened themselves from Mother Earth&#039;s nurturing embrace can find a grounding home aboard the ECOS Treearrow. Equipped for terrifying planetary destruction, discovering this ship in your atmosphere is rarely ever a good omen. Unless, of course, it is above Earth Prime, the new home of the ECOS ideologues who terraformed a distant planet to match humanity&#039;s one true biome and where you can find these ships being built with delicate care.&lt;/p&gt;
+"
+	 data-info-length="2"
+	 data-thumbnail-width="24"
+	 data-thumbnail-height="24"
+			data-info0="Ship Spec: Bomber"
+			data-info1="Ship Rarity: Anomaly"
+		 data-cta-length="1"
+			data-cta-primary-text0="Buy Fimbul ECOS Treearrow Now"
+		data-cta-secondary-text0=""
+		data-cta-url0="https://play.staratlas.com/market/6aBN4oTuiVdCtUYtwrMKDwLfuJNXPJ4wH5t6Dq77wukN"
+		data-cta-product-id0=""
+				data-media-type="image"
+		data-media="//images.ctfassets.net/2kg7h835bpe1/6wGUX5sRxvjtfg2zt8IdNA/ff9ba09a91b453079e63577f7996760e/commander_keyart_1_1_copy.jpg?q=85"
+		data-media-width="4000"
+		data-media-height="2100"
+	>
+	<div class="ShowroomInner" style="padding-bottom: 52.5%">
+		<picture>
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/6wGUX5sRxvjtfg2zt8IdNA/ff9ba09a91b453079e63577f7996760e/commander_keyart_1_1_copy.jpg?w=1500&amp;h=1500&amp;fm=webp&amp;q=85&amp;q=85" type="image/webp">
+			<source data-srcset="//images.ctfassets.net/2kg7h835bpe1/6wGUX5sRxvjtfg2zt8IdNA/ff9ba09a91b453079e63577f7996760e/commander_keyart_1_1_copy.jpg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" type="image/jpg">
+			<img data-src="//images.ctfassets.net/2kg7h835bpe1/6wGUX5sRxvjtfg2zt8IdNA/ff9ba09a91b453079e63577f7996760e/commander_keyart_1_1_copy.jpg?w=1500&amp;h=1500&amp;fm=jpg&amp;q=85" class="lazyload">
+		</picture>
+	</div>
+	<div class="ShowroomHoverButton">
+		<div class="ShowroomHoverButton-outer"></div>
+		<div class="ShowroomHoverButton-inner"><img src="//images.ctfassets.net/2kg7h835bpe1/2E2NcYl3hicrtDyZ7dpk93/5452e9affd683e5e84fffb98c343a2da/spaceships.svg?" /></div>
+		<div class="ShowroomHoverButton-line"></div>
+		<div class="ShowroomHoverButton-lineDot"></div>
+		<div class="ShowroomHoverButton-label"><span>Fimbul ECOS Treearrow</span><span>Ship Spec: Bomber</span></div>
+	</div>
+</div>
+															</div>
+			</div>
+		</div>
+	</div>
+	<div class="Showroom-scrollIndicator">
+		<div class="Showroom-Diamond"></div>
+		<div class="Showroom-scrollIndicator-lineBG"></div>
+		<div class="Showroom-scrollIndicator-line"></div>
+		<div class="Showroom-Diamond"></div>
+	</div>
+	<div class="ScrollHelpIndicator">
+		<svg class="TouchScroll" viewBox="0 0 126 135" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M33 20L18 5 3 20M51 83l1.825-72.983A7.197 7.197 0 0160.02 3v0c3.889 0 7.075 3.09 7.194 6.977L69 68.299M69 68.3V47.5a9 9 0 019-9v0a9 9 0 019 9v20.8M87 68.3V53a9 9 0 019-9v0a9 9 0 019 9v15.3" stroke="#000" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><path d="M105 68.3v-9.8a9 9 0 019-9v0a9 9 0 019 9v33c0 22.091-17.909 40-40 40h-1.822a41.82 41.82 0 01-34.62-18.36L21.58 76.284a7.921 7.921 0 01.821-9.906v0a7.921 7.921 0 0111.337-.139L51 83.5" stroke="#000" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><path stroke="#000" stroke-width="6" stroke-linecap="round" d="M18 10v33"/></svg>
+		<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+			<g fill="none" fill-rule="evenodd">
+				<g stroke="#FA3B02">
+					<path d="M24.187 29.177l-4.243-4.243-4.242 4.243 4.242 4.242z" />
+					<path opacity=".2" d="M24.187 34.177l-4.243-4.243-4.242 4.243 4.242 4.242z" />
+				</g>
+				<path fill="#FA3B02" d="M20.45 25V13h-1v12z" />
+				<path fill="#FA3B02" d="M1 12.817h38v1H1z" />
+				<path
+					d="M3.369 7.753c.895 0 1.534-.154 1.92-.462.384-.308.577-.8.577-1.474v-.253c0-.55-.117-.967-.352-1.249-.235-.282-.642-.486-1.221-.61l-1.53-.341c-.292-.074-.483-.156-.571-.248-.088-.092-.132-.247-.132-.467v-.231c0-.33.08-.552.242-.666.161-.114.495-.17 1-.17h.067c.499 0 .829.056.99.17.161.114.242.336.242.666v.286c0 .066.037.099.11.099h1c.067 0 .1-.033.1-.1v-.285c0-.675-.189-1.166-.567-1.474C4.867.636 4.242.482 3.37.482h-.066c-.873 0-1.5.154-1.881.462-.381.308-.572.799-.572 1.474v.23c0 .521.115.915.346 1.183.231.268.637.468 1.216.6l1.518.34c.286.067.478.155.577.265.1.11.149.286.149.528v.253c0 .33-.084.551-.253.665-.169.114-.513.17-1.034.17h-.066c-.528 0-.876-.056-1.045-.17-.169-.114-.253-.335-.253-.665V5.53c0-.066-.033-.1-.1-.1h-1c-.073 0-.11.034-.11.1v.286c0 .674.192 1.166.577 1.474.385.308 1.029.462 1.93.462h.067zm6.934 0c.939 0 1.599-.154 1.98-.462.381-.308.572-.807.572-1.496V5.42c0-.066-.033-.1-.1-.1h-1c-.073 0-.11.034-.11.1v.374c0 .337-.086.564-.259.682-.172.117-.533.176-1.083.176h-.066c-.543 0-.904-.059-1.084-.176-.18-.118-.27-.345-.27-.682V2.44c0-.338.09-.565.27-.682.18-.118.541-.176 1.084-.176h.066c.55 0 .911.058 1.083.176.173.117.259.344.259.682v.374c0 .066.037.099.11.099h1c.067 0 .1-.033.1-.1V2.44c0-.69-.19-1.188-.572-1.496-.381-.308-1.041-.462-1.98-.462h-.066c-.931 0-1.591.154-1.98.462-.389.308-.583.806-.583 1.496v3.355c0 .689.194 1.188.583 1.496.389.308 1.049.462 1.98.462h.066zm5.636-.088c.066 0 .099-.033.099-.1V5.18h1.144l1.22 2.409c.03.051.074.077.133.077h1.155c.059 0 .088-.026.088-.077l-.022-.055-1.31-2.431c.837-.184 1.255-.796 1.255-1.837v-.781c0-.66-.161-1.144-.484-1.452-.323-.308-.832-.462-1.53-.462h-2.75c-.072 0-.11.033-.11.099v6.897c0 .066.038.099.11.099h1.002zm1.463-3.586h-1.364v-2.41h1.364c.47 0 .768.052.896.155.129.102.193.322.193.66v.78c0 .338-.064.558-.193.66-.128.103-.427.155-.896.155zm6.89 3.674c.968 0 1.648-.154 2.04-.462.393-.308.589-.807.589-1.496V2.44c0-.69-.196-1.188-.589-1.496-.392-.308-1.072-.462-2.04-.462h-.066c-.968 0-1.65.154-2.046.462-.396.308-.594.806-.594 1.496v3.355c0 .689.198 1.188.594 1.496.396.308 1.078.462 2.046.462h.066zm0-1.1h-.066c-.587 0-.972-.059-1.155-.176-.183-.118-.275-.345-.275-.682V2.44c0-.338.092-.565.275-.682.183-.118.568-.176 1.155-.176h.066c.58 0 .96.058 1.144.176.183.117.275.344.275.682v3.355c0 .337-.092.564-.275.682-.183.117-.565.176-1.144.176zm8.804 1.012c.073 0 .11-.033.11-.1v-.901c0-.066-.037-.1-.11-.1h-2.772V.67c0-.066-.033-.1-.1-.1h-1c-.073 0-.11.034-.11.1v6.897c0 .066.037.099.11.099h3.872zm5.889 0c.073 0 .11-.033.11-.1v-.901c0-.066-.037-.1-.11-.1h-2.772V.67c0-.066-.033-.1-.1-.1h-1c-.073 0-.11.034-.11.1v6.897c0 .066.037.099.11.099h3.872z"
+					fill="#362526" fill-rule="nonzero" />
+			</g>
+		</svg>
+	</div>
+	<div class="ShowroomPopIn-Background-overlay">
+	<picture>
+		<source data-srcset="/assets/images/menu_background_colored_ring.webp" type="image/webp">
+		<source data-srcset="/assets/images/menu_background_colored_ring.png" type="image/png">
+		<img data-src="/assets/images/menu_background_colored_ring.webp" class="lazyload">
+	</picture>
+</div>
+<div class="ShowroomPopIn">
+	<div class="PopInContent">
+		<div class="ItemAbout">
+			<p class="ItemTitle"></p>
+			<div class="ItemDescription">
+			</div>
+			<div class="ItemInfos">
+			</div>
+			<div class="ItemCtas">
+			</div>
+		</div>
+		<div class="ItemMedia">
+			<div class="MediaWrapper">
+				<div class="SketchFabEmbed"></div>
+				<div class="ImageEmbed">
+					<div class="imageContainer">
+						<div class="imageInner"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="closeLayerButton">
+		<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 8.5 8.5" style="enable-background:new 0 0 8.5 8.5;" xml:space="preserve">
+<style type="text/css">
+	.stCross{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+</style>
+<g id="MOBILE">
+	<g id="M-102.05-IMAGE-POPIN" transform="translate(-319.000000, -135.000000)">
+		<g id="CLOSE" transform="translate(295.000000, 111.000000)">
+				<g id="Group" transform="translate(32.000000, 32.000000) rotate(-45.000000) translate(-32.000000, -32.000000) translate(27.000000, 27.000000)">
+					<rect id="Rectangle" x="4" y="-5.3" transform="matrix(-1 2.535182e-06 -2.535182e-06 -1 10 -0.6274)" class="stCross" width="2" height="10"/>
+					<rect id="Rectangle-Copy" x="0" y="-1.3" transform="matrix(-1 2.535182e-06 -2.535182e-06 -1 10 -0.6274)" class="stCross" width="10" height="2"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>
+
+	</div>
+</div>
+	<div class="ScrollSpacer"></div>
+</div>
+
+		
+
+		
+	</div>
+	</div>
+
+	<div class="CookieBar">
+	<div class="wrapper">
+		<div class="cta">
+			<p>
+				We use cookies to enhance your experience and analyze our site usage.
+				Please see our <a href='/privacy-policy' target='_blank'>Privacy Policy</a>
+				for more information.
+			</p>
+		</div>
+		<div>
+			<a href="#" class="ButtonCta arrowed allowCookies">
+				<span class="title">Accept Cookies</span>
+				<span class="arrow"></span>
+			</a>
+		</div>
+	</div>
+
+	<button class="CookieBar-close"><?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 8.5 8.5" style="enable-background:new 0 0 8.5 8.5;" xml:space="preserve">
+<style type="text/css">
+	.stCross{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+</style>
+<g id="MOBILE">
+	<g id="M-102.05-IMAGE-POPIN" transform="translate(-319.000000, -135.000000)">
+		<g id="CLOSE" transform="translate(295.000000, 111.000000)">
+				<g id="Group" transform="translate(32.000000, 32.000000) rotate(-45.000000) translate(-32.000000, -32.000000) translate(27.000000, 27.000000)">
+					<rect id="Rectangle" x="4" y="-5.3" transform="matrix(-1 2.535182e-06 -2.535182e-06 -1 10 -0.6274)" class="stCross" width="2" height="10"/>
+					<rect id="Rectangle-Copy" x="0" y="-1.3" transform="matrix(-1 2.535182e-06 -2.535182e-06 -1 10 -0.6274)" class="stCross" width="10" height="2"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>
+</button>
+</div>
+
+</div>
+<script src="https://www.google.com/recaptcha/api.js?render=6Lf1g-kkAAAAAHFJ4bC4IZvgGxgENNETylIZuhwt"></script>
+<script type="module" src="/build/js/main-87a7d61f16.js" crossorigin></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-45GKDW0P4G"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-45GKDW0P4G', { client_storage: 'none', 'anonymize_ip': true });
+</script>
+
+<!-- Facebook Pixel Code -->
+<script>
+	!function(f,b,e,v,n,t,s)
+	{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+		n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+		if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+		n.queue=[];t=b.createElement(e);t.async=!0;
+		t.src=v;s=b.getElementsByTagName(e)[0];
+		s.parentNode.insertBefore(t,s)}(window,document,'script',
+		'https://connect.facebook.net/en_US/fbevents.js');
+	fbq('init', '981266265778161');
+	fbq('track', 'PageView');
+	window.fb = fbq;
+</script>
+<noscript>
+	<img height="1" width="1"
+		 src="https://www.facebook.com/tr?id=981266265778161&ev=PageView
+&noscript=1"/>
+</noscript>
+<!-- End Facebook Pixel Code -->
+
+<!-- Start of HubSpot Embed Code -->
+<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/20489070.js"></script>
+<!-- End of HubSpot Embed Code -->
+</body>
+</html>
