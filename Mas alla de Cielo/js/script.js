@@ -4,7 +4,7 @@ import { OrbitControls } from './orbitcontrols.js';
 
 //Escena y camara
 const scene = new THREE.Scene();
-const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 2000);
 
 //Render
 const renderer = new THREE.WebGLRenderer();
@@ -22,7 +22,7 @@ scene.add(pointLight);
 
 //------------------SISTEMA SOLAR-----------------
 
-//esfera (sol)
+//-----------------------------SOL---------------------------
 const sunTexture = new THREE.TextureLoader().load('img/map-Sun.jpg')
 const sun = new THREE.Mesh(
     new THREE.SphereGeometry(5, 64, 64),
@@ -32,7 +32,7 @@ const sun = new THREE.Mesh(
 );
 scene.add(sun);
 
-//esfera(earth)
+//------------------------------Earth-------------------------------
 const earthTexture = new THREE.TextureLoader().load('img/map-Earth.jpg')
 const earth = new THREE.Mesh(
     new THREE.SphereGeometry(1, 64, 64),
@@ -43,7 +43,16 @@ const earth = new THREE.Mesh(
 earth.position.set(13, 0, 0);
 scene.add(earth);
 
-//mercurio
+//orbita Earth
+const orbGeoEarth = new THREE.RingGeometry(12.97, 13, 128);
+const orbitMaterial = new THREE.LineBasicMaterial({color: 0x00ccff});
+const orbitEarth = new THREE.Line(orbGeoEarth, orbitMaterial);
+
+orbitEarth.rotateX(1.5708);
+orbitEarth.material.side = THREE.DoubleSide;
+scene.add(orbitEarth);
+
+//-------------------------------mercurio------------------------
 const mercuryTexture = new THREE.TextureLoader().load('img/map-Mercury.jpg')
 const mercury = new THREE.Mesh(
     new THREE.SphereGeometry(0.4, 32, 32),
@@ -54,7 +63,16 @@ const mercury = new THREE.Mesh(
 mercury.position.set(-8, 0, 0);
 scene.add(mercury);
 
-//Venus
+//orbita Mercury
+const orbGeoMerc = new THREE.RingGeometry(7.97, 8, 128);
+const orbMatMerc = new THREE.LineBasicMaterial({color: 0xffffff});
+const orbitMercury = new THREE.Line(orbGeoMerc, orbMatMerc);
+
+orbitMercury.rotateX(1.5708);
+orbitMercury.material.side = THREE.DoubleSide;
+scene.add(orbitMercury);
+
+//-------------------------------Venus--------------------------
 const venusTexture = new THREE.TextureLoader().load('img/map-Venus.jpg')
 const venus = new THREE.Mesh(
     new THREE.SphereGeometry(0.94, 64, 64),
@@ -65,7 +83,16 @@ const venus = new THREE.Mesh(
 venus.position.set(0, 0, -10.5);
 scene.add(venus);
 
-//Marte
+//orbita Venus
+const orbGeoVen = new THREE.RingGeometry(10.47, 10.5, 128);
+const orbMatVen = new THREE.LineBasicMaterial({color: 0xfffc00});
+const orbitVenus = new THREE.Line(orbGeoVen, orbMatVen);
+
+orbitVenus.rotateX(1.5708);
+orbitVenus.material.side = THREE.DoubleSide;
+scene.add(orbitVenus);
+
+//-------------------------------Marte-----------------------------
 const marteTexture = new THREE.TextureLoader().load('img/map-Marte.jpg')
 const marte = new THREE.Mesh(
     new THREE.SphereGeometry(0.68, 32, 32),
@@ -73,10 +100,19 @@ const marte = new THREE.Mesh(
         map: venusTexture,
     })
 );
-marte.position.set(5, 0, 14);
+marte.position.set(0, 0, 15);
 scene.add(marte);
 
-//Jupiter
+//orbita Marte
+const orbGeoMar = new THREE.RingGeometry(14.97, 15, 128);
+const orbMatMar = new THREE.LineBasicMaterial({color: 0xff0000});
+const orbitMarte = new THREE.Line(orbGeoMar, orbMatMar);
+
+orbitMarte.rotateX(1.5708);
+orbitMarte.material.side = THREE.DoubleSide;
+scene.add(orbitMarte);
+
+//--------------------------Jupiter----------------------------
 const jupiterTexture = new THREE.TextureLoader().load('img/map-Jupiter.jpg')
 const jupiter = new THREE.Mesh(
     new THREE.SphereGeometry(2.2, 64, 64),
@@ -84,10 +120,19 @@ const jupiter = new THREE.Mesh(
         map: jupiterTexture,
     })
 );
-jupiter.position.set(5, 0, 26);
+jupiter.position.set(0, 0, 27);
 scene.add(jupiter);
 
-//Saturno
+//orbita Jupiter
+const orbGeoJup = new THREE.RingGeometry(26.97, 27, 128);
+const orbMatJup = new THREE.LineBasicMaterial({color: 0xeefe22});
+const orbitJupiter = new THREE.Line(orbGeoJup, orbMatJup);
+
+orbitJupiter.rotateX(1.5708);
+orbitJupiter.material.side = THREE.DoubleSide;
+scene.add(orbitJupiter);
+
+//------------------------Saturno-----------------------
 const saturnoTexture = new THREE.TextureLoader().load('img/map-Saturno.jpg')
 const saturno = new THREE.Mesh(
     new THREE.SphereGeometry(1.8, 64, 64),
@@ -95,7 +140,7 @@ const saturno = new THREE.Mesh(
         map: saturnoTexture,
     })
 );
-saturno.position.set(-5, 0, -30);
+saturno.position.set(0, 0, -35);
 scene.add(saturno);
 
 //Anillo
@@ -107,20 +152,21 @@ const anillo = new THREE.Mesh(
     })
 );
 anillo.material.side = THREE.DoubleSide;
-anillo.position.set(-5, 0, -30);
+anillo.position.set(0, 0, -35);
 anillo.rotateX(90);
 
 scene.add(anillo);
 
-//const geometriaAnillo = new THREE.RingGeometry(3, 2.2);
-//const textureAnillo = new THREE.MeshBasicMaterial();
-//const anillosaturno = new THREE.Mesh(geometriaAnillo, textureAnillo);
+//orbita Saturno
+const orbGeoSat = new THREE.RingGeometry(34.97, 35, 128);
+const orbMatSat = new THREE.LineBasicMaterial({color: 0xddddff});
+const orbitSaturno = new THREE.Line(orbGeoSat, orbMatSat);
 
-//scene.add(anillosaturno);
-//anillosaturno.position.set(-5, 0, -30)
-//anillosaturno.rotate(90)
+orbitSaturno.rotateX(1.5708);
+orbitSaturno.material.side = THREE.DoubleSide;
+scene.add(orbitSaturno);
 
-//Urano
+//-------------------------------Urano--------------------------------
 const uranoTexture = new THREE.TextureLoader().load('img/map-Urano.jpg')
 const urano = new THREE.Mesh(
     new THREE.SphereGeometry(1.4, 64, 64),
@@ -128,10 +174,19 @@ const urano = new THREE.Mesh(
         map: uranoTexture,
     })
 );
-urano.position.set(40, 0, 5);
+urano.position.set(45, 0, 0);
 scene.add(urano);
 
-//Neptuno
+//orbita Urano
+const orbGeoUra = new THREE.RingGeometry(44.97, 45, 128);
+const orbMatUra = new THREE.LineBasicMaterial({color: 0xaabdff});
+const orbitUrano = new THREE.Line(orbGeoUra, orbMatUra);
+
+orbitUrano.rotateX(1.5708);
+orbitUrano.material.side = THREE.DoubleSide;
+scene.add(orbitUrano);
+
+//--------------------------------Neptuno----------------------------------
 const neptunoTexture = new THREE.TextureLoader().load('img/map-neptuno.jpg')
 const neptuno = new THREE.Mesh(
     new THREE.SphereGeometry(1.4, 64, 64),
@@ -139,37 +194,48 @@ const neptuno = new THREE.Mesh(
         map: neptunoTexture,
     })
 );
-neptuno.position.set(-10, 0, 50);
+neptuno.position.set(0, 0, 60);
 scene.add(neptuno);
 
-//nebulosa
-const nebuTexture = new THREE.TextureLoader().load('img/map-Earth.jpg')
-const nebulosa = new THREE.Mesh(
-    new THREE.PlaneGeometry(4,6),
-    new THREE.MeshStandardMaterial( {
-        map: nebuTexture,
-    })
-);
-nebulosa.position.set(-750, 0, 800);
-scene.add(nebulosa);
+//orbita Neptuno
+const orbGeoNep = new THREE.RingGeometry(59.97, 60, 128);
+const orbMatNep = new THREE.LineBasicMaterial({color: 0xabdfff});
+const orbitNeptuno = new THREE.Line(orbGeoNep, orbMatNep);
+
+orbitNeptuno.rotateX(1.5708);
+orbitNeptuno.material.side = THREE.DoubleSide;
+scene.add(orbitNeptuno);
+
+//---------------------------------nebulosa----------------------------
+const textureLoader = new THREE.TextureLoader();
+const nebuTexture = textureLoader.load('img/nebulosa.jpeg');
+const nebuMaterial = new THREE.SpriteMaterial({ map: nebuTexture});
+
+const nebulaSprite = new THREE.Sprite(nebuMaterial);
+
+//nebulaSprite.material.side = THREE.DoubleSide;
+nebulaSprite.scale.set(500, 300,);
+nebulaSprite.position.set(1600, 600, -50);
+scene.add(nebulaSprite);
 
 //grilla
-const grid = new THREE.GridHelper(200,200);
+const grid = new THREE.GridHelper(100,200);
 //scene.add(grid);
 
-//Controles Orbitales
+//--------------------------Controles Orbitales-------------------
 const controls = new OrbitControls(camera, renderer.domElement);
 controls.minDistance = 1;
-controls.maxDistance = 800;
+controls.maxDistance = 5000;
 
-camera.position.z = 20;
+camera.position.set (0, 20, 120);
 
+//---------------------------Functions-----------------------------
 function addStar() {
-    const stargeometry = new THREE.SphereGeometry(0.05, 4, 4);
+    const stargeometry = new THREE.SphereGeometry(0.1, 4, 4);
     const starmaterial = new THREE.MeshBasicMaterial(0xffffff);
-    const star = new THREE.Mesh (stargeometry, starmaterial);
+    const star = new THREE.Mesh(stargeometry, starmaterial);
 
-    const [x, y, z] = Array(3).fill().map(() => THREE.MathUtils.randFloatSpread (-1000/2, 2000/2));
+    const [x, y, z] = Array(3).fill().map(() => THREE.MathUtils.randFloatSpread (4000));
 
     star.position.set(x, y, z);
     scene.add(star);
