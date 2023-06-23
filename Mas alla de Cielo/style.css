@@ -62,17 +62,20 @@ nav{
     background-size: cover;
     background-position: center;
     outline-style: bolder;
+    transition: 0.8s;
 }
 .nav-toggle_visible{
     background-image: url(img/logo-cerrar-menu.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    transition: 0.8s;
+
 }
 .nav-menu{
     position: absolute;
     height: 100vh;
-    width: 25%;
+    width: 35%;
     background-color: rgba(77, 77, 77, 0.33);
     top: 0;
     left: 100%;
@@ -82,7 +85,7 @@ nav{
     transition: 0.8s;
 }
 .nav-menu_visible{
-    left: 75%;
+    left: 65%;
     transition: 0.8s;
 }
 .nav-menu ul{
@@ -107,3 +110,11 @@ nav{
     transition: 0.3s;
 }
 
+@media (max-width: 570px) {
+    .nav-menu{
+        width: 100%;
+    }
+    .nav-menu_visible{
+        left: 0%;
+    }
+}
