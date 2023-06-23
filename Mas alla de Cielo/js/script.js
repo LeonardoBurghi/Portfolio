@@ -320,6 +320,16 @@ function galaxyVisibility() {
 
 //-----------------------------------------------
 
+window.addEventListener("resize", redimensionar);
+
+function redimensionar(){
+    camera.aspect = window.innerWidth / window.innerHeight;
+    camera.updateProjectionMatrix()
+    renderer.setSize(window.innerWidth, window.innerHeight);
+    renderer.render(scene, camera);
+}
+
+
 function animate() {
     requestAnimationFrame( animate );
     mercury.rotation.y += 0.01
@@ -349,3 +359,64 @@ navToggle.addEventListener("click", () => {
     navMenu.classList.toggle("nav-menu_visible");
     navToggle.classList.toggle("nav-toggle_visible");
 })
+
+//_______________________________Interactividad_____________________
+
+// Asigna un identificador único al planeta
+const planetId = 'urano';
+
+// Agrega un detector de clics al lienzo (canvas)
+canvas.addEventListener('click', onClick);
+
+// Función de manejo del evento de clic
+function onClick(event) {
+  // Obtiene la posición normalizada del clic del ratón
+  const mouse = new THREE.Vector2();
+  mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
+  mouse.y = -(event.clientY / window.innerHeight) * 2 + 1;
+
+  // Realiza un raycast para determinar qué objeto ha sido clicado
+  const raycaster = new THREE.Raycaster();
+  raycaster.setFromCamera(mouse, camera);
+
+  const intersects = raycaster.intersectObjects(scene.children, true);
+
+  // Verifica si el planeta ha sido clicado
+  const planetClicked = intersects.find((intersect) => intersect.object.userData.id === planetId);
+
+  // Si el planeta ha sido clicado, muestra la ventana emergente
+  if (planetClicked) {
+    const planetInfo = getPlanetInfo(planetId); // Obtén la información del planeta
+
+    // Crea una ventana emergente con la información del planeta
+    const popup = document.createElement('div');
+    popup.classList.add('popup');
+    popup.innerHTML = `
+      <h2>${planetInfo.name}</h2>
+      <p>${planetInfo.description}</p>
+      <img src="${planetInfo.image}" alt="${planetInfo.name}">
+    `;
+
+    // Agrega la ventana emergente al cuerpo del documento
+    document.body.appendChild(popup);
+
+    // Agrega un controlador de evento para cerrar la ventana emergente al hacer clic fuera de ella
+    popup.addEventListener('click', (event) => {
+      if (event.target === popup) {
+        popup.remove();
+      }
+    });
+  }
+}
+
+// Función para obtener la información del planeta (puedes reemplazar esto con tus propios datos)
+function getPlanetInfo(planetId) {
+  // Ejemplo de datos de información del planeta
+  if (planetId === 'urano') {
+    return {
+      name: 'Urano',
+      description: 'Urano es el séptimo planeta del sistema solar y el tercero más grande. Es un gigante gaseoso compuesto principalmente de hidrógeno y helio.',
+      image: 'path/to/uranus-image.jpg'
+    };
+  }
+}
