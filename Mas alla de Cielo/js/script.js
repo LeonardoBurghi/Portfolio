@@ -6,7 +6,7 @@ import { OrbitControls } from './orbitcontrols.js';
 
 //Escena y camara
 const scene = new THREE.Scene();
-const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 200000);
+const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 3000000);
 
 //Render
 const renderer = new THREE.WebGLRenderer();
@@ -42,6 +42,7 @@ const sun = new THREE.Mesh(
         map: sunTexture,
     })
 );
+sun.position.set(0, 0, 0);
 scene.add(sun);
 
 //------------------------------Earth-------------------------------
@@ -219,28 +220,38 @@ orbitNeptuno.material.side = THREE.DoubleSide;
 scene.add(orbitNeptuno);
 
 //---------------------------------nebulosa----------------------------
-/*const textureLoader = new THREE.TextureLoader();
-const nebuTexture = textureLoader.load('img/nebulosa.jpeg');
-const nebuMaterial = new THREE.SpriteMaterial({ map: nebuTexture});
+const nebuTexture = new THREE.TextureLoader().load('img/nebulosa.jpeg');
+const nebuMaterial = new THREE.MeshBasicMaterial({ map: nebuTexture, transparent: true, side: THREE.DoubleSide});
+const nebuGeometry = new THREE.PlaneGeometry(90000, 90000, 1);
 
-const nebulaSprite = new THREE.Sprite(nebuMaterial);
+const nebulaPlano = new THREE.Mesh(nebuGeometry, nebuMaterial);
 
-//nebulaSprite.material.side = THREE.DoubleSide;
-nebulaSprite.scale.set(500, 300,);
-nebulaSprite.position.set(1600, 600, -50);
-scene.add(nebulaSprite);*/
+nebulaPlano.position.set(800000, 60000, -500);
+scene.add(nebulaPlano);
+
+const sunLightLoader = new THREE.TextureLoader();
+const sunLightTexture = sunLightLoader.load('img/sun-light.png');
+const sunLightMaterial = new THREE.SpriteMaterial({ map: sunLightTexture});
+
+const sunLightSprite = new THREE.Sprite(sunLightMaterial);
+
+sunLightSprite.material.side = THREE.DoubleSide;
+sunLightSprite.scale.set(70, 70,);
+sunLightSprite.position.set(0, 0, 0);
+scene.add(sunLightSprite);
+
 
 //----------------------------GALAXY----------------------------------
 
 const texLoadGalaxy = new THREE.TextureLoader().load('img/galaxy.png');
-
 const galaxyMaterial = new THREE.MeshBasicMaterial({ map: texLoadGalaxy, transparent: true, side: THREE.DoubleSide});
-const galaxyGeometry = new THREE.PlaneGeometry(200000, 200000, 1);
+const galaxyGeometry = new THREE.PlaneGeometry(300000, 300000, 1);
+
 const plano = new THREE.Mesh(galaxyGeometry, galaxyMaterial);
 
 //plano.scale.set(200, 200);
 
-plano.position.set(-35000, 34000, 0);
+plano.position.set(-60000, -520, 0);
 scene.add(plano);
 
 //---------------------------grilla--------------------
@@ -250,7 +261,7 @@ const grid = new THREE.GridHelper(100,200);
 //--------------------------Controles Orbitales-------------------
 const controls = new OrbitControls(camera, renderer.domElement);
 controls.minDistance = 1;
-controls.maxDistance = 100000;
+controls.maxDistance = 3000000;
 
 camera.position.set (0, 30, 120);
 
@@ -258,19 +269,56 @@ camera.position.set (0, 30, 120);
 
 
 //--------------------------------STARS----------------------------
-
-/*function addStar() {
-    const stargeometry = new THREE.SphereGeometry(0.1, 4, 4);
+/*
+function addStar() {
+    const stargeometry = new THREE.SphereGeometry(0.3, 4, 4);
     const starmaterial = new THREE.MeshBasicMaterial(0xffffff);
     const star = new THREE.Mesh(stargeometry, starmaterial);
 
-    const [x, y, z] = Array(3).fill().map(() => THREE.MathUtils.randFloatSpread (4000));
+    const [x, y, z] = Array(3).fill().map(() => THREE.MathUtils.randFloatSpread (2000));
 
     star.position.set(x, y, z);
     scene.add(star);
 }
 
-Array(10000).fill().forEach(addStar);*/
+Array(2000).fill().forEach(addStar);*/
+
+function addStar() {
+    const starGeometry = new THREE.BufferGeometry();
+    const starVertices = new Float32Array(1 * 3); // 1 vértice con 3 componentes (x, y, z)
+
+    const starMaterial = new THREE.PointsMaterial({ color: 0xffffff, transparent: true });
+    const star = new THREE.Points(starGeometry, starMaterial);
+
+    const [x, y, z] = Array(3).fill().map(() => THREE.MathUtils.randFloatSpread(2000000));
+
+    starVertices[0] = x;
+    starVertices[1] = y;
+    starVertices[2] = z;
+
+    starGeometry.setAttribute('position', new THREE.BufferAttribute(starVertices, 3));
+
+    scene.add(star);
+}
+Array(5000).fill().forEach(addStar);
+
+//--------------------------------------------------------------------
+
+function galaxyVisibility() {
+    var distancia = camera.position.distanceTo(sun.position);
+    var minDistance = 5000;
+
+    console.log(distancia);
+
+    if (distancia > minDistance) {
+        plano.visible = true;
+    }
+    else {
+        plano.visible = false;
+    }
+}
+
+//-----------------------------------------------
 
 function animate() {
     requestAnimationFrame( animate );
@@ -283,6 +331,8 @@ function animate() {
     /*let time = Date.now() * 0.001; //tiempo actual
     let position = orbitEarth.getPoint(time);
     earth.position.set(position.x, 0, position.y);*/
+
+    galaxyVisibility();
 
     renderer.render(scene, camera);
 }
