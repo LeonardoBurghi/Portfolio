@@ -6,7 +6,7 @@ import { OrbitControls } from './orbitcontrols.js';
 
 //Escena y camara
 const scene = new THREE.Scene();
-const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 3000000);
+const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 10000000);
 
 //Render
 const renderer = new THREE.WebGLRenderer();
@@ -65,6 +65,17 @@ orbitEarth.rotateX(1.5708);
 orbitEarth.material.side = THREE.DoubleSide;
 scene.add(orbitEarth);
 
+//---------------------------------Moon---------------------------------
+const moonTexture = new THREE.TextureLoader().load('img/map-moon.jpg')
+const moon = new THREE.Mesh(
+    new THREE.SphereGeometry(0.2, 64, 64),
+    new THREE.MeshStandardMaterial( {
+        map: moonTexture,
+    })
+);
+moon.position.set(20, 1, -1);
+scene.add(moon);
+
 //-------------------------------mercurio------------------------
 const mercuryTexture = new THREE.TextureLoader().load('img/map-Mercury.jpg')
 const mercury = new THREE.Mesh(
@@ -113,11 +124,11 @@ const marte = new THREE.Mesh(
         map: venusTexture,
     })
 );
-marte.position.set(0, 0, 20);
+marte.position.set(0, 0, 23);
 scene.add(marte);
 
 //orbita Marte
-const orbGeoMar = new THREE.RingGeometry(19.99, 20, 128);
+const orbGeoMar = new THREE.RingGeometry(22.99, 23, 128);
 const orbMatMar = new THREE.LineBasicMaterial({color: 0xff0000});
 const orbitMarte = new THREE.Line(orbGeoMar, orbMatMar);
 
@@ -261,9 +272,9 @@ const grid = new THREE.GridHelper(100,200);
 //--------------------------Controles Orbitales-------------------
 const controls = new OrbitControls(camera, renderer.domElement);
 controls.minDistance = 1;
-controls.maxDistance = 3000000;
+controls.maxDistance = 8000000;
 
-camera.position.set (0, 30, 120);
+camera.position.set (0, 3, 25);
 
 //---------------------------Functions-----------------------------
 
@@ -290,7 +301,7 @@ function addStar() {
     const starMaterial = new THREE.PointsMaterial({ color: 0xffffff, transparent: true });
     const star = new THREE.Points(starGeometry, starMaterial);
 
-    const [x, y, z] = Array(3).fill().map(() => THREE.MathUtils.randFloatSpread(2000000));
+    const [x, y, z] = Array(3).fill().map(() => THREE.MathUtils.randFloatSpread(4000000));
 
     starVertices[0] = x;
     starVertices[1] = y;
@@ -300,7 +311,7 @@ function addStar() {
 
     scene.add(star);
 }
-Array(5000).fill().forEach(addStar);
+Array(6000).fill().forEach(addStar);
 
 //--------------------------------------------------------------------
 
@@ -308,7 +319,7 @@ function galaxyVisibility() {
     var distancia = camera.position.distanceTo(sun.position);
     var minDistance = 5000;
 
-    console.log(distancia);
+    //console.log(distancia);
 
     if (distancia > minDistance) {
         plano.visible = true;
@@ -319,16 +330,6 @@ function galaxyVisibility() {
 }
 
 //-----------------------------------------------
-
-window.addEventListener("resize", redimensionar);
-
-function redimensionar(){
-    camera.aspect = window.innerWidth / window.innerHeight;
-    camera.updateProjectionMatrix()
-    renderer.setSize(window.innerWidth, window.innerHeight);
-    renderer.render(scene, camera);
-}
-
 
 function animate() {
     requestAnimationFrame( animate );
@@ -359,64 +360,3 @@ navToggle.addEventListener("click", () => {
     navMenu.classList.toggle("nav-menu_visible");
     navToggle.classList.toggle("nav-toggle_visible");
 })
-
-//_______________________________Interactividad_____________________
-
-// Asigna un identificador único al planeta
-const planetId = 'urano';
-
-// Agrega un detector de clics al lienzo (canvas)
-canvas.addEventListener('click', onClick);
-
-// Función de manejo del evento de clic
-function onClick(event) {
-  // Obtiene la posición normalizada del clic del ratón
-  const mouse = new THREE.Vector2();
-  mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
-  mouse.y = -(event.clientY / window.innerHeight) * 2 + 1;
-
-  // Realiza un raycast para determinar qué objeto ha sido clicado
-  const raycaster = new THREE.Raycaster();
-  raycaster.setFromCamera(mouse, camera);
-
-  const intersects = raycaster.intersectObjects(scene.children, true);
-
-  // Verifica si el planeta ha sido clicado
-  const planetClicked = intersects.find((intersect) => intersect.object.userData.id === planetId);
-
-  // Si el planeta ha sido clicado, muestra la ventana emergente
-  if (planetClicked) {
-    const planetInfo = getPlanetInfo(planetId); // Obtén la información del planeta
-
-    // Crea una ventana emergente con la información del planeta
-    const popup = document.createElement('div');
-    popup.classList.add('popup');
-    popup.innerHTML = `
-      <h2>${planetInfo.name}</h2>
-      <p>${planetInfo.description}</p>
-      <img src="${planetInfo.image}" alt="${planetInfo.name}">
-    `;
-
-    // Agrega la ventana emergente al cuerpo del documento
-    document.body.appendChild(popup);
-
-    // Agrega un controlador de evento para cerrar la ventana emergente al hacer clic fuera de ella
-    popup.addEventListener('click', (event) => {
-      if (event.target === popup) {
-        popup.remove();
-      }
-    });
-  }
-}
-
-// Función para obtener la información del planeta (puedes reemplazar esto con tus propios datos)
-function getPlanetInfo(planetId) {
-  // Ejemplo de datos de información del planeta
-  if (planetId === 'urano') {
-    return {
-      name: 'Urano',
-      description: 'Urano es el séptimo planeta del sistema solar y el tercero más grande. Es un gigante gaseoso compuesto principalmente de hidrógeno y helio.',
-      image: 'path/to/uranus-image.jpg'
-    };
-  }
-}
