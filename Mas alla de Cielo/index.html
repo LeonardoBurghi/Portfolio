@@ -6,20 +6,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+
+    <script defer src="js/three.js"></script>
+    <script defer type="module" src="js/script.js"></script>
+    <script src="https://kit.fontawesome.com/94a149c17c.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="principal">
-        <div class="container1">
-            <div class="caja1 scrollScale"></div>
-            <div class="caja2 scrollScale"></div>
-            <div class="caja3 scrollScale"></div>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html"><img src="img/logo-MadC.png" alt="imagen logo"></a>
+            </div>
+
+            <div class="icono-menu">
+                <!--<h3>MENU</h3>-->
+                <button class="nav-toggle">
+                    <!--<img src="img/logo-menu.png" alt="boton Menu">-->
+                </button>
+            </div>
+
+            <div class="nav-menu">
+                <ul>
+                    <li id="cursoNi" class="list-item">Cursos Niños</li>
+                    <li id="cursoAdulto" class="list-item">Curso Adultos</li>
+                    <li id="sobre-mi" class="list-item">Sobre Mi</li>
+                    <li id="contacto" class="list-item">Contacto</li>
+                    <li id="galery" class="list-item">Galeria</li>
+                </ul>
+
+                <div class="footer">
+                    <div>
+                        <p>© Copyright <a href="#"><strong>Mas alla del Cielo</strong></a>. Todos los derechos reservados</p>
+                    </div>
+                    <div>
+                        <p>Diseñado por <a href="https://www.linkedin.com/in/leonardo-burghi-a72551249" target="_blank">Leonardo Burghi</a></p>
+                    </div>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+
+    <main>
+        <div id="ventana-emergente-contacto" class="ventana-emergente">
+            <h3>Contacto</h3>
+            <p>wsp: 221-999-999 instagram: -------------</p>
         </div>
-        <div class="container2">
-            <div class="caja4"></div>
-            <div class="caja5"></div>
-            <div class="caja6"></div>
+        <div id="ventana-emergente-cursoNi" class="ventana-emergente">
+            <h3>Curso Niños</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi eligendi nobis exercitationem repellendus tempora non vero earum voluptatibus, vel labore cumque dolore fugit mollitia esse accusantium laborum impedit sed! Quisquam accusantium exercitationem quae excepturi sunt iusto non aspernatur tempore, dicta deleniti minus officiis qui eum ipsa eius corrupti impedit voluptates. Libero possimus repellendus praesentium distinctio velit dignissimos odit autem qui quam accusamus in est omnis, vel dolorum ab quos eius ad animi, porro incidunt a. Sapiente quibusdam molestias consectetur, nobis cum adipisci eius dolorem accusamus sit porro aliquam voluptates libero quod nemo non fuga a sed nisi consequuntur accusantium! Repellat.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi eligendi nobis exercitationem repellendus tempora non vero earum voluptatibus, vel labore cumque dolore fugit mollitia esse accusantium laborum impedit sed! Quisquam accusantium exercitationem quae excepturi sunt iusto non aspernatur tempore, dicta deleniti minus officiis qui eum ipsa eius corrupti impedit voluptates. Libero possimus repellendus praesentium distinctio velit dignissimos odit autem qui quam accusamus in est omnis, vel dolorum ab quos eius ad animi, porro incidunt a. Sapiente quibusdam molestias consectetur, nobis cum adipisci eius dolorem accusamus sit porro aliquam voluptates libero quod nemo non fuga a sed nisi consequuntur accusantium! Repellat.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi eligendi nobis exercitationem repellendus tempora non vero earum voluptatibus, vel labore cumque dolore fugit mollitia esse accusantium laborum impedit sed! Quisquam accusantium exercitationem quae excepturi sunt iusto non aspernatur tempore, dicta deleniti minus officiis qui eum ipsa eius corrupti impedit voluptates. Libero possimus repellendus praesentium distinctio velit dignissimos odit autem qui quam accusamus in est omnis, vel dolorum ab quos eius ad animi, porro incidunt a. Sapiente quibusdam molestias consectetur, nobis cum adipisci eius dolorem accusamus sit porro aliquam voluptates libero quod nemo non fuga a sed nisi consequuntur accusantium! Repellat.</p>
         </div>
-    </div>
-    <script src="script.js"></script>
+        <div id="ventana-emergente-cursoAdulto" class="ventana-emergente">
+            <h3>Curso Adultos</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In ad sed iusto dicta rerum quisquam culpa repellat delectus, corrupti nulla, explicabo minima quasi voluptatum ea labore excepturi reprehenderit omnis reiciendis incidunt saepe. Autem accusamus illo recusandae, hic molestias quibusdam perspiciatis amet corrupti cupiditate aut laudantium quis quae tempora natus suscipit ea repellendus laboriosam mollitia deserunt dolore a iusto cumque voluptatum. Harum repudiandae rerum, at, ex corporis itaque iste pariatur officiis alias aliquid rem modi vitae repellat, recusandae molestiae fugit temporibus. Ratione, voluptas enim quaerat ad maxime, consectetur corporis doloribus itaque totam et nemo maiores, nihil rem tempora deleniti cumque? Exercitationem?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi eligendi nobis exercitationem repellendus tempora non vero earum voluptatibus, vel labore cumque dolore fugit mollitia esse accusantium laborum impedit sed! Quisquam accusantium exercitationem quae excepturi sunt iusto non aspernatur tempore, dicta deleniti minus officiis qui eum ipsa eius corrupti impedit voluptates. Libero possimus repellendus praesentium distinctio velit dignissimos odit autem qui quam accusamus in est omnis, vel dolorum ab quos eius ad animi, porro incidunt a. Sapiente quibusdam molestias consectetur, nobis cum adipisci eius dolorem accusamus sit porro aliquam voluptates libero quod nemo non fuga a sed nisi consequuntur accusantium! Repellat.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi eligendi nobis exercitationem repellendus tempora non vero earum voluptatibus, vel labore cumque dolore fugit mollitia esse accusantium laborum impedit sed! Quisquam accusantium exercitationem quae excepturi sunt iusto non aspernatur tempore, dicta deleniti minus officiis qui eum ipsa eius corrupti impedit voluptates. Libero possimus repellendus praesentium distinctio velit dignissimos odit autem qui quam accusamus in est omnis, vel dolorum ab quos eius ad animi, porro incidunt a. Sapiente quibusdam molestias consectetur, nobis cum adipisci eius dolorem accusamus sit porro aliquam voluptates libero quod nemo non fuga a sed nisi consequuntur accusantium! Repellat.</p>
+        </div>
+        <div id="ventana-emergente-sobre-mi" class="ventana-emergente">
+            <h3>Lucia Rizzo</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex consectetur exercitationem ut. Eius fuga dignissimos quas cumque, sed expedita corrupti optio nesciunt odio sit fugiat voluptates molestiae quibusdam vitae assumenda quo. Aliquid quasi nam sapiente enim repudiandae ullam, inventore illo debitis iure dolor porro? Voluptatum, accusantium. Eligendi magni iure officiis.<p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi eligendi nobis exercitationem repellendus tempora non vero earum voluptatibus, vel labore cumque dolore fugit mollitia esse accusantium laborum impedit sed! Quisquam accusantium exercitationem quae excepturi sunt iusto non aspernatur tempore, dicta deleniti minus officiis qui eum ipsa eius corrupti impedit voluptates. Libero possimus repellendus praesentium distinctio velit dignissimos odit autem qui quam accusamus in est omnis, vel dolorum ab quos eius ad animi, porro incidunt a. Sapiente quibusdam molestias consectetur, nobis cum adipisci eius dolorem accusamus sit porro aliquam voluptates libero quod nemo non fuga a sed nisi consequuntur accusantium! Repellat.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi eligendi nobis exercitationem repellendus tempora non vero earum voluptatibus, vel labore cumque dolore fugit mollitia esse accusantium laborum impedit sed! Quisquam accusantium exercitationem quae excepturi sunt iusto non aspernatur tempore, dicta deleniti minus officiis qui eum ipsa eius corrupti impedit voluptates. Libero possimus repellendus praesentium distinctio velit dignissimos odit autem qui quam accusamus in est omnis, vel dolorum ab quos eius ad animi, porro incidunt a. Sapiente quibusdam molestias consectetur, nobis cum adipisci eius dolorem accusamus sit porro aliquam voluptates libero quod nemo non fuga a sed nisi consequuntur accusantium! Repellat.</p>
+        </div>
+        <div id="ventana-emergente-galery" class="ventana-emergente">
+            <h3>Galeria</h3>
+            <div class="cont-galery">
+                <div><img src="img/fondoStar.jpg" alt="imagen galeria 1"></div>
+                <div><img src="img/nebulosa.jpeg" alt="imagen galeria 2"></div>
+                <div><img src="img/map-Marte.jpg" alt="imagen galeria 3"></div>
+                <div><img src="img/map-Earth.jpg" alt="imagen galeria 4"></div>
+                <div><img src="img/stars.png" alt="imagen galeria 5"></div>
+                <div><img src="img/galaxy.png" alt="imagen galeria 6"></div>
+            </div>
+        </div>
+    </main>
+
 </body>
 </html>
