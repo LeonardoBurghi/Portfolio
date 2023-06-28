@@ -339,10 +339,6 @@ function animate() {
     marte.rotation.y += 0.004
     jupiter.rotation.y += 0.0008
 
-    /*let time = Date.now() * 0.001; //tiempo actual
-    let position = orbitEarth.getPoint(time);
-    earth.position.set(position.x, 0, position.y);*/
-
     galaxyVisibility();
 
     renderer.render(scene, camera);
@@ -360,3 +356,33 @@ navToggle.addEventListener("click", () => {
     navMenu.classList.toggle("nav-menu_visible");
     navToggle.classList.toggle("nav-toggle_visible");
 })
+
+//------Ventanas Emergentes----------------------
+const opcionesMenu = document.querySelectorAll(".list-item");
+
+//Mostrar Ventanas
+opcionesMenu.forEach(function(opcion) {
+    opcion.addEventListener("click", function(){
+        var ventanaEmergente = document.getElementById("ventana-emergente-" + opcion.id);
+        ventanaEmergente.classList.add("active");
+    });
+});
+
+//Ocultar ventanas
+document.addEventListener("click", function (event){
+    var targetElement = event.target;
+    if(!targetElement.classList.contains("list-item")) {
+        var ventanaEmergente = document.querySelectorAll(".ventana-emergente");
+        ventanaEmergente.forEach(function(ventanaEmergente){
+            ventanaEmergente.classList.remove("active");
+        });
+    }
+});
+
+/*function removeActiveClasses(){
+    ventanaEmergente.forEach(function(ventanaEmergente){
+        ventanaEmergente.classList.remove("active");
+    });
+};*/
+
+//-----------------------------------------
