@@ -1,138 +1,123 @@
-*{
+body{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    min-height: 2000px;
 }
-
-/*canvas{
-    z-index: 999;
-    top: 0;
-    left: 0;
-}*/
-
-header{
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 80px;
-    width: 100%;
-    background-color: transparent;
+body::-webkit-scrollbar{
+    width: 0;
 }
-
-nav{
-    height: 80px;
-    width: 100%;
-    top: 0;
-    left: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logo{
-    margin-left: 20px;
-    height: 70px;
-    width: 70px;
-}
-.logo img{
-    height: 70px;
-}
-
-.icono-menu{
-    height: 70px;
-    width: 70px;
-    display: flex;
-    align-items: center;
-}
-/*button img{
-    height: 40px;
-    width: 40px;
-}*/
-
-.nav-toggle{
-    height: 35px;
-    width: 35px;
-    z-index: 1;
-    color: white;
-    font-size: 30px;   
-    cursor: pointer;
-    background: none;
-    border: none;
-    background-image: url(img/logo-menu.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    outline-style: bolder;
-    transition: 0.8s;
-}
-.nav-toggle_visible{
-    background-image: url(img/logo-cerrar-menu.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    transition: 0.8s;
-
-}
-.nav-menu{
-    position: absolute;
+.principal{
+    width: 100vw;
     height: 100vh;
-    width: 35%;
-    background-color: rgba(77, 77, 77, 0.33);
-    top: 0;
-    left: 100%;
+    background-image: url(img/stars-g9b0172847_1280.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 100px;
-    transition: 0.8s;
-}
-.nav-menu_visible{
-    left: 65%;
-    transition: 0.8s;
-}
-.footer{
-    color: white;
-    /*background-color: rgba(0, 0, 0, 0.3);*/
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 110px;
-}
-.footer p{
-    font-size: 0.8rem;
-}
-.footer a{
-    color: white;
-    text-decoration: none;
-}
-.nav-menu ul{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.list-item{
-    color: white;
-    font-family: sans-serif;
-    font-size: 1.1rem;
-    font-weight: bold;
-    text-transform: uppercase;
-    list-style: none;
-    padding: 10px 0;
-    cursor: pointer;
-}
-.list-item:hover{
-    padding: 8px 5px;
-    background-color: rgba(0, 0, 0, 0.60);
-    border-radius: 5px;
-    transition: 0.3s;
+    position: fixed;
 }
 
-@media (max-width: 570px) {
-    .nav-menu{
-        width: 100%;
-    }
-    .nav-menu_visible{
-        left: 0%;
-    }
+.container1{
+    width: 49vw;
+    height: 95vh;
+    border: solid rgba(46, 46, 46, 0.50);
+    display: flex;
+    flex-direction: column;
+    scroll-snap-align: start;
+    position: relative;
+    top: 4%;
+    perspective: 1500px;
+    perspective-origin: 50% 0;
+}
+.container2{
+    width: 49vw;
+    height: 95vh;
+    border: solid rgba(46, 46, 46, 0.50);
+    display: flex;
+    flex-direction: column;
+    scroll-snap-align: start;
+    position: relative;
+    top: 4%;
+}
+.caja1{
+    position: absolute;
+    right: -20%;
+    scale: .3;
+    width: 300px;
+    height: 300px;
+    background-image: url(img/mars-g32fc4f767_1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: solid rgb(66, 66, 66);
+}
+.caja2{
+    position: absolute;
+    right: -11%;
+    top: 80px;
+    scale: .5;
+    width: 300px;
+    height: 300px;
+    background-image: url(img/pngwing.com.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: solid rgb(66, 66, 66);
+}
+.caja3{
+    position: absolute;
+    right: 2%;
+    top: 200px;
+    scale: .8;
+    width: 300px;
+    height: 300px;
+    background-image: url(img/sun-g2f21e5f26_1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: solid rgb(66, 66, 66);
+    transform: translate3d(0 0 -200px);
+    perspective: 3000px;
+    transform-style: preserve-3d;
+    perspective-origin: 50%;
+    will-change: transform;
+}
+.caja4{
+    position: absolute;
+    left: -20%;
+    scale: .3;
+    width: 300px;
+    height: 300px;
+    background-image: url(img/mars-g32fc4f767_1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: solid rgb(66, 66, 66);
+}
+.caja5{
+    position: absolute;
+    left: -11%;
+    top: 80px;
+    scale: .5;
+    width: 300px;
+    height: 300px;
+    background-image: url(img/pngwing.com.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: solid rgb(66, 66, 66);
+}
+.caja6{
+    position: absolute;
+    left: 2%;
+    top: 200px;
+    scale: .8;
+    width: 300px;
+    height: 300px;
+    background-image: url(img/sun-g2f21e5f26_1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: solid rgb(66, 66, 66);
 }
