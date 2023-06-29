@@ -73,7 +73,7 @@ const moon = new THREE.Mesh(
         map: moonTexture,
     })
 );
-moon.position.set(20, 1, -1);
+moon.position.set(20, 0.5, -1);
 scene.add(moon);
 
 //-------------------------------mercurio------------------------
@@ -238,7 +238,7 @@ const nebuGeometry = new THREE.PlaneGeometry(90000, 90000, 1);
 const nebulaPlano = new THREE.Mesh(nebuGeometry, nebuMaterial);
 
 nebulaPlano.position.set(800000, 60000, -500);
-scene.add(nebulaPlano);
+//scene.add(nebulaPlano);
 
 const sunLightLoader = new THREE.TextureLoader();
 const sunLightTexture = sunLightLoader.load('img/sun-light.png');
@@ -252,7 +252,7 @@ sunLightSprite.position.set(0, 0, 0);
 scene.add(sunLightSprite);
 
 
-//----------------------------GALAXY----------------------------------
+//----------------------------GALAXYs----------------------------------
 
 const texLoadGalaxy = new THREE.TextureLoader().load('img/galaxy.png');
 const galaxyMaterial = new THREE.MeshBasicMaterial({ map: texLoadGalaxy, transparent: true, side: THREE.DoubleSide});
@@ -260,10 +260,49 @@ const galaxyGeometry = new THREE.PlaneGeometry(300000, 300000, 1);
 
 const plano = new THREE.Mesh(galaxyGeometry, galaxyMaterial);
 
-//plano.scale.set(200, 200);
 
 plano.position.set(-60000, -520, 0);
 scene.add(plano);
+//--------------------------------
+const texGalaxy4 = new THREE.TextureLoader().load('img/Galaxy4.png');
+const galaxyMaterial4 = new THREE.MeshBasicMaterial({ map: texGalaxy4, transparent: true, side: THREE.DoubleSide});
+const galaxyGeometry4 = new THREE.PlaneGeometry(300000, 300000, 1);
+
+const galax4 = new THREE.Mesh(galaxyGeometry4, galaxyMaterial4);
+
+
+galax4.position.set(-1000000, 600200, 1350000);
+scene.add(galax4);
+//--------------------------------
+const texGalaxy1 = new THREE.TextureLoader().load('img/Galaxy1.png');
+const galaxyMaterial1 = new THREE.MeshBasicMaterial({ map: texGalaxy1, transparent: true, side: THREE.DoubleSide});
+const galaxyGeometry1 = new THREE.PlaneGeometry(300000, 300000, 1);
+
+const galax1 = new THREE.Mesh(galaxyGeometry1, galaxyMaterial1);
+
+
+galax1.position.set(1300000, 950000, -500000);
+scene.add(galax1);
+//--------------------------------
+const texGalaxy2 = new THREE.TextureLoader().load('img/Galaxy5.png');
+const galaxyMaterial2 = new THREE.MeshBasicMaterial({ map: texGalaxy2, transparent: true, side: THREE.DoubleSide});
+const galaxyGeometry2 = new THREE.PlaneGeometry(300000, 300000, 1);
+
+const galax2 = new THREE.Mesh(galaxyGeometry2, galaxyMaterial2);
+
+
+galax2.position.set(-850000, -750000, 800000);
+scene.add(galax2);
+//--------------------------------
+const texGalaxy3 = new THREE.TextureLoader().load('img/Galaxy7.png');
+const galaxyMaterial3 = new THREE.MeshBasicMaterial({ map: texGalaxy3, transparent: true, side: THREE.DoubleSide});
+const galaxyGeometry3 = new THREE.PlaneGeometry(300000, 300000, 1);
+
+const galax3 = new THREE.Mesh(galaxyGeometry3, galaxyMaterial3);
+
+
+galax3.position.set(800000, -1400000, -500000);
+scene.add(galax3);
 
 //---------------------------grilla--------------------
 const grid = new THREE.GridHelper(100,200);
@@ -280,19 +319,6 @@ camera.position.set (0, 3, 25);
 
 
 //--------------------------------STARS----------------------------
-/*
-function addStar() {
-    const stargeometry = new THREE.SphereGeometry(0.3, 4, 4);
-    const starmaterial = new THREE.MeshBasicMaterial(0xffffff);
-    const star = new THREE.Mesh(stargeometry, starmaterial);
-
-    const [x, y, z] = Array(3).fill().map(() => THREE.MathUtils.randFloatSpread (2000));
-
-    star.position.set(x, y, z);
-    scene.add(star);
-}
-
-Array(2000).fill().forEach(addStar);*/
 
 function addStar() {
     const starGeometry = new THREE.BufferGeometry();
@@ -323,19 +349,36 @@ function galaxyVisibility() {
 
     if (distancia > minDistance) {
         plano.visible = true;
+        galax1.visible = true;
+        galax2.visible = true;
+        galax3.visible = true;
+        galax4.visible = true;
     }
     else {
         plano.visible = false;
+        galax1.visible = false;
+        galax2.visible = false;
+        galax3.visible = false;
+        galax4.visible = false;
     }
 }
 
 //-----------------------------------------------
 
+window.addEventListener("resize", redimensionar);
+
+function redimensionar(){
+    camera.aspect = window.innerWidth / window.innerHeight;
+    camera.updateProjectionMatrix()
+    renderer.setSize(window.innerWidth, window.innerHeight);
+    renderer.render(scene, camera);
+}
+
 function animate() {
     requestAnimationFrame( animate );
     mercury.rotation.y += 0.01
-    venus.rotation.y += 0.008
-    earth.rotation.y += 0.01
+    venus.rotation.y += 0.005
+    earth.rotation.y += 0.006
     marte.rotation.y += 0.004
     jupiter.rotation.y += 0.0008
 
@@ -379,10 +422,5 @@ document.addEventListener("click", function (event){
     }
 });
 
-/*function removeActiveClasses(){
-    ventanaEmergente.forEach(function(ventanaEmergente){
-        ventanaEmergente.classList.remove("active");
-    });
-};*/
 
 //-----------------------------------------
