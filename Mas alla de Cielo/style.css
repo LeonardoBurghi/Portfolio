@@ -3,11 +3,10 @@
     padding: 0;
 }
 
-/*canvas{
-    z-index: 999;
+canvas{
     top: 0;
     left: 0;
-}*/
+}
 
 header{
     position: fixed;
@@ -188,7 +187,7 @@ nav{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.95);
+    background-color: rgba(0, 0, 0, 0.9);
     padding: 20px;
     width: 80%;
     height: 90%;
@@ -230,7 +229,7 @@ nav{
 }
 .cont-galery div{
     margin: 20px;
-    width: 35%;
+    width: 30%;
 }
 .cont-galery img{
     width: 100%;
