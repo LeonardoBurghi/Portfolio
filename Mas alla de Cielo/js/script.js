@@ -1,6 +1,7 @@
 import ('style.css');
 import * as THREE from './three.module.js';
 import { OrbitControls } from './orbitcontrols.js';
+//import { FlyControls } from './flycontrols.js';
 
 //________________________________UNIVERSE_______________________________
 
@@ -75,6 +76,7 @@ const moon = new THREE.Mesh(
         map: moonTexture,
     })
 );
+moon.name = "luna";
 moon.position.set(20, 0.5, -1);
 scene.add(moon);
 
@@ -86,6 +88,7 @@ const mercury = new THREE.Mesh(
         map: mercuryTexture,
     })
 );
+mercury.name = "mercurio";
 mercury.position.set(-13, 0, 0);
 scene.add(mercury);
 
@@ -106,6 +109,7 @@ const venus = new THREE.Mesh(
         map: venusTexture,
     })
 );
+venus.name = "venus";
 venus.position.set(0, 0, -15.5);
 scene.add(venus);
 
@@ -126,6 +130,7 @@ const marte = new THREE.Mesh(
         map: venusTexture,
     })
 );
+marte.name = "marte";
 marte.position.set(0, 0, 23);
 scene.add(marte);
 
@@ -146,6 +151,7 @@ const jupiter = new THREE.Mesh(
         map: jupiterTexture,
     })
 );
+jupiter.name = "jupiter";
 jupiter.position.set(0, 0, 32);
 scene.add(jupiter);
 
@@ -166,6 +172,7 @@ const saturno = new THREE.Mesh(
         map: saturnoTexture,
     })
 );
+saturno.name = "saturno";
 saturno.position.set(0, 0, -40);
 scene.add(saturno);
 
@@ -200,6 +207,7 @@ const urano = new THREE.Mesh(
         map: uranoTexture,
     })
 );
+urano.name = "urano";
 urano.position.set(50, 0, 0);
 scene.add(urano);
 
@@ -220,6 +228,7 @@ const neptuno = new THREE.Mesh(
         map: neptunoTexture,
     })
 );
+neptuno.name = "neptuno"
 neptuno.position.set(0, 0, 65);
 scene.add(neptuno);
 
@@ -307,17 +316,24 @@ galax3.position.set(800000, -1400000, -500000);
 scene.add(galax3);
 
 //---------------------------grilla--------------------
-const grid = new THREE.GridHelper(100,200);
+//const grid = new THREE.GridHelper(100,200);
 //scene.add(grid);
 
-//--------------------------Controles Orbitales-------------------
+//-----------------------Controles Orbitales-------------------
 const controls = new OrbitControls(camera, renderer.domElement);
+//const controls = new FlyControls(camera, renderer.domElement);
 controls.minDistance = 1;
 controls.maxDistance = 8000000;
 
+controls.enableDamping = true;
+controls.dampingFactor = 0.03;
+controls.enablePan = false;
+controls.panDampingFactor = 0.03;
+controls.zoomSpeed = 2;
+
 camera.position.set (0, 3, 30);
 
-//---------------------------Functions-----------------------------
+//_________________________________FUNCIONES________________________________
 
 
 //--------------------------------STARS----------------------------
@@ -365,7 +381,7 @@ function galaxyVisibility() {
     }
 }
 
-//-----------------------------------------------
+//_________________________Funcion Renderizador___________________________
 
 window.addEventListener("resize", redimensionar);
 
@@ -392,7 +408,7 @@ animate();
 //_______________________________________________________________________
 
 
-//________________________________Elementos_______________________________
+//________________________________Elementos Menu_______________________________
 
 const navToggle = document.querySelector(".nav-toggle");
 const navMenu = document.querySelector(".nav-menu");
@@ -415,24 +431,24 @@ opcionesMenu.forEach(function(opcion) {
 
 //Ocultar ventanas
 document.addEventListener("click", function (event){
-    var targetElement = event.target;
-    if(!targetElement.classList.contains("list-item")) {
+    if(!event.target.classList.contains("list-item")) {
         var ventanaEmergente = document.querySelectorAll(".ventana-emergente");
         ventanaEmergente.forEach(function(ventanaEmergente){
             ventanaEmergente.classList.remove("active");
         });
     }
 });
-//-----------------------------------------
 
-let planetName = "earth";
+//-------------------Interactividad Planetas----------------------
+
+let planetName = ["sol", "mercurio", "venus", "earth", "luna", "marte", "jupiter", "saturno", "urano", "neptuno", "pluton"];
 
 const mouse = new THREE.Vector2();
 const raycaster = new THREE.Raycaster();
 
 window.addEventListener("click", onClick);
 
-// Función de manejo del evento de clic
+// Función de manejo del evento de clic__________________________________________
 function onClick(event) {
     // Obtiene la posición normalizada del clic del ratón
     mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
@@ -442,24 +458,117 @@ function onClick(event) {
     const intersects = raycaster.intersectObjects(scene.children, true);
 
     // Verifica si el planeta ha sido clicado
-    const planetClicked = intersects.find((intersect) => intersect.object.name === planetName);
+    //const planetClicked = intersects.find((intersect) => intersect.object.name === planetName);
+    for (let i in planetName){
 
-    for (let i = 0; i < intersects.length; i++){
-        console.log("true");
+        const planetClicked = intersects.find((intersect) => intersect.object.name === planetName[i]);
         if (planetClicked) {
-            console.log(planetName);
-            
+            console.log(planetName[i]);
+
+            const planetInfo = getPlanetInfo(planetName); // Obtén la información del planeta
+
+            // Crea una ventana emergente con la información del planeta
+            const popup = document.createElement('div');
+            popup.classList.add('popup');
+            popup.innerHTML = `
+              <h2>${planetInfo.name}</h2>
+              <p>${planetInfo.description}</p>
+              <img src="${planetInfo.image}" alt="${planetInfo.name}" width="200">
+            `;
+
+            // Agrega la ventana emergente al cuerpo del documento
+            document.body.appendChild(popup);
+
+            // Agrega un controlador de evento para cerrar la ventana emergente al hacer clic fuera de ella
+            window.addEventListener('click', (event) => {
+              if (!popup.contains(event.target)) {
+                popup.remove();
+              }
+            });
+
+//_________________Funcion para datos de los planetas_________________ 
+
+            function getPlanetInfo(planetName) {
+                // Ejemplo de datos de información del planeta
+                if (planetName[i] === 'earth') {
+                  return {
+                    name: 'La Tierra',
+                    description: 'La Tierra es un planeta del sistema solar que gira alrededor de su estrella —el Sol— en la tercera órbita más interna. Es el más denso y el quinto mayor de los ocho planetas del sistema solar. También es el mayor de los cuatro terrestres o rocosos. La Tierra se formó hace aproximadamente 4550 millones de años y la vida surgió unos mil millones de años después.',
+                    image: 'img/tierra.png'
+                    };
+                }
+                if (planetName[i] === 'sol') {
+                    return {
+                      name: 'El Sol',
+                      description: 'El Sol es una estrella de tipo-G de la secuencia principal y clase de luminosidad V que se encuentra en el centro del sistema solar y constituye la mayor fuente de radiación electromagnética de este sistema planetario. Se formó hace aproximadamente 4600 millones de años a partir del colapso gravitacional de la materia dentro de una región de una gran nube molecular. ',
+                      image: 'img/sol.png'
+                      };
+                }
+                if (planetName[i] === 'mercurio') {
+                    return {
+                      name: 'Mercurio',
+                      description: 'El sol es centro del sistema solar...',
+                      image: 'img/mercurio.png'
+                      };
+                }
+                if (planetName[i] === 'venus') {
+                    return {
+                      name: 'Venus',
+                      description: 'El sol es centro del sistema solar...',
+                      image: 'img/venus.png'
+                      };
+                }
+                if (planetName[i] === 'luna') {
+                    return {
+                      name: 'La Luna',
+                      description: 'El sol es centro del sistema solar...',
+                      image: 'img/nuestraluna.jpg'
+                      };
+                }
+                if (planetName[i] === 'marte') {
+                    return {
+                      name: 'Marte',
+                      description: 'El sol es centro del sistema solar...',
+                      image: 'img/marte.png'
+                      };
+                }
+                if (planetName[i] === 'jupiter') {
+                    return {
+                      name: 'Jupiter',
+                      description: 'El sol es centro del sistema solar...',
+                      image: 'img/jupiter.png'
+                      };
+                }
+                if (planetName[i] === 'saturno') {
+                    return {
+                      name: 'Saturno',
+                      description: 'El sol es centro del sistema solar...',
+                      image: 'img/Saturno.jpg'
+                      };
+                }
+                if (planetName[i] === 'urano') {
+                    return {
+                      name: 'Urano',
+                      description: 'El sol es centro del sistema solar...',
+                      image: 'img/Urano.jpg'
+                      };
+                }
+                if (planetName[i] === 'neptuno') {
+                    return {
+                      name: 'Neptuno',
+                      description: 'El sol es centro del sistema solar...',
+                      image: 'img/Neptuno.jpg'
+                      };
+                }
+                if (planetName[i] === 'pluton') {
+                    return {
+                      name: 'Pluton',
+                      description: 'El sol es centro del sistema solar...',
+                      image: 'img/pluton.jpg'
+                      };
+                }
+            }
         }
-    }
-};
-
-
-/*const listPlanets = document.querySelectorAll(".solar-system");
-
-listPlanets.forEach(function(planet){
-    planet.addEventListener("click", function(){
-        var infoPlaneta = document.getElementById(planet.id);
-        infoPlaneta.classList.add(".mostrar");
-    });
-});*/
+    };
+}
 
