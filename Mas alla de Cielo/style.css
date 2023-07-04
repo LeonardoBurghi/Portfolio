@@ -3,7 +3,12 @@
     padding: 0;
 }
 
+body{
+    scroll-behavior: smooth;
+}
+
 canvas{
+    scroll-behavior: smooth;
     top: 0;
     left: 0;
 }
@@ -131,6 +136,7 @@ nav{
     color: #fff;
     display: none;
     opacity: 0;
+    transition: opacity 0.3s ease-in-out;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -144,19 +150,7 @@ nav{
     color: #fff;
     display: none;
     opacity: 0;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.95);
-    padding: 20px;
-    width: 80%;
-    height: 85%;
-}
-#ventana-emergente-cursoAdulto{
-    color: #fff;
-    display: none;
-    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -170,6 +164,7 @@ nav{
     color: #fff;
     display: none;
     opacity: 0;
+    transition: opacity 0.3s ease-in-out;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -183,6 +178,7 @@ nav{
     color: #fff;
     display: none;
     opacity: 0;
+    transition: opacity 0.3s ease-in-out;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -193,11 +189,6 @@ nav{
     height: 90%;
 }
 #ventana-emergente-cursoNi.active{
-    opacity: 1;
-    display: block;
-    text-align: center;
-}
-#ventana-emergente-cursoAdulto.active{
     opacity: 1;
     display: block;
     text-align: center;
@@ -275,11 +266,37 @@ nav{
     display: block;
 }
 
+.popup{
+    color: #fff;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.3s ease-in-out;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.95);
+    padding: 30px;
+    width: 60%;
+    height: 65%;
+}
+.popup img{
+    margin-top: 30px;
+    
+}
+
+
 @media (max-width: 570px) {
     .nav-menu{
         width: 100%;
     }
     .nav-menu_visible{
         left: 0%;
+    }
+
+    .popup{
+        width: 90%;
+        height: 80%;
     }
 }
