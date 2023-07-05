@@ -94,7 +94,7 @@ scene.add(mercury);
 
 //orbita Mercury
 const orbGeoMerc = new THREE.RingGeometry(12.99, 13, 128);
-const orbMatMerc = new THREE.LineBasicMaterial({color: 0xffffff});
+const orbMatMerc = new THREE.LineBasicMaterial({color: 0xdedede});
 const orbitMercury = new THREE.Line(orbGeoMerc, orbMatMerc);
 
 orbitMercury.rotateX(1.5708);
@@ -115,7 +115,7 @@ scene.add(venus);
 
 //orbita Venus
 const orbGeoVen = new THREE.RingGeometry(15.49, 15.5, 128);
-const orbMatVen = new THREE.LineBasicMaterial({color: 0xfffc00});
+const orbMatVen = new THREE.LineBasicMaterial({color: 0xdcd271});
 const orbitVenus = new THREE.Line(orbGeoVen, orbMatVen);
 
 orbitVenus.rotateX(1.5708);
@@ -136,7 +136,7 @@ scene.add(marte);
 
 //orbita Marte
 const orbGeoMar = new THREE.RingGeometry(22.99, 23, 128);
-const orbMatMar = new THREE.LineBasicMaterial({color: 0xff0000});
+const orbMatMar = new THREE.LineBasicMaterial({color: 0xbf5757});
 const orbitMarte = new THREE.Line(orbGeoMar, orbMatMar);
 
 orbitMarte.rotateX(1.5708);
@@ -152,12 +152,12 @@ const jupiter = new THREE.Mesh(
     })
 );
 jupiter.name = "jupiter";
-jupiter.position.set(0, 0, 32);
+jupiter.position.set(0, 0, 40);
 scene.add(jupiter);
 
 //orbita Jupiter
-const orbGeoJup = new THREE.RingGeometry(31.99, 32, 128);
-const orbMatJup = new THREE.LineBasicMaterial({color: 0xeefe22});
+const orbGeoJup = new THREE.RingGeometry(39.99, 40, 128);
+const orbMatJup = new THREE.LineBasicMaterial({color: 0xbdab85});
 const orbitJupiter = new THREE.Line(orbGeoJup, orbMatJup);
 
 orbitJupiter.rotateX(1.5708);
@@ -173,11 +173,11 @@ const saturno = new THREE.Mesh(
     })
 );
 saturno.name = "saturno";
-saturno.position.set(0, 0, -40);
+saturno.position.set(0, 0, -51);
 scene.add(saturno);
 
 //Anillo
-const anilloTexture = new THREE.TextureLoader().load('./img/map-Jupiter.jpg')
+const anilloTexture = new THREE.TextureLoader().load('./img/SaturnRings.png')
 const anillo = new THREE.Mesh(
     new THREE.RingGeometry(2.3, 3,),
     new THREE.MeshStandardMaterial( {
@@ -185,14 +185,14 @@ const anillo = new THREE.Mesh(
     })
 );
 anillo.material.side = THREE.DoubleSide;
-anillo.position.set(0, 0, -40);
+anillo.position.set(0, 0, -51);
 anillo.rotateX(90);
 
 scene.add(anillo);
 
 //orbita Saturno
-const orbGeoSat = new THREE.RingGeometry(39.99, 40, 128);
-const orbMatSat = new THREE.LineBasicMaterial({color: 0xddddff});
+const orbGeoSat = new THREE.RingGeometry(50.99, 51, 128);
+const orbMatSat = new THREE.LineBasicMaterial({color: 0xc6c097});
 const orbitSaturno = new THREE.Line(orbGeoSat, orbMatSat);
 
 orbitSaturno.rotateX(1.5708);
@@ -208,12 +208,12 @@ const urano = new THREE.Mesh(
     })
 );
 urano.name = "urano";
-urano.position.set(50, 0, 0);
+urano.position.set(62, 0, 0);
 scene.add(urano);
 
 //orbita Urano
-const orbGeoUra = new THREE.RingGeometry(49.99, 50, 128);
-const orbMatUra = new THREE.LineBasicMaterial({color: 0xaabdff});
+const orbGeoUra = new THREE.RingGeometry(61.99, 62, 128);
+const orbMatUra = new THREE.LineBasicMaterial({color: 0xabd0ce});
 const orbitUrano = new THREE.Line(orbGeoUra, orbMatUra);
 
 orbitUrano.rotateX(1.5708);
@@ -229,27 +229,48 @@ const neptuno = new THREE.Mesh(
     })
 );
 neptuno.name = "neptuno"
-neptuno.position.set(0, 0, 65);
+neptuno.position.set(0, 0, 70);
 scene.add(neptuno);
 
 //orbita Neptuno
-const orbGeoNep = new THREE.RingGeometry(64.99, 65, 128);
-const orbMatNep = new THREE.LineBasicMaterial({color: 0xabdfff});
+const orbGeoNep = new THREE.RingGeometry(69.99, 70, 128);
+const orbMatNep = new THREE.LineBasicMaterial({color: 0x96abcd});
 const orbitNeptuno = new THREE.Line(orbGeoNep, orbMatNep);
 
 orbitNeptuno.rotateX(1.5708);
 orbitNeptuno.material.side = THREE.DoubleSide;
 scene.add(orbitNeptuno);
 
+//----------------------------------Pluton------------------------------------
+const plutonTexture = new THREE.TextureLoader().load('img/map-pluton.jpeg')
+const pluton = new THREE.Mesh(
+    new THREE.SphereGeometry(0.15, 64, 64),
+    new THREE.MeshStandardMaterial( {
+        map: plutonTexture,
+    })
+);
+pluton.name = "pluton"
+pluton.position.set(-75, 0, 0);
+scene.add(pluton);
+
+//orbita Neptuno
+const orbGeoPlu = new THREE.RingGeometry(74.99, 75, 128);
+const orbMatPlu = new THREE.LineBasicMaterial({color: 0x5c5c5c});
+const orbitPluton = new THREE.Line(orbGeoPlu, orbMatPlu);
+
+orbitPluton.rotateX(1.4);
+orbitPluton.material.side = THREE.DoubleSide;
+scene.add(orbitPluton);
+//_________________________________________________________________________
 //---------------------------------nebulosa----------------------------
-const nebuTexture = new THREE.TextureLoader().load('img/nebulosa.jpeg');
+/*const nebuTexture = new THREE.TextureLoader().load('img/nebulosa.jpeg');
 const nebuMaterial = new THREE.MeshBasicMaterial({ map: nebuTexture, transparent: true, side: THREE.DoubleSide});
 const nebuGeometry = new THREE.PlaneGeometry(90000, 90000, 1);
 
 const nebulaPlano = new THREE.Mesh(nebuGeometry, nebuMaterial);
 
 nebulaPlano.position.set(800000, 60000, -500);
-//scene.add(nebulaPlano);
+scene.add(nebulaPlano);*/
 
 const sunLightLoader = new THREE.TextureLoader();
 const sunLightTexture = sunLightLoader.load('img/sun-light.png');
@@ -326,9 +347,9 @@ controls.minDistance = 1;
 controls.maxDistance = 8000000;
 
 controls.enableDamping = true;
-controls.dampingFactor = 0.03;
+controls.dampingFactor = 0.1;
 controls.enablePan = false;
-controls.panDampingFactor = 0.03;
+controls.panDampingFactor = 0.1;
 controls.zoomSpeed = 2;
 
 camera.position.set (0, 3, 30);
@@ -473,7 +494,7 @@ function onClick(event) {
             popup.innerHTML = `
               <h2>${planetInfo.name}</h2>
               <p>${planetInfo.description}</p>
-              <img src="${planetInfo.image}" alt="${planetInfo.name}" width="200">
+              <img class = "imgPanelInfo" src="${planetInfo.image}" alt="${planetInfo.name}" width="200">
             `;
 
             // Agrega la ventana emergente al cuerpo del documento
@@ -507,64 +528,64 @@ function onClick(event) {
                 if (planetName[i] === 'mercurio') {
                     return {
                       name: 'Mercurio',
-                      description: 'El sol es centro del sistema solar...',
+                      description: 'Mercurio es el planeta del sistema solar más cercano al Sol y el más pequeño. Forma parte de los denominados planetas interiores y carece de satélites naturales al igual que Venus. Mercurio es uno de los cuatro planetas rocosos o sólidos; es decir, tiene un cuerpo rocoso, como la Tierra. Este planeta es el más pequeño de los cuatro, con un diámetro de 4879 km en el ecuador. Mercurio está formado aproximadamente por un 70% de elementos metálicos y un 30% de silicatos. La densidad de este planeta es la segunda más alta de todo el sistema solar, siendo su valor de 5430 kg/m³, solo un poco menor que la densidad de la Tierra.',
                       image: 'img/mercurio.png'
                       };
                 }
                 if (planetName[i] === 'venus') {
                     return {
                       name: 'Venus',
-                      description: 'El sol es centro del sistema solar...',
+                      description: 'Venus es el segundo planeta del sistema solar en orden de proximidad al Sol y el tercero más pequeño después de Mercurio y Marte. Al igual que Mercurio, carece de satélites naturales. Recibe su nombre en honor a Venus, la diosa romana del amor. Al ser el segundo objeto natural más brillante después de la Luna, puede ser visto en un cielo nocturno despejado a simple vista. Se trata de un planeta interior de tipo rocoso y terrestre, llamado con frecuencia el planeta hermano de la Tierra, ya que ambos son similares en cuanto a tamaño, masa y composición, aunque totalmente diferentes en cuestiones térmicas y atmosféricas',
                       image: 'img/venus.png'
                       };
                 }
                 if (planetName[i] === 'luna') {
                     return {
                       name: 'La Luna',
-                      description: 'El sol es centro del sistema solar...',
-                      image: 'img/nuestraluna.jpg'
+                      description: 'La Luna es el único satélite natural de la Tierra. Con un diámetro ecuatorial de 3474.8 km, es el quinto satélite más grande del sistema solar, mientras que en cuanto al tamaño proporcional respecto a su planeta es el satélite más grande. Se encuentra en relación síncrona con la Tierra, siempre mostrando la misma cara hacia el planeta. El hemisferio visible está marcado con oscuros mares lunares de origen volcánico entre las brillantes montañas antiguas y los destacados astroblemas. A pesar de ser, en apariencia, el objeto más brillante en el cielo después del Sol, su superficie es en realidad muy oscura, con una reflexión similar a la del carbón.',
+                      image: 'img/LaLuna.png'
                       };
                 }
                 if (planetName[i] === 'marte') {
                     return {
                       name: 'Marte',
-                      description: 'El sol es centro del sistema solar...',
+                      description: 'Marte es el cuarto planeta en orden de distancia al Sol y el segundo más pequeño del sistema solar, después de Mercurio. Recibió su nombre en homenaje al homónimo dios de la guerra de la mitología romana. Marte es el planeta interior más alejado del Sol. Es un planeta telúrico con una atmósfera delgada de dióxido de carbono, y tiene dos satélites pequeños y de forma irregular, Fobos y Deimos. El periodo de rotación y los ciclos estacionales son similares a los de la Tierra, ya que la inclinación es lo que genera las estaciones. Marte alberga el Monte Olimpo, la montaña y el volcán más grande y alto conocido en el sistema solar.',
                       image: 'img/marte.png'
                       };
                 }
                 if (planetName[i] === 'jupiter') {
                     return {
                       name: 'Jupiter',
-                      description: 'El sol es centro del sistema solar...',
+                      description: 'Júpiter es el planeta más grande del sistema solar y el quinto en orden de lejanía al Sol.3​ Es un gigante gaseoso que forma parte de los denominados planetas exteriores. Recibe su nombre del dios romano Júpiter. Se trata del planeta que ofrece un mayor brillo a lo largo del año dependiendo de su fase. Es, además, después del Sol, el mayor cuerpo celeste del sistema solar, con una masa casi dos veces y media de la de los demás planetas juntos, con una masa 318 veces mayor que la de la Tierra. También es el planeta más antiguo del sistema solar, siendo incluso más antiguo que el Sol.',
                       image: 'img/jupiter.png'
                       };
                 }
                 if (planetName[i] === 'saturno') {
                     return {
                       name: 'Saturno',
-                      description: 'El sol es centro del sistema solar...',
-                      image: 'img/Saturno.jpg'
+                      description: 'Saturno es el sexto planeta del sistema solar contando desde el Sol, el segundo en tamaño y masa después de Júpiter y el único con un sistema de anillos visible desde la Tierra. Su nombre proviene del dios romano Saturno. Forma parte de los denominados planetas exteriores o gaseosos. El aspecto más característico de Saturno son sus brillantes y grandes anillos. El primero en observar los anillos fue Galileo en 1610. ',
+                      image: 'img/Saturno.png'
                       };
                 }
                 if (planetName[i] === 'urano') {
                     return {
                       name: 'Urano',
-                      description: 'El sol es centro del sistema solar...',
-                      image: 'img/Urano.jpg'
+                      description: 'Urano es el séptimo planeta del sistema solar, el tercero de mayor tamaño, y el cuarto más masivo. Se llama así en honor de la divinidad griega del cielo Urano. Aunque es detectable a simple vista en el cielo nocturno, no fue catalogado como planeta por los astrónomos de la antigüedad debido a su escasa luminosidad y a la lentitud de su órbita. Urano es similar en composición a Neptuno, y los dos tienen una composición diferente de los otros dos gigantes gaseosos (Júpiter y Saturno). La atmósfera de Urano, aunque es similar a la de Júpiter y Saturno por estar compuesta principalmente de hidrógeno y helio, contiene una proporción superior tanto de hielo como de agua, amoníaco y metano, junto con trazas de hidrocarburos. Posee la atmósfera planetaria más fría del sistema solar, con una temperatura mínima de 49 K (-224 °C). ',
+                      image: 'img/Urano.png'
                       };
                 }
                 if (planetName[i] === 'neptuno') {
                     return {
                       name: 'Neptuno',
-                      description: 'El sol es centro del sistema solar...',
-                      image: 'img/Neptuno.jpg'
+                      description: 'Neptuno es el octavo planeta en distancia respecto al Sol y el más lejano del sistema solar. Forma parte de los denominados planetas exteriores, y dentro de estos, es uno de los gigantes helados, y es el primero que fue descubierto gracias a predicciones matemáticas. Su nombre fue puesto en honor al dios romano del mar Neptuno y es el cuarto planeta en diámetro y el tercero más grande en masa. Su masa es diecisiete veces la de la Tierra y ligeramente mayor que la de su planeta gemelo Urano, que tiene quince masas terrestres y no es tan denso.',
+                      image: 'img/Neptuno.png'
                       };
                 }
                 if (planetName[i] === 'pluton') {
                     return {
                       name: 'Pluton',
-                      description: 'El sol es centro del sistema solar...',
-                      image: 'img/pluton.jpg'
+                      description: 'Plutón es un planeta enano del sistema solar situado a continuación de la órbita de Neptuno. Su nombre se debe al dios mitológico romano Plutón. En la Asamblea General de la Unión Astronómica Internacional, celebrada en Praga el 24 de agosto de 2006, se creó una nueva categoría llamada planeta enano, en la que se incluye a Plutón. Plutón posee una órbita excéntrica y altamente inclinada con respecto a la eclíptica.',
+                      image: 'img/pluton.png'
                       };
                 }
             }
